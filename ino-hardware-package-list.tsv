@@ -31,6 +31,7 @@ Arduino STM32F4 Boards	arduino	stm32f4	https://github.com/arduino-org/arduino-co
 Arduino-AVRISPmkII-workaround	Arduino-AVRISPmkII-fix	avr	https://github.com/per1234/Arduino-AVRISPmkII-fix	https://per1234.github.io/Arduino-AVRISPmkII-fix/package_per1234_Arduino-AVRISPmkII-fix_index.json	/avr/	master	Programmer definition for a workaround for an AVRISP mkII programmer issue that likely doesn't occur anymore.
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo1		/	master	
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master	
+Arduino-Tiny 		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
 Ariadne Bootloader	ariadne	avr	https://github.com/codebndr/Ariadne-Bootloader		/hardware/ariadne/avr/	master	This was the original repository for Ariadne, but the active repository is now https://github.com/loathingKernel/ariadne-bootloader
 Ariadne Bootloader	ariadne	avr	https://github.com/loathingKernel/ariadne-bootloader		/	master	
 Ariadne Bootloader	Ariadne-Bootloader	avr	https://github.com/per1234/Ariadne-Bootloader/	https://per1234.github.io/Ariadne-Bootloader/package_codebendercc_ariadne-bootloader_index.json	/	ariadne	Outdated fork of https://github.com/loathingKernel/ariadne-bootloader, but with Boards Manager installation support
@@ -44,6 +45,7 @@ ATmegaM1-C1	ATmegaM1-C1	avr	https://github.com/thomasonw/ATmegaxxM1-C1	https://t
 Atmel AVR Xplained-minis	atmel-avr-xminis	avr	https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule	https://downloads.arduino.cc/packages/package_index.json	/module/	master	
 attiny	attiny	avr	https://github.com/damellis/attiny	https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json	/	master	
 ATtiny extra Boards	tiny	avr	https://github.com/leomil72/tiny	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master	
+ATtiny Modern 	arduino-tiny-841 	avr	https://github.com/SpenceKonde/arduino-tiny-841	http://drazzy.com/package_drazzy.com_index.json 	/avr/	master	Has been merged into SpenceKonde/ATTinyCore.
 ATTinyCore	ATTinyCore	avr	https://github.com/SpenceKonde/ATTinyCore	http://drazzy.com/package_drazzy.com_index.json	/avr/	master	
 avr_boot	avr_boot	avr	https://github.com/zevero/avr_boot	https://zevero.github.io/avr_boot/package_zevero_avr_boot_index.json	/avr/	gh-pages	SD bootloader.
 Balanduino	Balanduino	avr	https://github.com/TKJElectronics/Balanduino	https://raw.githubusercontent.com/TKJElectronics/Balanduino/master/package_tkj_balanduino_index.json	/Firmware/hardware/Balanduino/avr/	master	
@@ -68,6 +70,7 @@ dadamachines - M0 Boards (dependency: Arduino SAMD Boards 1.6.9)	dadamachines - 
 dadamachines - M4 Boards (dependency: Adafruit SAMD Boards 1.3.0)	dadamachines - M4	samd	https://github.com/dadamachines/ArduinoCore-samd	https://dadamachines.github.io/arduino-board-index/package_dadamachines-m4_index.json	/	master	
 Digistump AVR Boards	digistump	avr	https://github.com/digistump/DigistumpArduino	http://digistump.com/package_digistump_index.json	/digistump-avr/	master	
 Digistump SAM Boards (32-bits ARM Cortex-M3)	digistump	sam	https://github.com/digistump/DigistumpArduino	http://digistump.com/package_digistump_index.json	/digistump-sam/	master	
+DIY ATtiny 	diy_attiny 	avr	https://github.com/sleemanj/ATTinyCore	https://raw.githubusercontent.com/sleemanj/optiboot/master/dists/package_gogo_diy_attiny_index.json	/avr/	master	Hard fork of SpenceKonde/ATTinyCore. It's apparently mirrored at https://github.com/sleemanj/optiboot, which is where the installation files are stored.
 Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json			
 EBots	EBots	avr	https://github.com/sanu-krishnan/ebot-arduino-core	https://raw.githubusercontent.com/sanu-krishnan/ebot-arduino-core/master/package_ebots.cc_index.json	/avr/	master	
 Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/li	gh-pages	
