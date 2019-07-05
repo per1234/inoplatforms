@@ -16,9 +16,9 @@ ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	https://github.com/A
 Arduinex		avr	https://github.com/Team254/Arduinex		/	master	
 Arduino ARM (32-bits) Boards			https://github.com/ultimachine/FeynmanCore		/	master	
 Arduino ARM (32-bits) Boards (arcore)	arcore	sam	https://github.com/rkistner/arcore		/hardware/sam/	master	
-Arduino AVR Boards	arduino	avr	https://github.com/arduino/ArduinoCore-avr	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino_1.8.5		/avr/	master	
 Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino1284BT		/	master	
+Arduino AVR Boards	arduino	avr	https://github.com/arduino/ArduinoCore-avr	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino AVR Boards (arcore)	arcore	avr	https://github.com/rkistner/arcore		/hardware/avr/	master	
 Arduino Library for Sasquatch Robot Controller	sasquatch	avr	https://github.com/221robotics/RobotOpen-Sasquatch-Library		/hardware/sasquatch/avr/	master	
 Arduino megaAVR Boards	arduino	megaavr	https://github.com/arduino/ArduinoCore-megaavr	https://downloads.arduino.cc/packages/package_index.json	/	master	
@@ -167,6 +167,8 @@ OpenTracker Boards (32-bits ARM Cortex-M3)	opentracker	sam	https://github.com/ge
 panStamp AVR w/ Atmega328p	panstamp_avr	avr	https://github.com/panStamp/arduino_avr	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
 panStamp NRG w/ CC430F5137	panstamp_nrg	msp430	https://github.com/panStamp/arduino_nrg	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
 Philduino AVR Boards	philduino	avr	https://github.com/Jackjan4/PhilduinoArduino	https://raw.githubusercontent.com/Jackjan4/PhilduinoArduino/master/package_philduino_index.json	/hardware/avr/1.0.1/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
+PulseRain Rattlesnake	PulseRain_RISCV 	Rattlesnake	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
+PulseRain Reindeer 	PulseRain_RISCV 	Reindeer 	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
 Quectel BC66	WizIO	bc66	https://github.com/Wiz-IO/Arduino-Quectel-BC66	http://wizio.eu/arduino/bc66/package_wizio.bc66_index.json	/	master	
 Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHardware	https://raw.githubusercontent.com/Quirkbot/QuirkbotArduinoHardware/master/package_quirkbot.com_index.json	/avr/	master	
 radino	In-Circuit	avr		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
