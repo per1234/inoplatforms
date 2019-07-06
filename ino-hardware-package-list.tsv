@@ -16,8 +16,8 @@ ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	https://github.com/A
 Arduinex		avr	https://github.com/Team254/Arduinex		/	master	
 Arduino ARM (32-bits) Boards			https://github.com/ultimachine/FeynmanCore		/	master	
 Arduino ARM (32-bits) Boards (arcore)	arcore	sam	https://github.com/rkistner/arcore		/hardware/sam/	master	
-Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino_1.8.5		/avr/	master	
 Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino1284BT		/	master	
+Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino_1.8.5		/avr/	master	
 Arduino AVR Boards	arduino	avr	https://github.com/arduino/ArduinoCore-avr	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino AVR Boards (arcore)	arcore	avr	https://github.com/rkistner/arcore		/hardware/avr/	master	
 Arduino Library for Sasquatch Robot Controller	sasquatch	avr	https://github.com/221robotics/RobotOpen-Sasquatch-Library		/hardware/sasquatch/avr/	master	
@@ -32,8 +32,8 @@ Arduino-AVRISPmkII-workaround	Arduino-AVRISPmkII-fix	avr	https://github.com/per1
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo1		/	master	
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master	
 Arduino-Tiny 		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
-Ariadne Bootloader	ariadne	avr	https://github.com/codebndr/Ariadne-Bootloader		/hardware/ariadne/avr/	master	This was the original repository for Ariadne, but the active repository is now https://github.com/loathingKernel/ariadne-bootloader
 Ariadne Bootloader	ariadne	avr	https://github.com/loathingKernel/ariadne-bootloader		/	master	
+Ariadne Bootloader	ariadne	avr	https://github.com/codebndr/Ariadne-Bootloader		/hardware/ariadne/avr/	master	This was the original repository for Ariadne, but the active repository is now https://github.com/loathingKernel/ariadne-bootloader
 Ariadne Bootloader	Ariadne-Bootloader	avr	https://github.com/per1234/Ariadne-Bootloader/	https://per1234.github.io/Ariadne-Bootloader/package_codebendercc_ariadne-bootloader_index.json	/	ariadne	Outdated fork of https://github.com/loathingKernel/ariadne-bootloader, but with Boards Manager installation support
 Arrow Boards	Arrow	samd	https://github.com/ioteamit/smarteverything-core	https://raw.githubusercontent.com/ioteamit/smarteverything-core/master/package_arrow_index.json	/	master	The package is also listed in https://downloads.arduino.cc/packages/package_index.json
 atflash	atflash	avr		https://mesom.de/atflash/package_atflash_index.json			
@@ -74,7 +74,7 @@ Digistump SAM Boards (32-bits ARM Cortex-M3)	digistump	sam	https://github.com/di
 DIY ATtiny 	diy_attiny 	avr	https://github.com/sleemanj/ATTinyCore	https://raw.githubusercontent.com/sleemanj/optiboot/master/dists/package_gogo_diy_attiny_index.json	/avr/	master	Hard fork of SpenceKonde/ATTinyCore. It's apparently mirrored at https://github.com/sleemanj/optiboot, which is where the installation files are stored.
 Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json			
 EBots	EBots	avr	https://github.com/sanu-krishnan/ebot-arduino-core	https://raw.githubusercontent.com/sanu-krishnan/ebot-arduino-core/master/package_ebots.cc_index.json	/avr/	master	
-Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/li	gh-pages	
+Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/	gh-pages	
 Elektor AVR boards	Elektor	avr	https://github.com/ElektorLabs/arduino	https://raw.githubusercontent.com/ElektorLabs/Arduino/master/package_elektor_boards_index.json	/source/avr/	master	
 Elektor Labs		avr	https://github.com/ElektorLabs/arduino		/source2/avr/	master	Unclear what the point of this folder is. Contains Elektor Uno R4 boards definitions (with build.mcu set to atmega328p), but those are also in source/avrpb (with build.mcu set to atmega328pb)
 Elektor Uno R4 (with ATmega328PB)	Elektor-Uno-R4	avr	https://github.com/ElektorLabs/arduino	https://raw.githubusercontent.com/ElektorLabs/Arduino/master/package_elektor_uno_r4_index.json	/source/avrpb/	master	
@@ -85,15 +85,15 @@ EnviroDIY ATmega Boards	EnviroDIY	avr	https://github.com/EnviroDIY/Arduino_board
 esp32	esp32	esp32	https://github.com/espressif/arduino-esp32	https://dl.espressif.com/dl/package_esp32_index.json	/	master	
 esp8266	esp8266	esp8266	https://github.com/esp8266/Arduino	https://arduino.esp8266.com/stable/package_esp8266com_index.json	/	master	
 esp8266	esp8266	esp8266		https://raw.githubusercontent.com/DFRobot/DFRobotDuinoBoard/master/package_dfrobot_iot_mainboard.json			This contains a definition for what appears to be a modified version of ESP8266 core for Arduino 2.3.0 (different SHA-256 from the official package archive file) that is supposed to download from http://192.168.1.57/esp8266-2.3.0.zip.
-Extra MCU support for Arduino IDE	arduino	avr	https://github.com/sumotoy/Extra_MCU_support_for_Arduino_IDE		/master/hardware/arduino/	master	
 Etherkit SAMD Boards 	etherkit 	samd 	https://github.com/etherkit/ArduinoBoards	https://github.com/etherkit/ArduinoBoards/raw/master/package_etherkit_index.json	/etherkit-samd-1.0.0/	master	"Empyrean" boards. The use of a version number in the folder name will make Repository Data Folder outdated on every release.
+Extra MCU support for Arduino IDE	arduino	avr	https://github.com/sumotoy/Extra_MCU_support_for_Arduino_IDE		/hardware/arduino/	master	
 FemtoCow ATTiny	FemtoCow-attiny	avr	https://github.com/FemtoCow/ATTinyCore	https://raw.githubusercontent.com/FemtoCow/ATTinyCore/master/Downloads/package_femtocow_attiny_index.json	/tiny/	master	
 FireBeetle-ESP32 Mainboard	esp32	DFRobot_FireBeetle-ESP32	https://github.com/DFRobot/FireBeetle-ESP32	https://git.oschina.net/dfrobot/FireBeetle-ESP32/raw/master/package_esp32_index.json			Package is only in archive file.
 FireBeetle-ESP8266	firebeetle8266	firebeetle8266	https://github.com/DFRobot/FireBeetle-ESP8266	https://github.com/DFRobot/FireBeetle-ESP8266/raw/master/package_firebeetle8266_index.json			Package is only in archive file.
 FirePick Delta Bootloaders for Arduino IDE	fpd-arduino-bootloaders	avr	https://github.com/firepick-delta/fpd-arduino-bootloaders		/	master	
 Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklabs-boards	https://raw.githubusercontent.com/freaklabs/freaklabs-boards/master/package_freaklabs_index.json	/boards/1.0.3/	master	
 ftDuino	ftduino	avr	https://github.com/harbaum/ftduino	https://raw.githubusercontent.com/harbaum/ftduino/master/package_ftduino_index.json	/ftduino/	master	
-Generation_7_Electronics	Gen7-dist	avr	https://github.com/Traumflug/Generation_7_Electronics		/master/arduino support/Gen7-dist/	master	
+Generation_7_Electronics	Gen7-dist	avr	https://github.com/Traumflug/Generation_7_Electronics		/arduino support/Gen7-dist/	master	
 Goldilocks	Goldilocks	avr	https://github.com/feilipu/Arduino_Goldilocks_Variant	https://raw.githubusercontent.com/feilipu/feilipu.github.io/master/package_goldilocks_index.json	/	master	
 Grove AI HAT for Edge Computing	Seeeduino	riscv64	https://github.com/Seeed-Studio/ArduinoCore-k210	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_seeeduino_boards_index.json	/	kendryte-standalone-sdk	There are multiple branches that seem to be different variants and it's unclear what they're for. kendryte-standalone-sdk is the default branch.
 HidnSeek	HidnSeek	avr	https://github.com/hidnseek/hidnseek	http://hidnseek.github.io/hidnseek/package_hidnseek_boot_index.json	/arduino/	master	
@@ -121,7 +121,7 @@ Leonardo & Micro MIDI-USB (arcore)	arcore	avr		https://adafruit.github.io/arduin
 LinkIt 7697	LinkIt	linkit_rtos	https://github.com/MediaTek-Labs/Arduino-Add-On-for-LinkIt-SDK	http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json	/middleware/third_party/arduino/hardware/arduino/mt7697/	master	
 LinkIt ONE	LinkIt	arm		http://download.labs.mediatek.com/package_mtk_linkit_index.json			
 littleBits Arduino AVR Modules	littleBits	avr		https://downloads.arduino.cc/packages/package_index.json			
-LoRaNodes M0 Boards	LoRaNodes M0 Boards	samd	https://github.com/loranodes/arduino-core	https://raw.githubusercontent.com/loranodes/arduino-core/master/package_loranodes_index.json	/microNode/li	master	
+LoRaNodes M0 Boards	LoRaNodes M0 Boards	samd	https://github.com/loranodes/arduino-core	https://raw.githubusercontent.com/loranodes/arduino-core/master/package_loranodes_index.json	/microNode/	master	
 Macchina SAM Boards	macchina	sam	https://github.com/macchina/arduino-boards-sam	https://macchina.cc/package_macchina_index.json	/sam/	master	
 Maixduino(k210)	Maixduino	k210	https://github.com/sipeed/Maixduino	http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_index.json	/	master	There is a mirror of the JSON file at http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_dl_cdn_index.json
 MajorCore	MajorCore	avr	https://github.com/MCUdude/MajorCore	https://mcudude.github.io/MajorCore/package_MCUdude_MajorCore_index.json	/avr/	master	
@@ -222,7 +222,7 @@ UDOO QUAD/DUAL (Arduino Due)	UDOO	sam	https://github.com/UDOOboard/arduino-board
 Watterott AVR Boards (dependency: Arduino AVR Boards)	watterott	avr	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/avr/	master	
 Watterott SAMD Boards (dependency: Arduino SAMD Boards)	watterott	samd	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/samd/	master	
 WAVGAT	WAV8F	AVR	https://github.com/WAVGAT-SZ/WAVGAT				Package is only in archive file.
-WAVGAT AVR Boards	WAV	avr	https://github.com/ericvb/Arduino-WavGat-Drivers		update/hardware/WAV/avr/	master	
+WAVGAT AVR Boards	WAV	avr	https://github.com/ericvb/Arduino-WavGat-Drivers		/update/hardware/WAV/avr/	master	
 WeMos OU Boards		avr	https://github.com/wemos/OU		/avr/	master	
 WEMOS XI LGT Boards	wemos	XI	https://github.com/wemos/Arduino_XI		/	master	
 WildFire-Arduino-Core	WickedDevice	avr	https://github.com/WickedDevice/WildFire-Arduino-Core		/WickedDevice/	master	
