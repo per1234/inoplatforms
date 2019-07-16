@@ -31,7 +31,7 @@ Arduino STM32F4 Boards	arduino	stm32f4	https://github.com/arduino-org/arduino-co
 Arduino-AVRISPmkII-workaround	Arduino-AVRISPmkII-fix	avr	https://github.com/per1234/Arduino-AVRISPmkII-fix	https://per1234.github.io/Arduino-AVRISPmkII-fix/package_per1234_Arduino-AVRISPmkII-fix_index.json	/avr/	master	Programmer definition for a workaround for an AVRISP mkII programmer issue that likely doesn't occur anymore.
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo1		/	master	
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master	
-Arduino-Tiny 		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
+Arduino-Tiny		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
 Ariadne Bootloader	ariadne	avr	https://github.com/loathingKernel/ariadne-bootloader		/	master	
 Ariadne Bootloader	ariadne	avr	https://github.com/codebndr/Ariadne-Bootloader		/hardware/ariadne/avr/	master	This was the original repository for Ariadne, but the active repository is now https://github.com/loathingKernel/ariadne-bootloader
 Ariadne Bootloader	Ariadne-Bootloader	avr	https://github.com/per1234/Ariadne-Bootloader/	https://per1234.github.io/Ariadne-Bootloader/package_codebendercc_ariadne-bootloader_index.json	/	ariadne	Outdated fork of https://github.com/loathingKernel/ariadne-bootloader, but with Boards Manager installation support
@@ -39,14 +39,14 @@ Arrow Boards	Arrow	samd	https://github.com/ioteamit/smarteverything-core	https:/
 atflash	atflash	avr		https://mesom.de/atflash/package_atflash_index.json			
 ATmega168P/328P Boards	megax8	avr	https://github.com/leomil72/megax8	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master	
 ATmega328PB	ATmega328PB-incl-Bootloader	avr	https://github.com/dprinz4/ATmega328PB-Arduino-Nano-Clone-with-Bootloader	https://github.com/dprinz4/ATmega328PB-Arduino-Nano-Clone-with-Bootloader/raw/master/package_m328pb_index.json	/src/avr/	master	
-ATmega328PB 	ATmega328PB-incl-Bootloader 	avr 	https://github.com/0x6470/ATmega328PB-Arduino-Nano-Clone-with-Bootloader	https://github.com/dprinz4/ATmega328PB-Arduino-Nano-Clone-with-Bootloader/raw/master/package_m328pb_index.json 	/src/avr/	master	
+ATmega328PB	ATmega328PB-incl-Bootloader	avr	https://github.com/0x6470/ATmega328PB-Arduino-Nano-Clone-with-Bootloader	https://github.com/dprinz4/ATmega328PB-Arduino-Nano-Clone-with-Bootloader/raw/master/package_m328pb_index.json	/src/avr/	master	
 ATmega32U4asISP	ATmega32U4asISP	avr	https://github.com/per1234/ATmega32U4asISP	https://per1234.github.io/ATmega32U4asISP/package_per1234_ATmega32U4asISP_index.json	/avr/	master	Programmer definition for a workaround for an issue with the Arduino as ISP on an ATmega32U4 board. This will be obsolete once Arduino releases the version of Arduino AVR Boards that contains the 'Arduino as ISP (ATmega32U4)' programmer definition.
 ATmega644P/1284P Boards	megax4	avr	https://github.com/leomil72/megax4	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master	
 ATmegaM1-C1	ATmegaM1-C1	avr	https://github.com/thomasonw/ATmegaxxM1-C1	https://thomasonw.github.io/ATmegaxxM1-C1/package_thomasonw_ATmegaxxM1-C1_index.json	/avr/	master	
 Atmel AVR Xplained-minis	atmel-avr-xminis	avr	https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule	https://downloads.arduino.cc/packages/package_index.json	/module/	master	
 attiny	attiny	avr	https://github.com/damellis/attiny	https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json	/	master	
 ATtiny extra Boards	tiny	avr	https://github.com/leomil72/tiny	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master	
-ATtiny Modern 	arduino-tiny-841 	avr	https://github.com/SpenceKonde/arduino-tiny-841	http://drazzy.com/package_drazzy.com_index.json 	/avr/	master	Has been merged into SpenceKonde/ATTinyCore.
+ATtiny Modern	arduino-tiny-841	avr	https://github.com/SpenceKonde/arduino-tiny-841	http://drazzy.com/package_drazzy.com_index.json	/avr/	master	Has been merged into SpenceKonde/ATTinyCore.
 ATTinyCore	ATTinyCore	avr	https://github.com/SpenceKonde/ATTinyCore	http://drazzy.com/package_drazzy.com_index.json	/avr/	master	
 avr_boot	avr_boot	avr	https://github.com/zevero/avr_boot	https://zevero.github.io/avr_boot/package_zevero_avr_boot_index.json	/avr/	gh-pages	SD bootloader.
 Balanduino	Balanduino	avr	https://github.com/TKJElectronics/Balanduino	https://raw.githubusercontent.com/TKJElectronics/Balanduino/master/package_tkj_balanduino_index.json	/Firmware/hardware/Balanduino/avr/	master	
@@ -71,7 +71,7 @@ dadamachines - M0 Boards (dependency: Arduino SAMD Boards 1.6.9)	dadamachines - 
 dadamachines - M4 Boards (dependency: Adafruit SAMD Boards 1.3.0)	dadamachines - M4	samd	https://github.com/dadamachines/ArduinoCore-samd	https://dadamachines.github.io/arduino-board-index/package_dadamachines-m4_index.json	/	master	
 Digistump AVR Boards	digistump	avr	https://github.com/digistump/DigistumpArduino	http://digistump.com/package_digistump_index.json	/digistump-avr/	master	
 Digistump SAM Boards (32-bits ARM Cortex-M3)	digistump	sam	https://github.com/digistump/DigistumpArduino	http://digistump.com/package_digistump_index.json	/digistump-sam/	master	
-DIY ATtiny 	diy_attiny 	avr	https://github.com/sleemanj/ATTinyCore	https://raw.githubusercontent.com/sleemanj/optiboot/master/dists/package_gogo_diy_attiny_index.json	/avr/	master	Hard fork of SpenceKonde/ATTinyCore. It's apparently mirrored at https://github.com/sleemanj/optiboot, which is where the installation files are stored.
+DIY ATtiny	diy_attiny	avr	https://github.com/sleemanj/ATTinyCore	https://raw.githubusercontent.com/sleemanj/optiboot/master/dists/package_gogo_diy_attiny_index.json	/avr/	master	Hard fork of SpenceKonde/ATTinyCore. It's apparently mirrored at https://github.com/sleemanj/optiboot, which is where the installation files are stored.
 Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json			
 EBots	EBots	avr	https://github.com/sanu-krishnan/ebot-arduino-core	https://raw.githubusercontent.com/sanu-krishnan/ebot-arduino-core/master/package_ebots.cc_index.json	/avr/	master	
 Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/	gh-pages	
@@ -85,7 +85,7 @@ EnviroDIY ATmega Boards	EnviroDIY	avr	https://github.com/EnviroDIY/Arduino_board
 esp32	esp32	esp32	https://github.com/espressif/arduino-esp32	https://dl.espressif.com/dl/package_esp32_index.json	/	master	
 esp8266	esp8266	esp8266	https://github.com/esp8266/Arduino	https://arduino.esp8266.com/stable/package_esp8266com_index.json	/	master	
 esp8266	esp8266	esp8266		https://raw.githubusercontent.com/DFRobot/DFRobotDuinoBoard/master/package_dfrobot_iot_mainboard.json			This contains a definition for what appears to be a modified version of ESP8266 core for Arduino 2.3.0 (different SHA-256 from the official package archive file) that is supposed to download from http://192.168.1.57/esp8266-2.3.0.zip.
-Etherkit SAMD Boards 	etherkit 	samd 	https://github.com/etherkit/ArduinoBoards	https://github.com/etherkit/ArduinoBoards/raw/master/package_etherkit_index.json	/etherkit-samd-1.0.0/	master	"Empyrean" boards. The use of a version number in the folder name will make Repository Data Folder outdated on every release.
+Etherkit SAMD Boards	etherkit	samd	https://github.com/etherkit/ArduinoBoards	https://github.com/etherkit/ArduinoBoards/raw/master/package_etherkit_index.json	/etherkit-samd-1.0.0/	master	"Empyrean" boards. The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 Extra MCU support for Arduino IDE	arduino	avr	https://github.com/sumotoy/Extra_MCU_support_for_Arduino_IDE		/hardware/arduino/	master	
 FemtoCow ATTiny	FemtoCow-attiny	avr	https://github.com/FemtoCow/ATTinyCore	https://raw.githubusercontent.com/FemtoCow/ATTinyCore/master/Downloads/package_femtocow_attiny_index.json	/tiny/	master	
 FireBeetle-ESP32 Mainboard	esp32	DFRobot_FireBeetle-ESP32	https://github.com/DFRobot/FireBeetle-ESP32	https://git.oschina.net/dfrobot/FireBeetle-ESP32/raw/master/package_esp32_index.json			Package is only in archive file.
@@ -95,7 +95,7 @@ Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklab
 ftDuino	ftduino	avr	https://github.com/harbaum/ftduino	https://raw.githubusercontent.com/harbaum/ftduino/master/package_ftduino_index.json	/ftduino/	master	
 Generation_7_Electronics	Gen7-dist	avr	https://github.com/Traumflug/Generation_7_Electronics		/arduino support/Gen7-dist/	master	
 Goldilocks	Goldilocks	avr	https://github.com/feilipu/Arduino_Goldilocks_Variant	https://raw.githubusercontent.com/feilipu/feilipu.github.io/master/package_goldilocks_index.json	/	master	
-grayduino 	grayduino 	avr	https://github.com/colinta/grayduino	https://raw.githubusercontent.com/colinta/grayduino/json/package_colinta_grayduino_index.json	/	master	ATmega32U4
+grayduino	grayduino	avr	https://github.com/colinta/grayduino	https://raw.githubusercontent.com/colinta/grayduino/json/package_colinta_grayduino_index.json	/	master	ATmega32U4
 Grove AI HAT for Edge Computing	Seeeduino	riscv64	https://github.com/Seeed-Studio/ArduinoCore-k210	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_seeeduino_boards_index.json	/	kendryte-standalone-sdk	There are multiple branches that seem to be different variants and it's unclear what they're for. kendryte-standalone-sdk is the default branch.
 HidnSeek	HidnSeek	avr	https://github.com/hidnseek/hidnseek	http://hidnseek.github.io/hidnseek/package_hidnseek_boot_index.json	/arduino/	master	
 HoodLoader2	HoodLoader2	avr	https://github.com/NicoHood/HoodLoader2	https://raw.githubusercontent.com/NicoHood/HoodLoader2/master/package_NicoHood_HoodLoader2_index.json	/avr/	dev206	
@@ -170,9 +170,9 @@ OpenTracker Boards (32-bits ARM Cortex-M3)	opentracker	sam	https://github.com/ge
 panStamp AVR w/ Atmega328p	panstamp_avr	avr	https://github.com/panStamp/arduino_avr	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
 panStamp NRG w/ CC430F5137	panstamp_nrg	msp430	https://github.com/panStamp/arduino_nrg	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
 Philduino AVR Boards	philduino	avr	https://github.com/Jackjan4/PhilduinoArduino	https://raw.githubusercontent.com/Jackjan4/PhilduinoArduino/master/package_philduino_index.json	/hardware/avr/1.0.1/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
-PulseRain Rattlesnake	PulseRain_RISCV 	Rattlesnake	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
-PulseRain Reindeer 	PulseRain_RISCV 	Reindeer 	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
-qqqlabBoard 	myboard 	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			Looks to be just a personal project board with no hardware source files available.
+PulseRain Rattlesnake	PulseRain_RISCV	Rattlesnake	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
+PulseRain Reindeer	PulseRain_RISCV	Reindeer	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
+qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			Looks to be just a personal project board with no hardware source files available.
 Quectel BC66	WizIO	bc66	https://github.com/Wiz-IO/Arduino-Quectel-BC66	http://wizio.eu/arduino/bc66/package_wizio.bc66_index.json	/	master	
 Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHardware	https://raw.githubusercontent.com/Quirkbot/QuirkbotArduinoHardware/master/package_quirkbot.com_index.json	/avr/	master	
 radino	In-Circuit	avr		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
