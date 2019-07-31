@@ -24,6 +24,7 @@ Arduino Library for Sasquatch Robot Controller	sasquatch	avr	https://github.com/
 Arduino megaAVR Boards	arduino	megaavr	https://github.com/arduino/ArduinoCore-megaavr	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino NavSpark Boards	navspark	navspark		http://navspark.mybigcommerce.com/content/package_navspark_index.json			
 Arduino NRF52 Boards	arduino	nrf52	https://github.com/arduino-org/arduino-core-nrf52		/	master	
+Arduino nRF528x Boards (Mbed OS) 	arduino	mbed 	https://github.com/arduino/ArduinoCore-nRF528x-mbedos	https://downloads.arduino.cc/packages/package_index.json	/	master	Nano 33 BLE/Sense
 Arduino SAM Boards (32-bits ARM Cortex-M3)	arduino	sam	https://github.com/arduino/ArduinoCore-sam	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino SAMD Beta Boards (32-bits ARM Cortex-M0+)	arduino	samd_beta	https://github.com/arduino/ArduinoCore-samd	https://downloads.arduino.cc/packages/package_index.json	/	master	I think it will eventually be merged into Arduino SAMD Boards, but it's been around for a long time now.
 Arduino SAMD Boards (32-bits ARM Cortex-M0+)	arduino	samd	https://github.com/arduino/ArduinoCore-samd	https://downloads.arduino.cc/packages/package_index.json	/	master	
