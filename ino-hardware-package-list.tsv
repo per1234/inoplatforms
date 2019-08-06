@@ -218,6 +218,7 @@ STM32GENERIC for STM32 boards		STM32	https://github.com/ChrisMicro/STM32GENERIC	
 STM32GENERIC for STM32 boards		STM32	https://github.com/danieleff/STM32GENERIC		/STM32/	master	
 STM8 Cores	STM8	stm8	https://github.com/stm32duino/Arduino_Core_STM8	https://github.com/stm32duino/BoardManagerFiles/raw/master/STM8/package_stm8_index.json	/	master	
 Talk2 AVR Boards	Talk2	avr	https://bitbucket.org/talk2/arduino-ide-boards	http://talk2arduino.wisen.com.au/master/package_talk2.wisen.com_index.json	/talk2-avr/	master	
+tinkerkit_core	tinkerkit	avr	https://github.com/TinkerKit/tinkerkit_core		/tinkerkit/avr/	master	
 TinyCore Boards	TinyCore	avr	https://github.com/xukangmin/TinyCore	https://raw.githubusercontent.com/xukangmin/TinyCore/master/avr/package/package_tinycore_index.json	/avr/	master	
 TL7788 Boards	TL7788	arm	https://github.com/hunianhang/tl7788_arduino	https://rawgit.com/hunianhang/nufront_arduino_json/master/package_tl7788_index.json	/	master	
 Tlera Corp STM32L0 Boards	TleraCorp	stm32l0	https://github.com/GrumpyOldPizza/ArduinoCore-stm32l0	https://grumpyoldpizza.github.io/ArduinoCore-stm32l0/package_stm32l0_boards_index.json	/	master	
