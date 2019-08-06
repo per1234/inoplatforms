@@ -103,6 +103,7 @@ HoodLoader2	HoodLoader2	avr	https://github.com/NicoHood/HoodLoader2	https://raw.
 Industruino SAMD Boards (32-bits ARM Cortex-M0+)	industruino	samd	https://github.com/Industruino/IndustruinoSAMD	https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/pkgdef/package_industruino_samd_index.json	/	master	Package is also listed in https://downloads.arduino.cc/packages/package_index.json
 Infineon's XMC Microcontroller	Infineon	arm	https://github.com/Infineon/XMC-for-Arduino	https://github.com/Infineon/Assets/releases/download/current/package_infineon_index.json	/arm/	develop	
 InoAVRDragon	InoAVRDragon	avr	https://github.com/per1234/InoAVRDragon	https://per1234.github.io/InoAVRDragon/package_per1234_InoAVRDragon_index.json	/avr/	master	AVR Dragon programmer definition
+InoPlatformPropertiesTest	InoPlatformPropertiesTest	dummy_architecture	https://github.com/per1234/InoPlatformPropertiesTest		/dummy_architecture/	master	Dummy Arduino hardware package for testing how properties and recipes are handled. 
 InoPlatformPropertiesTest		dummy_architecture	https://github.com/per1234/InoPlatformPropertiesTest		/dummy_architecture/	master	Dummy Arduino hardware package for testing how properties and recipes are handled.
 Intel Curie Boards	Intel	arc32	https://github.com/arduino/ArduinoCore-arc32	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Intel i586 Boards	Intel	i586	https://github.com/01org/corelibs-galileo	https://downloads.arduino.cc/packages/package_index.json	/	master	
@@ -144,6 +145,7 @@ MicroBridge-Arduino-ATMega2560	microbridge	avr	https://github.com/FleetProbe/Mic
 MicroCore	MicroCore	avr	https://github.com/MCUdude/MicroCore	https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json	/avr/	master	
 Microduino-IDE-Support	Microduino	avr	https://github.com/wasdpkj/Microduino-IDE-Support		/hardware/Microduino/avr/	master	
 Microduino-IDE-Support	Microduino	esp32	https://github.com/wasdpkj/Microduino-IDE-Support		/hardware/Microduino/esp32/	master	
+microUPDIcore	microUPDIcore	avr	https://github.com/MCUdude/microUPDIcore		/avr/	master	Dummy package used to flash the mEDBG firmware.
 Mighty 1284P		avr	https://github.com/maniacbug/mighty-1284p/		/	master	Unmaintained, replaced by https://github.com/JChristensen/mighty-1284p
 Mighty-1284p Boards	mighty-1284p	avr	https://github.com/JChristensen/mighty-1284p		/avr/	v1.6.3	
 mighty-1284p-freaklabs	mighty-1284p-freaklabs	avr	https://github.com/DgFutureLab/satoyama-libs		/mighty-1284p-freaklabs/	master	
