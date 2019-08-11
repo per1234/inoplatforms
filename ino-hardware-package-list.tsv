@@ -128,6 +128,7 @@ LoRaNodes M0 Boards	LoRaNodes M0 Boards	samd	https://github.com/loranodes/arduin
 Macchina SAM Boards	macchina	sam	https://github.com/macchina/arduino-boards-sam	https://macchina.cc/package_macchina_index.json	/sam/	master	
 Maixduino(k210)	Maixduino	k210	https://github.com/sipeed/Maixduino	http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_index.json	/	master	There is a mirror of the JSON file at http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_dl_cdn_index.json
 MajorCore	MajorCore	avr	https://github.com/MCUdude/MajorCore	https://mcudude.github.io/MajorCore/package_MCUdude_MajorCore_index.json	/avr/	master	
+Marlin AVR Boards 	anet	avr	https://github.com/SkyNet3D/anet-board		/hardware/anet/avr/	master	For Anet 3D printer boards.
 MattairTech AVR Boards	MattairTech_Arduino	avr	https://github.com/mattairtech/ArduinoCore-avr	https://www.mattairtech.com/software/arduino/package_MattairTech_index.json	/	master	
 MattairTech SAM D|L|C core for Arduino	MattairTech_Arduino	samd	https://github.com/mattairtech/ArduinoCore-samd	https://www.mattairtech.com/software/arduino/package_MattairTech_index.json	/	master	
 Maxim's 32-bit Microcontroller	Maxim	arm	https://github.com/MaximIntegratedMicros/arduino-max326xx	https://raw.githubusercontent.com/MaximIntegratedMicros/arduino-collateral/master/package_maxim_index.json	/arm/	master	
