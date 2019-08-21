@@ -50,6 +50,7 @@ ATtiny extra Boards	tiny	avr	https://github.com/leomil72/tiny	https://www.leonar
 ATtiny Modern	arduino-tiny-841	avr	https://github.com/SpenceKonde/arduino-tiny-841	http://drazzy.com/package_drazzy.com_index.json	/avr/	master	Has been merged into SpenceKonde/ATTinyCore.
 ATTinyCore	ATTinyCore	avr	https://github.com/SpenceKonde/ATTinyCore	http://drazzy.com/package_drazzy.com_index.json	/avr/	master	
 avr_boot	avr_boot	avr	https://github.com/zevero/avr_boot	https://zevero.github.io/avr_boot/package_zevero_avr_boot_index.json	/avr/	gh-pages	SD bootloader.
+Azure Sphere 	WizIO 	azure 	https://github.com/Wiz-IO/framework-azure	https://raw.githubusercontent.com/Wiz-IO/arduino-azure-sphere/master/package_wizio.azure_index.json	/arduino/libraries/	master	
 Balanduino	Balanduino	avr	https://github.com/TKJElectronics/Balanduino	https://raw.githubusercontent.com/TKJElectronics/Balanduino/master/package_tkj_balanduino_index.json	/Firmware/hardware/Balanduino/avr/	master	
 Barebones ATmega Chips (no bootloader)	atmega	avr	https://github.com/carlosefr/atmega	https://raw.githubusercontent.com/carlosefr/atmega/master/package_carlosefr_atmega_index.json	/avr/	master	
 BayEOS AVR Boards	BayEOS	avr	https://github.com/BayCEER/BayEOS-Arduino	https://raw.githubusercontent.com/BayCEER/BayEOS-Arduino/master/package_BayEOS_index.json	/	master	
