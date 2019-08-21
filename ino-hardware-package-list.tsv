@@ -180,6 +180,7 @@ PulseRain Rattlesnake	PulseRain_RISCV	Rattlesnake	https://github.com/PulseRain/A
 PulseRain Reindeer	PulseRain_RISCV	Reindeer	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
 qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			Looks to be just a personal project board with no hardware source files available.
 Quectel BC66	WizIO	bc66	https://github.com/Wiz-IO/Arduino-Quectel-BC66	http://wizio.eu/arduino/bc66/package_wizio.bc66_index.json	/	master	
+Quectel M66 	WizIO 	m66 	https://github.com/Wiz-IO/Arduino-Quectel-M66	https://raw.githubusercontent.com/Wiz-IO/Arduino-Quectel-M66/master/tools/package_wizio.m66_index.json 	/libraries/	master	
 Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHardware	https://raw.githubusercontent.com/Quirkbot/QuirkbotArduinoHardware/master/package_quirkbot.com_index.json	/avr/	master	
 radino	In-Circuit	avr		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
 radino32	In-Circuit	STM32L1		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
