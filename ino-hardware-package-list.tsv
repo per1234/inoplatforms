@@ -159,6 +159,7 @@ Moteino	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https:/
 Moteino AVR Boards	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json			Package is only in archive file
 Moteino SAMD Boards	Moteino	samd	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json			Package is only in archive file
 MXChip - Microsoft Azure IoT Developer Kit	AZ3166	stm32f4	https://github.com/microsoft/devkit-sdk	https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json	/AZ3166/src/	master	
+NekuNeko SAMD Boards 	nekuneko 	samd 	https://github.com/nekuneko/NekuNeko_Arduino_Boards	https://nekuneko.github.io/arduino-board-index/package_nekuneko_index.json 	/libraries/	master	
 Nordic Semiconductor nRF5 Boards	sandeepmistry	nRF5	https://github.com/sandeepmistry/arduino-nRF5	https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json	/	master	
 Northern Widget 'ALog' AVR Boards	NorthernWidget	avr	https://github.com/NorthernWidget/Arduino_Boards	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/package_NorthernWidget_index.json	/NorthernWidgetAVR/	master	
 Nufront tl7788 (32-bits) Boards			https://github.com/hunianhang/arduino_nufront		/	master	They also have https://github.com/hunianhang/tl7788_arduino
