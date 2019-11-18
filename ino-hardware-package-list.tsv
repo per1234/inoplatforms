@@ -67,6 +67,7 @@ chipKIT	chipKIT	pic32	https://github.com/chipKIT32/chipKIT-core	https://github.c
 Circuit Monkey		avr	https://github.com/CircuitMonkey/arduino-boards		/avr/	master	
 clkdiv8 Sparrow Boards	clkdiv8	avr		http://clkdiv8.com/download/package_clkdiv8_index.json			
 Cosa	Cosa	avr	https://github.com/mikaelpatel/Cosa	https://raw.githubusercontent.com/mikaelpatel/Cosa/master/package_cosa_index.json	/	master	
+Custom STM32duino Boards 	vendor 	stm32	https://github.com/RickKimball/vendor		/STM32/	master	Custom stm32 bluepill board based on the official STM Arduino core
 Cytron ARM Boards	cytron	arm	https://github.com/CytronTechnologies/CT-ARM	https://cytrontechnologies.github.io/package_cytron_index.json	/	master	
 Cytron AVR Boards	cytron	avr	https://github.com/CytronTechnologies/CytronTechnologies.github.io	https://cytrontechnologies.github.io/package_cytron_index.json			Package is only in archive file.
 dadamachines - M0 Boards (dependency: Arduino SAMD Boards 1.6.9)	dadamachines - M0	samd	https://github.com/dadamachines/automat	https://dadamachines.github.io/arduino-board-index/package_dadamachines-m0_index.json	/software/arduino/hardware/dadamachines/samd/	master	
