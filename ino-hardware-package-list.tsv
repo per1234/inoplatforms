@@ -203,6 +203,7 @@ RobotCing	RobotCing	avr	https://github.com/RobotCing/Cing	https://raw.githubuser
 Rokit Arduino Box Libraries	Rokit	avr	https://github.com/cheon7886/ArduinoBox		/	master	1.0 hardware package format
 SAM15x15	SAM15x15	samd	https://github.com/avandalen/SAM15x15	https://raw.githubusercontent.com/avandalen/SAM15x15/master/package_avdweb_nl_index.json			Package is only in archive file.
 Sanguino	Sanguino	avr	https://github.com/Lauszus/Sanguino	https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json	/	master	
+Scanner Pro MK3 	Scanner Pro 	avr	https://github.com/oschwartz10612/Scanner-Pro-MK3	https://raw.githubusercontent.com/oschwartz10612/Scanner-Pro-MK3/master/package_scannerpro_index.json	/board/	master	
 Sduino STM8 plain C core (non-C++)	sduino	stm8	https://github.com/tenbaht/sduino	https://github.com/tenbaht/sduino/raw/master/package_sduino_stm8_index.json	/sduino/hardware/sduino/stm8/	master	
 Seeed SAMD Boards	Seeeduino	samd	https://github.com/Seeed-Studio/Seeed_SAMD_Boards	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_seeeduino_boards_index.json	/	master	
 Seeed STM32F4 Boards	Seeeduino	Seeed_STM32F4	https://github.com/Seeed-Studio/stm32f4ArduinoCore	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_seeeduino_boards_index.json	/	master	
