@@ -33,6 +33,7 @@ Arduino STM32F4 Boards	arduino	stm32f4	https://github.com/arduino-org/arduino-co
 Arduino-AVRISPmkII-workaround	Arduino-AVRISPmkII-fix	avr	https://github.com/per1234/Arduino-AVRISPmkII-fix	https://per1234.github.io/Arduino-AVRISPmkII-fix/package_per1234_Arduino-AVRISPmkII-fix_index.json	/avr/	master	Programmer definition for a workaround for an AVRISP mkII programmer issue that likely doesn't occur anymore.
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo1		/	master	
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master	
+arduino-esp8266-deauther (modified for ARM Linux support) 	deauther 	esp8266 	https://github.com/tobozo/Arduino	https://raw.githubusercontent.com/wiki/tobozo/Arduino/package_deauther_index.json	/	deauther	https://github.com/spacehuhn/esp8266_deauther/wiki/Installation#compiling-using-arduino-ide
 Arduino-Tiny		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
 Ariadne Bootloader	ariadne	avr	https://github.com/loathingKernel/ariadne-bootloader		/	master	
 Ariadne Bootloader	ariadne	avr	https://github.com/codebndr/Ariadne-Bootloader		/hardware/ariadne/avr/	master	This was the original repository for Ariadne, but the active repository is now https://github.com/loathingKernel/ariadne-bootloader
@@ -125,6 +126,7 @@ Laika	laika_arduino	avr	https://github.com/eightdog/laika_arduino	https://raw.gi
 Larduino_HSP	LGT	avr	https://github.com/LGTMCU/Larduino_HSP		/hardware/LGT/avr/	master	
 Lattuino 1	Lattuino	avr	https://github.com/INTI-CMNB/Lattuino_IP_Core	http://fpgalibre.sf.net/Lattuino/package_lattuino_index.json	/ide/	master	
 Leonardo & Micro MIDI-USB (arcore)	arcore	avr		https://adafruit.github.io/arduino-board-index/package_adafruit_index.json			This is based on https://github.com/rkistner/arcore/tree/master/hardware/avr, but it seems Adafruit made some changes to it and I can't find the repository that contains this specific version of the hardware package
+LGT8fx Boards 	LGT8fx Boards 	avr 	https://github.com/dbuezas/lgt8fx	https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json	/lgt8f/	master	
 LinkIt 7697	LinkIt	linkit_rtos	https://github.com/MediaTek-Labs/Arduino-Add-On-for-LinkIt-SDK	http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json	/middleware/third_party/arduino/hardware/arduino/mt7697/	master	
 LinkIt ONE	LinkIt	arm		http://download.labs.mediatek.com/package_mtk_linkit_index.json			
 littleBits Arduino AVR Modules	littleBits	avr		https://downloads.arduino.cc/packages/package_index.json			
