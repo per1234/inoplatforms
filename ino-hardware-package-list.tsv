@@ -236,6 +236,7 @@ TL7788 Boards	TL7788	arm	https://github.com/hunianhang/tl7788_arduino	https://ra
 Tlera Corp STM32L0 Boards	TleraCorp	stm32l0	https://github.com/GrumpyOldPizza/ArduinoCore-stm32l0	https://grumpyoldpizza.github.io/ArduinoCore-stm32l0/package_stm32l0_boards_index.json	/	master	
 UDOO NEO (iMX6 SoloX)	UDOO	solox	https://github.com/UDOOboard/arduino-board-package	https://udooboard.github.io/arduino-board-package/package_udoo_index.json	/udoo/solox/	boardmanager	
 UDOO QUAD/DUAL (Arduino Due)	UDOO	sam	https://github.com/UDOOboard/arduino-board-package	https://udooboard.github.io/arduino-board-package/package_udoo_index.json	/udoo/sam/	boardmanager	
+w600 	w600 	w600 	https://github.com/w600/arduino	http://arduino.w600.fun/package_w600_index.json	/	master	Winner Micro W60x
 Watterott AVR Boards (dependency: Arduino AVR Boards)	watterott	avr	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/avr/	master	
 Watterott SAMD Boards (dependency: Arduino SAMD Boards)	watterott	samd	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/samd/	master	
 WAVGAT	WAV8F	AVR	https://github.com/WAVGAT-SZ/WAVGAT				Package is only in archive file.
