@@ -191,6 +191,7 @@ Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHard
 radino	In-Circuit	avr		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
 radino32	In-Circuit	STM32L1		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
 radinoL4 (beta)	In-Circuit	STM32L4		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
+Rainboard-cores 	Rainboard 	avr 	https://github.com/mluthfialhadi/mluthfialhadi.github.io	https://raw.githubusercontent.com/mluthfialhadi/mluthfialhadi.github.io/Rainboard-Board-Manager/Rainboard/rainboard_list.json	/Rainboard/Rainboard-Board-Manager/ 	Rainboard-Board-Manager	
 RaspberryPi	RaspberryPi	piduino	https://github.com/me-no-dev/RasPiArduino		/	master	
 Realtek Ameba Boards (32-bits ARM Cortex-M3)	realtek	ameba	https://github.com/Ameba8195/Arduino	https://github.com/Ameba8195/Arduino/raw/master/release/package_realtek.com_ameba_index.json	/hardware_v2/	master	
 RedBear AVR Boards	RedBear	avr	https://github.com/RedBearLab/Blend	https://redbearlab.github.io/arduino/package_redbearlab_index.json	/Arduino/hardware/blend/avr/	master	
