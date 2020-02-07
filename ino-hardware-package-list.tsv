@@ -122,7 +122,7 @@ Jewelbots Arduino Library	Jewelbots_Arduino_Library	nRF51822	https://github.com/
 JN516x Boards	intiki	jn516x	https://github.com/soburi/JN516x-arduino-package	http://soburi.github.io/JN516x-arduino-package/package_soburi_intiki_index.json	/	master	
 Keyboardio Keyboards	Kaleidoscope-Bundle-Keyboardio	avr	https://github.com/keyboardio/Kaleidoscope-Bundle-Keyboardio		/avr/	master	
 Keyboardio Keyboards	Kaleidoscope-Bundle-Keyboardio	x86	https://github.com/keyboardio/Kaleidoscope-Bundle-Keyboardio		/x86/	master	
-Konekt Dash/Dash Pro Boards	konekt	sam		http://downloads.konekt.io/arduino/package_konekt_index.json			Konekt is now hologram.io
+Konekt Dash/Dash Pro Boards	konekt	sam		http://downloads.hologram.io/arduino/package_konekt_index.json			Konekt is now hologram.io
 Laika	laika_arduino	avr	https://github.com/eightdog/laika_arduino	https://raw.githubusercontent.com/eightdog/laika_arduino/master/IDE_Board_Manager/package_project_laika.com_index.json			Package is only in archive file (on the release page).
 Larduino_HSP	LGT	avr	https://github.com/LGTMCU/Larduino_HSP		/hardware/LGT/avr/	master	
 Lattuino 1	Lattuino	avr	https://github.com/INTI-CMNB/Lattuino_IP_Core	http://fpgalibre.sf.net/Lattuino/package_lattuino_index.json	/ide/	master	
