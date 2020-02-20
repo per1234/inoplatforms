@@ -170,6 +170,7 @@ Nordic Semiconductor nRF5 Boards	sandeepmistry	nRF5	https://github.com/sandeepmi
 Northern Widget 'ALog' AVR Boards	NorthernWidget	avr	https://github.com/NorthernWidget/Arduino_Boards	https://raw.githubusercontent.com/NorthernWidget/Arduino_Boards/master/package_NorthernWidget_index.json	/NorthernWidgetAVR/	master	
 Nufront tl7788 (32-bits) Boards			https://github.com/hunianhang/arduino_nufront		/	master	They also have https://github.com/hunianhang/tl7788_arduino
 Oak by Digistump	digistump	oak	https://github.com/digistump/OakCore	https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json	/	master	
+ODROID 	hardkernel 	odroid 	https://github.com/hhk7734/oduino		/	master	ODROID SBCs
 Olimex AVR boards	Olimex	avr	https://github.com/OLIMEX/Arduino_configurations	https://raw.githubusercontent.com/OLIMEX/Arduino_configurations/master/AVR/package_olimex_avr_index.json			Package is only in archive file.
 Olimex PIC boards	Olimex	pic	https://github.com/OLIMEX/Arduino_configurations	https://raw.githubusercontent.com/OLIMEX/Arduino_configurations/master/PIC/package_olimex_pic_index.json			
 Olimex STM boards	Olimex	stm	https://github.com/OLIMEX/Arduino_configurations	https://raw.githubusercontent.com/OLIMEX/Arduino_configurations/master/STM/package_olimex_stm_index.json			
