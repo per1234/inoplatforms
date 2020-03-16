@@ -81,9 +81,9 @@ DIY ATtiny	diy_attiny	avr	https://github.com/sleemanj/ATTinyCore	https://raw.git
 Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json			
 EBots	EBots	avr	https://github.com/sanu-krishnan/ebot-arduino-core	https://raw.githubusercontent.com/sanu-krishnan/ebot-arduino-core/master/package_ebots.cc_index.json	/avr/	master	
 Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/	gh-pages	
-Elektor AVR boards	Elektor	avr	https://github.com/ElektorLabs/arduino	https://raw.githubusercontent.com/ElektorLabs/Arduino/master/package_elektor_boards_index.json	/source/avr/	master	
+Elektor AVR boards	Elektor	avr	https://github.com/ElektorLabs/arduino	https://github.com/ElektorLabs/Arduino/releases/download/v1.0.1/package_elektor_index.json	/source/avr/	master	
 Elektor Labs		avr	https://github.com/ElektorLabs/arduino		/source2/avr/	master	Unclear what the point of this folder is. Contains Elektor Uno R4 boards definitions (with build.mcu set to atmega328p), but those are also in source/avrpb (with build.mcu set to atmega328pb)
-Elektor Uno R4 (with ATmega328PB)	Elektor-Uno-R4	avr	https://github.com/ElektorLabs/arduino	https://raw.githubusercontent.com/ElektorLabs/Arduino/master/package_elektor_uno_r4_index.json	/source/avrpb/	master	
+Elektor Uno R4 (with ATmega328PB)	Elektor-Uno-R4	avr	https://github.com/ElektorLabs/arduino	https://github.com/ElektorLabs/Arduino/releases/download/v1.0.1/package_elektor_uno_r4_1_8_x_index.json	/source/avrpb/	master	
 Elemon Arduino Boards	EESA-IOT 5.0 v1	samd	https://github.com/MauricioJancic/Elemon	https://raw.githubusercontent.com/MauricioJancic/Elemon/master/package_Elemon_index.json			Package is only in archive file.
 EMORO 2560	emoro	avr		https://downloads.arduino.cc/packages/package_index.json			
 Engimusing ARM EFM32 Boards	engimusing	efm32	https://github.com/Engimusing/engimusing.github.io	https://engimusing.github.io/arduinoIDE/package_engimusing_modules_index.json	/arduinoIDE/efm48_1/1.0.1/	master	
