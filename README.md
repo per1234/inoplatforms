@@ -6,13 +6,13 @@ Hardware packages provide the [boards platform](https://arduino.github.io/arduin
 
 ### Columns
 
-- **Name**: The platform name from the boards manager JSON file, the `name` property from platform.txt, or an arbitrary name determined from looking at the repository content.
-- **Vendor**: The name of the package's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
-- **Architecture**: The name of the package's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
-- **Repository**: The website where the package files are stored.
-- **Boards Manager URL**: The URL for the JSON file that provides Boards Manager installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.
-- **Repository Data Folder**: The folder in the repository that contains boards.txt.
-- **Branch Name**: The branch of the repository that contains the package files.
+- **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or an arbitrary name determined from looking at the repository content.
+- **Vendor**: The package index `packages[].name` value or the name of the platform's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
+- **Architecture**: The package index `packages[].platforms[].architecture` value or the name of the platform's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
+- **Repository**: The website where the platform files are stored.
+- **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://www.arduino.cc/en/guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.
+- **Repository Data Folder**: The folder in the repository that contains [boards.txt](https://arduino.github.io/arduino-cli/latest/platform-specification/#boardstxt).
+- **Branch Name**: The branch of the repository that contains the platform files.
 - **Notes**: Additional information.
 
 ### Contributing
