@@ -1,0 +1,155 @@
+name: Check TSV
+
+# See: https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
+on:
+  push:
+    paths:
+      - ".github/workflows/check-tsv.yml"
+      - "**.tsv"
+  pull_request:
+    paths:
+      - ".github/workflows/check-tsv.yml"
+      - "**.tsv"
+  schedule:
+    # Run every Tuesday at 8 AM UTC to catch breakage caused by changes to checkcsv
+    - cron: "0 8 * * TUE"
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Go
+        uses: actions/setup-go@v2
+
+      - name: Install checkcsv
+        run: go get github.com/Clever/csvlint/cmd/csvlint
+
+      - name: Check TSV format
+        run: |
+          # No idea why this only works with quadruple escaping on the delimiter (specific to bash -c though).
+          find . \
+            -path './.git' -prune -or \
+            \( -name '*.tsv' -and -type f \) \
+            -print0 | \
+              xargs \
+                --null \
+                --max-lines=1 \
+                bash \
+                  -c \
+                    ' \
+                      echo "Checking: $0";
+                      CHECKCSV_PATH="$(go list -f '{{.Target}}' github.com/Clever/csvlint/cmd/csvlint || echo "false")";
+                      "$CHECKCSV_PATH" \
+                        --delimiter='\\\\t' \
+                        "$0" \
+                    '
+
+  line-leading:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check for leading whitespace on line
+        run: |
+          find . \
+            -path './.git' -prune -or \
+            \( -name '*.tsv' -and -type f \) \
+            -exec \
+              grep \
+                --with-filename \
+                --line-number \
+                --binary-files=without-match \
+                --regexp='^ ' \
+                '{}' \
+              \; \
+            -exec \
+              echo 'Leading whitespace found on line.' \; \
+            -exec \
+              false \
+            '{}' +
+
+  cell-leading:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Check for leading space in cells
+        run: |
+          find . \
+            -path './.git' -prune -or \
+            \( -name '*.tsv' -and -type f \) \
+            -exec \
+              grep \
+                --with-filename \
+                --line-number \
+                --binary-files=without-match \
+                --regexp=$'\t ' \
+                '{}' \
+              \; \
+            -exec \
+              echo 'Leading whitespace found in cell.' \; \
+            -exec \
+              false \
+            '{}' +
+
+  cell-trailing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Check for trailing space in cells
+        run: |
+          find . \
+            -path './.git' -prune -or \
+            \( -name '*.tsv' -and -type f \) \
+            -exec \
+              grep \
+                --with-filename \
+                --line-number \
+                --binary-files=without-match \
+                --regexp=$' \t' \
+                '{}' \
+              \; \
+            -exec \
+              echo 'Trailing whitespace found in cell.' \; \
+            -exec \
+              false \
+            '{}' +
+
+  line-trailing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check for trailing whitespace on line
+        run: |
+          find . \
+            -path './.git' -prune -or \
+            \( -name '*.tsv' -and -type f \) \
+            -exec \
+              grep \
+                --with-filename \
+                --line-number \
+                --binary-files=without-match \
+                --regexp=' $' \
+                '{}' \
+              \; \
+            -exec \
+              echo 'Trailing whitespace found on line.' \; \
+            -exec \
+              false \
+            '{}' +
