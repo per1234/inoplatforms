@@ -241,9 +241,9 @@ WAVGAT	WAV8F	AVR	https://github.com/WAVGAT-SZ/WAVGAT				Package is only in archi
 WebUSB	WebUSB	avr	https://github.com/kimio-kosaka/webUSB-arduino	https://kimio-kosaka.github.io/webUSB-arduino/package_webUSB_index.json	/	master	
 WEMOS XI LGT Boards	wemos	XI	https://github.com/wemos/Arduino_XI		/	master	
 WildFire-Arduino-Core	WickedDevice	avr	https://github.com/WickedDevice/WildFire-Arduino-Core		/WickedDevice/	master	
-WiFi Duck AVR Boards	wifiduck	avr	https://github.com/spacehuhn/hardware	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/avr/	master	
-WiFi Duck ESP8266 Boards	wifiduck	esp8266	https://github.com/spacehuhn/hardware	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/esp8266/	master	
-WiFi Duck SAMD Boards	wifiduck	samd	https://github.com/spacehuhn/hardware	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/samd/	master	
+WiFi Duck AVR Boards	wifiduck	avr	https://github.com/SpacehuhnTech/arduino	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/avr/	master	
+WiFi Duck ESP8266 Boards	wifiduck	esp8266	https://github.com/SpacehuhnTech/arduino	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/esp8266/	master	
+WiFi Duck SAMD Boards	wifiduck	samd	https://github.com/SpacehuhnTech/arduino	https://raw.githubusercontent.com/spacehuhn/hardware/master/wifiduck/package_wifiduck_index.json	/wifiduck/samd/	master	
 wirino	wirino	avr	https://github.com/per1234/wirino	https://per1234.github.io/wirino/package_per1234_wirino_index.json	/avr/	master	
 Azure Sphere	WizIO	azure	https://github.com/Wiz-IO/framework-azure	https://raw.githubusercontent.com/Wiz-IO/arduino-azure-sphere/master/package_wizio.azure_index.json	/arduino/	master	
 Quectel BC66	WizIO	bc66	https://github.com/Wiz-IO/Arduino-Quectel-BC66	http://wizio.eu/arduino/bc66/package_wizio.bc66_index.json	/	master	
