@@ -4,6 +4,8 @@ A list of all known [Arduino](http://arduino.cc) hardware packages.
 
 Hardware packages provide the [boards platform](https://arduino.github.io/arduino-cli/latest/platform-specification) (AKA "core") and toolchain needed to add support for a board to the Arduino development software (e.g., Arduino IDE).
 
+The list can be viewed online [here](ino-hardware-package-list.tsv).
+
 ### Columns
 
 - **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or an arbitrary name determined from looking at the repository content.
