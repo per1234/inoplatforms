@@ -2,7 +2,7 @@
 
 A list of all known [Arduino](http://arduino.cc) hardware packages.
 
-Hardware packages (AKA "cores") contain the hardware definitions used by the Arduino IDE and arduino-cli. They may add support for new boards and/or programmers.
+Hardware packages provide the [boards platform](https://arduino.github.io/arduino-cli/latest/platform-specification) (AKA "core") and toolchain needed to add support for a board to the Arduino development software (e.g., Arduino IDE).
 
 ### Columns
 
