@@ -80,6 +80,7 @@ Oak by Digistump	digistump	oak	https://github.com/digistump/OakCore	https://raw.
 Digistump SAM Boards (32-bits ARM Cortex-M3)	digistump	sam	https://github.com/digistump/DigistumpArduino	http://digistump.com/package_digistump_index.json	/digistump-sam/	master	
 DIY ATtiny	diy_attiny	avr	https://github.com/sleemanj/ATTinyCore	https://raw.githubusercontent.com/sleemanj/optiboot/master/dists/package_gogo_diy_attiny_index.json	/avr/	master	Hard fork of SpenceKonde/ATTinyCore. It's apparently mirrored at https://github.com/sleemanj/optiboot, which is where the installation files are stored.
 Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json			
+DxCore	DxCore	megaavr	https://github.com/SpenceKonde/DxCore	http://drazzy.com/package_drazzy.com_index.json	/megaavr/	master	
 EBots	EBots	avr	https://github.com/sanu-krishnan/ebot-arduino-core	https://raw.githubusercontent.com/sanu-krishnan/ebot-arduino-core/master/package_ebots.cc_index.json	/avr/	master	
 Elemon Arduino Boards	EESA-IOT 5.0 v1	samd	https://github.com/MauricioJancic/Elemon	https://raw.githubusercontent.com/MauricioJancic/Elemon/master/package_Elemon_index.json			Package is only in archive file.
 Electronic Cats SAMD Boards	electroniccats	samd	https://github.com/ElectronicCats/Arduino_Boards_Index	https://electroniccats.github.io/Arduino_Boards_Index/package_electroniccats_index.json	/electroniccats/samd/	gh-pages	
