@@ -278,7 +278,7 @@ Quectel BC66	WizIO	bc66	https://github.com/Wiz-IO/Arduino-Quectel-BC66	http://wi
 Quectel M66	WizIO	m66	https://github.com/Wiz-IO/Arduino-Quectel-M66	https://raw.githubusercontent.com/Wiz-IO/Arduino-Quectel-M66/master/tools/package_wizio.m66_index.json	/	master	
 XMegaForArduino XMEGA Boards	XMegaForArduino	avr	https://github.com/XMegaForArduino/arduino	https://github.com/XMegaForArduino/IDE/raw/master/package_XMegaForArduino_index.json	/	master	The libraries are in a separate repo: https://github.com/XMegaForArduino/libraries
 zuno_toolchain	Z-Uno	zw8051	https://github.com/Z-Wave-Me/Z-Uno-Core	http://z-uno.z-wave.me/files/z-uno/package_z-wave.me_index.json	/hardware/arduino/zuno/	master	
-zoubworld SAM M0+ Boards - Beta build	zoubworld_Arduino	samd	https://github.com/zoubata/ArduinoCore-samd	http://zoubworld.com/~zoubworld_Arduino/files/Release/package_Zoubworld_index.json	/	master	The JSON file wouldn't load 2019-06-27. A possible alternative is https://raw.githubusercontent.com/zoubata/Arduino15/master/package_Zoubworld_index.json
+zoubworld SAM M0+ Boards - Beta build	zoubworld_Arduino	samd	https://github.com/zoubata/ArduinoCore-samd	https://raw.githubusercontent.com/zoubata/Arduino15/master/package_Zoubworld_index.json	/	master	The package index references zoubworld.com, which is dead.
 Arduinex		avr	https://github.com/Team254/Arduinex		/	master	
 Arduino-Tiny		avr	https://github.com/Coding-Badly/arduino-tiny		/	master	Unmaintained. Originally hosted at: https://code.google.com/archive/p/arduino-tiny/
 Circuit Monkey		avr	https://github.com/CircuitMonkey/arduino-boards		/avr/	master	
