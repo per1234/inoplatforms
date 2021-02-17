@@ -129,7 +129,7 @@ IntoRobot STM32 Boards	intorobot	stm32	https://github.com/IntoRobot/IntoRobotPac
 IOTEAM Boards	IOTEAM	samd	https://github.com/ioteamit/ioteam-arduino-core	https://raw.githubusercontent.com/ioteamit/ioteam-arduino-core/master/package_ioteam_index.json	/	master	
 Iteaduino Lite	iteaduino_lite	avr	https://github.com/udif/ITEADSW_Iteaduino-Lite-HSP	https://raw.githubusercontent.com/udif/ITEADSW_Iteaduino-Lite-HSP/master/package/package_iteaduino_lite_index.json	hardware/LGT/LGT8F/	master	
 Jewelbots Arduino Library	Jewelbots_Arduino_Library	nRF51822	https://github.com/Jewelbots/arduino-library	https://jewelbots.github.io/arduino-library/package_jewelbots_index.json	/jewelbots_solo_mode_v117/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
-Keyboardio Keyboards	Kaleidoscope-Bundle-Keyboardio	avr	https://github.com/keyboardio/Kaleidoscope-Bundle-Keyboardio		/avr/	master	
+keyboardio	keyboardio	avr	https://github.com/keyboardio/Kaleidoscope-Bundle-Keyboardio	https://raw.githubusercontent.com/keyboardio/boardsmanager/master/package_keyboardio_index.json	/avr/	master	
 KITT Engineering STM32L0 Boards	kittengineering	stm32l0	https://github.com/kittengineering/ArduinoCore-stm32l0	https://kittengineering.github.io/package_stm32l0_boards_index.json	/	master	
 Konekt Dash/Dash Pro Boards	konekt	sam		http://downloads.hologram.io/arduino/package_konekt_index.json			Konekt is now hologram.io
 Laika	laika_arduino	avr	https://github.com/eightdog/laika_arduino	https://raw.githubusercontent.com/eightdog/laika_arduino/master/IDE_Board_Manager/package_project_laika.com_index.json			Package is only in archive file (on the release page).
