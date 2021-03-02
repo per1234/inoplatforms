@@ -188,6 +188,7 @@ Olimex PIC boards	Olimex	pic	https://github.com/OLIMEX/Arduino_configurations	ht
 Olimex STM boards	Olimex	stm	https://github.com/OLIMEX/Arduino_configurations	https://raw.githubusercontent.com/OLIMEX/Arduino_configurations/master/STM/package_olimex_stm_index.json			
 OMC	OMC	avr	https://github.com/ThamesValleyReprapUserGroup/Beta-TVRRUG-Mendel90	https://raw.githubusercontent.com/ThamesValleyReprapUserGroup/Beta-TVRRUG-Mendel90/master/Added-Documents/OMC/package_omc_index.json			Package is only in archive file.
 Omzlo AVR Boards	omzlo	avr	https://github.com/omzlo/omzlo-one-arduino-package	https://raw.githubusercontent.com/omzlo/omzlo-one-arduino-package/master/package_omzlo.com_index.json	/src/	master	
+Omzlo SAMD Boards	Omzlo	samd		https://www.omzlo.com/downloads/package_omzlo.com_index.json			
 OpenCM9.04	OpenCM904	OpenCM904	https://github.com/ROBOTIS-GIT/OpenCM9.04	https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCM9.04/master/arduino/opencm_release/package_opencm9.04_index.json	/arduino/opencm_arduino/opencm9.04/	develop	
 OpenCR	OpenCR	OpenCR	https://github.com/ROBOTIS-GIT/OpenCR	https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json	/arduino/opencr_arduino/	develop	
 Open Panzer AVR Boards	OpenPanzer	avr	https://github.com/OpenPanzerProject/OpenPanzerBoards	https://openpanzerproject.github.io/OpenPanzerBoards/package_openpanzer_index.json	/avr/	master	
