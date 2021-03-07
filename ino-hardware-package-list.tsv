@@ -67,6 +67,7 @@ ClearCore	ClearCore	sam	https://github.com/Teknic-Inc/ClearCore-Arduino-wrapper	
 clkdiv8 Sparrow Boards	clkdiv8	avr		http://clkdiv8.com/download/package_clkdiv8_index.json			
 Community Add on to Adafruit nRF52	community_nrf52	nrf52	https://github.com/jpconstantineau/Community_nRF52_Arduino	https://github.com/jpconstantineau/Community_nRF52_Arduino/releases/latest/download/package_jpconstantineau_boards_index.json	/	main	
 Cosa	Cosa	avr	https://github.com/mikaelpatel/Cosa	https://raw.githubusercontent.com/mikaelpatel/Cosa/master/package_cosa_index.json	/	master	
+Chip45 Crumbuino Boards	crumbuino	avr	https://github.com/beegee-tokyo/Crumbuino-Chip45	https://raw.githubusercontent.com/beegee-tokyo/Crumbuino-Chip45/main/package_crumbuino_index.json	/	main	
 Cytron ARM Boards	cytron	arm	https://github.com/CytronTechnologies/CT-ARM	https://cytrontechnologies.github.io/package_cytron_index.json	/	master	
 Cytron AVR Boards	cytron	avr	https://github.com/CytronTechnologies/CytronTechnologies.github.io	https://cytrontechnologies.github.io/package_cytron_index.json			Package is only in archive file.
 dadamachines - M0 Boards (dependency: Arduino SAMD Boards 1.6.9)	dadamachines - M0	samd	https://github.com/dadamachines/automat	https://dadamachines.github.io/arduino-board-index/package_dadamachines-m0_index.json	/software/arduino/hardware/dadmachines-automat/samd/	master	
