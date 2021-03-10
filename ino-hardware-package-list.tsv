@@ -242,6 +242,7 @@ Simba	Simba	esp	https://github.com/eerimoq/simba-releases	https://raw.githubuser
 Simba	Simba	esp32	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/esp32/package_simba_esp32_index.json			
 Simba	Simba	sam	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/sam/package_simba_sam_index.json			
 SnapBloks STM32 Boards	SnapBloks	stm32	https://github.com/SnapBloks/SnapBloks		/STM32/	master	
+OpenThread nRF52840 Boards	soburi	nrf52	https://github.com/soburi/openthread_nrf52_arduino	https://soburi.github.io/openthread_nrf52_arduino/package_soburi_otnrf52_index.json	/	master	
 SODAQ AVR Boards	SODAQ	avr	https://github.com/SodaqMoja/SodaqCore-avr	http://downloads.sodaq.net/package_sodaq_index.json	/	master	
 SODAQ SAMD Boards	SODAQ	samd	https://github.com/SodaqMoja/SodaqCore-samd	http://downloads.sodaq.net/package_sodaq_samd_index.json	/	v1.6.15-sodaq	The use of a separate branch for each release will make Branch outdated on every release
 SparkFun Apollo3 Boards	SparkFun	apollo3	https://github.com/sparkfun/Arduino_Apollo3	https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json	/	master	
