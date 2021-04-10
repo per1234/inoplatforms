@@ -294,6 +294,7 @@ Elektor Labs		avr	https://github.com/ElektorLabs/arduino		/source2/avr/	master	U
 MH-ET LIVE Boards		avr	https://github.com/MHEtLive/MHEtLiveArduino		/mhetlive-avr-1.0.0/1.0.0/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 Mighty 1284P		avr	https://github.com/maniacbug/mighty-1284p/		/	master	Unmaintained, replaced by https://github.com/JChristensen/mighty-1284p
 WeMos OU Boards		avr	https://github.com/wemos/OU		/avr/	master	
+STM32 Boards (selected from submenu)		stm32	https://github.com/MRNIU/Arduino_Core_STM32		/	PortentaH7	Fork of STM32:stm32 with Portenta H7 added
 STM32GENERIC for STM32 boards		STM32	https://github.com/ChrisMicro/STM32GENERIC		/STM32/	master	Fork of https://github.com/danieleff/STM32GENERIC
 STM32GENERIC for STM32 boards		STM32	https://github.com/danieleff/STM32GENERIC		/STM32/	master	
 Arduino ARM (32-bits) Boards			https://github.com/ultimachine/FeynmanCore		/	master	
