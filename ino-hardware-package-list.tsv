@@ -179,6 +179,8 @@ Moteino AVR Boards	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github
 Moteino SAMD Boards	Moteino	samd	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json			Package is only in archive file
 Blinks	move38	avr	https://github.com/Move38/Blinks-SDK	https://raw.githubusercontent.com/Move38/Blinks-SDK/master/package_move38.com-blinks_index.json	/	dev	There's also https://github.com/bigjosh/Move38-Arduino-Platform, and it's not clear which one should be checked
 Blinks by Move38.com	move38	avr	https://github.com/bigjosh/Move38-Arduino-Platform	https://boardsmanager.com/package_move38.com-blinks_index.json	/	main	There's also https://github.com/Move38/Blinks-SDK
+ArduinoCore-freertos(AVR)	MRNIU	avr	https://github.com/MRNIU/ArduinoCore-freertos		/	avr	
+ArduinoCore-freertos(PortentaH7)	MRNIU	STM32	https://github.com/MRNIU/ArduinoCore-freertos		/	PortentaH7	
 qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			Looks to be just a personal project board with no hardware source files available.
 MySensors AVR based boards	mysensors	avr	https://github.com/mysensors/ArduinoHwAVR		/	master	
 Arduino NavSpark Boards	navspark	navspark		http://navspark.mybigcommerce.com/content/package_navspark_index.json			
