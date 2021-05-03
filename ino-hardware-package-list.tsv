@@ -104,6 +104,7 @@ ESP31B Modules	espressif	ESP31B	https://github.com/me-no-dev/ESP31B		/	master
 Etherkit SAMD Boards	etherkit	samd	https://github.com/etherkit/ArduinoBoards	https://github.com/etherkit/ArduinoBoards/raw/master/package_etherkit_index.json	/etherkit-samd-1.0.0/	master	For the 'Empyrean' boards. The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 FemtoCow ATTiny	FemtoCow-attiny	avr	https://github.com/FemtoCow/ATTinyCore	https://raw.githubusercontent.com/FemtoCow/ATTinyCore/master/Downloads/package_femtocow_attiny_index.json	/tiny/	master	
 FireBeetle-ESP8266	firebeetle8266	firebeetle8266	https://github.com/DFRobot/FireBeetle-ESP8266	https://github.com/DFRobot/FireBeetle-ESP8266/raw/master/package_firebeetle8266_index.json			Package is only in archive file.
+fishino_avr	fishino	avr		http://www.fishino.it/arduinoide/package_fishino_index.json			
 FirePick Delta Bootloaders for Arduino IDE	fpd-arduino-bootloaders	avr	https://github.com/firepick-delta/fpd-arduino-bootloaders		/	master	
 FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	http://www.nxlab.fer.hr/fpgarduino/package_f32c_core_index.json	/hardware/fpga/f32c/	master	
 Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklabs-boards	https://raw.githubusercontent.com/freaklabs/freaklabs-boards/master/package_freaklabs_index.json	/boards/1.0.3/	master	
