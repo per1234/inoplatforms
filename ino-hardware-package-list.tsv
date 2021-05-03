@@ -24,6 +24,10 @@ Arduino AVR Boards	arduino	avr	https://github.com/arduino/ArduinoCore-avr	https:
 Extra MCU support for Arduino IDE	arduino	avr	https://github.com/sumotoy/Extra_MCU_support_for_Arduino_IDE		/hardware/arduino/	master	
 [DEPRECATED - Please install standalone packages] Arduino Mbed OS Boards	arduino	mbed	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino nRF528x Boards (Mbed OS)	arduino	mbed	https://github.com/arduino/ArduinoCore-nRF528x-mbedos	https://downloads.arduino.cc/packages/package_index.json	/	master	Merged into https://github.com/arduino/arduinocore-mbed and deprecated
+Arduino Mbed OS Edge Boards	arduino	mbed_edge	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master	
+Arduino Mbed OS Nano Boards	arduino	mbed_nano	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master	
+Arduino Mbed OS Portenta Boards	arduino	mbed_portenta	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master	
+Arduino Mbed OS RP2040 Boards	arduino	mbed_rp2040	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino megaAVR Boards	arduino	megaavr	https://github.com/arduino/ArduinoCore-megaavr	https://downloads.arduino.cc/packages/package_index.json	/	master	
 Arduino NRF52 Boards	arduino	nrf52	https://github.com/arduino/ArduinoCore-primo		/	master	
 Arduino SAM Boards (32-bits ARM Cortex-M3)	arduino	sam	https://github.com/arduino/ArduinoCore-sam	https://downloads.arduino.cc/packages/package_index.json	/	master	
