@@ -17,6 +17,13 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 - **Branch Name**: The branch of the repository that contains the platform files.
 - **Notes**: Additional information.
 
+### Related
+
+- https://github.com/arduino/Arduino/wiki/Unofficial-list-of-3rd-party-boards-support-urls
+  - The "Unofficial list of 3rd party boards support urls" differs from ino-hardware-package-list in:
+    - Less comprehensive due to consisting of submissions from boards platform authors.
+    - Is not in a machine-readable form.
+
 ### Contributing
 
 Additions/corrections/updates to the list are welcome! Please submit a pull request or issue.
