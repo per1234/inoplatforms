@@ -105,6 +105,7 @@ Etherkit SAMD Boards	etherkit	samd	https://github.com/etherkit/ArduinoBoards	htt
 FemtoCow ATTiny	FemtoCow-attiny	avr	https://github.com/FemtoCow/ATTinyCore	https://raw.githubusercontent.com/FemtoCow/ATTinyCore/master/Downloads/package_femtocow_attiny_index.json	/tiny/	master	
 FireBeetle-ESP8266	firebeetle8266	firebeetle8266	https://github.com/DFRobot/FireBeetle-ESP8266	https://github.com/DFRobot/FireBeetle-ESP8266/raw/master/package_firebeetle8266_index.json			Package is only in archive file.
 fishino_avr	fishino	avr		http://www.fishino.it/arduinoide/package_fishino_index.json			
+fishino_pic32	fishino	pic32		http://www.fishino.it/arduinoide/package_fishino_index.json			
 FirePick Delta Bootloaders for Arduino IDE	fpd-arduino-bootloaders	avr	https://github.com/firepick-delta/fpd-arduino-bootloaders		/	master	
 FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	http://www.nxlab.fer.hr/fpgarduino/package_f32c_core_index.json	/hardware/fpga/f32c/	master	
 Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklabs-boards	https://raw.githubusercontent.com/freaklabs/freaklabs-boards/master/package_freaklabs_index.json	/boards/1.0.3/	master	
