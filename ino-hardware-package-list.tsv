@@ -165,7 +165,7 @@ MattairTech SAM D|L|C core for Arduino	MattairTech_Arduino	samd	https://github.c
 Maxim's 32-bit Microcontroller	Maxim	arm	https://github.com/MaximIntegratedMicros/arduino-max326xx	https://raw.githubusercontent.com/MaximIntegratedMicros/arduino-collateral/master/package_maxim_index.json	/arm/	master	
 MCCI Connection Exerciser	mcci	avr	https://github.com/mcci-catena/arduino-boards	https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/package_mcci_index.json			
 MCCI Catena SAMD Boards	mcci	samd	https://github.com/mcci-catena/ArduinoCore-samd	https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/package_mcci_index.json	/	master	
-MCCI Catena STM32 Boards	mcci	stm32	https://github.com/mcci-catena/Arduino_Core_STM32	https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/package_mcci_index.json	/	master	
+MCCI Catena STM32 Boards	mcci	stm32	https://github.com/mcci-catena/Arduino_Core_STM32	https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/package_mcci_index.json	/	main	
 Meet je stad! AVR Boards	meetjestad	avr	https://github.com/meetjestad/mjs_boards	https://github.com/meetjestad/mjs_boards/raw/master/package_meetjestad.net_index.json	/avr/	master	
 mega1284duino	mega1284duino	avr	https://github.com/cano64/mega1284duino		/	master	
 MegaCore	MegaCore	avr	https://github.com/MCUdude/MegaCore	https://mcudude.github.io/MegaCore/package_MCUdude_MegaCore_index.json	/avr/	master	
