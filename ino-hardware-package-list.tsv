@@ -252,10 +252,10 @@ Seeed STM32F4 Boards	Seeeduino	Seeed_STM32F4	https://github.com/Seeed-Studio/stm
 senseBox SAMD Boards (dependency: Arduino SAMD Boards)	sensebox	samd	https://github.com/watterott/senseBox-MCU	https://raw.githubusercontent.com/watterott/senseBox-MCU/master/package_sensebox_index.json	/arduino/samd/	master	
 senseBox SAMD Boards (dependency: Arduino SAMD Boards)	sensebox	samd	https://github.com/sensebox/senseBoxMCU-core	https://github.com/sensebox/senseBoxMCU-core/raw/master/package_sensebox_index.json	/arduino/samd/	master	
 SiFive Freedom Boards	sifive	riscv	https://github.com/sifive/cinco	http://static.dev.sifive.com/bsp/arduino/package_sifive_index.json	/hardware/freedom_e/	master	The toolchain is only provided for Linux and macOS. There is a fork that provides Windows support: https://github.com/westerndigitalcorporation/CincoWinPkg
-Simba	Simba	avr	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/avr/package_simba_avr_index.json			Package is only in archive file.
-Simba	Simba	esp	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/esp/package_simba_esp_index.json			
-Simba	Simba	esp32	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/esp32/package_simba_esp32_index.json			
-Simba	Simba	sam	https://github.com/eerimoq/simba-releases	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/sam/package_simba_sam_index.json			
+Simba	Simba	avr	https://github.com/eerimoq/simba	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/avr/package_simba_avr_index.json	/make/arduino/avr/	master	
+Simba	Simba	esp	https://github.com/eerimoq/simba	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/esp/package_simba_esp_index.json	/make/arduino/esp/	master	
+Simba	Simba	esp32	https://github.com/eerimoq/simba	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/esp32/package_simba_esp32_index.json	/make/arduino/esp32/	master	
+Simba	Simba	sam	https://github.com/eerimoq/simba	https://raw.githubusercontent.com/eerimoq/simba-releases/master/arduino/sam/package_simba_sam_index.json	/make/arduino/sam/	master	
 SnapBloks STM32 Boards	SnapBloks	stm32	https://github.com/SnapBloks/SnapBloks		/STM32/	master	
 OpenThread nRF52840 Boards	soburi	nrf52	https://github.com/soburi/openthread_nrf52_arduino	https://soburi.github.io/openthread_nrf52_arduino/package_soburi_otnrf52_index.json	/	master	
 SODAQ AVR Boards	SODAQ	avr	https://github.com/SodaqMoja/SodaqCore-avr	http://downloads.sodaq.net/package_sodaq_index.json	/	master	
