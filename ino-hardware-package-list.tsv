@@ -158,6 +158,7 @@ Macchina SAM Boards	macchina	sam	https://github.com/macchina/arduino-boards-sam	
 Maixduino(k210)	Maixduino	k210	https://github.com/sipeed/Maixduino	http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_index.json	/	master	There is a mirror of the JSON file at http://dl.sipeed.com/MAIX/Maixduino/package_Maixduino_k210_dl_cdn_index.json
 MajorCore	MajorCore	avr	https://github.com/MCUdude/MajorCore	https://mcudude.github.io/MajorCore/package_MCUdude_MajorCore_index.json	/avr/	master	
 Aquila Boards	makerlab	avr	https://github.com/makerlabmx/altair-arduinoide	http://makerlabmx.github.io/altair-arduinoide/package_makerlabmx_index.json	/avr/	master	
+Maker Uno	makeruno	avr	https://github.com/CytronTechnologies/MakerUno	https://raw.githubusercontent.com/CytronTechnologies/MakerUno/master/package_cytron_makeruno_index.json	/	master	
 MassDuino Ev Boards	MassDuino	avr	https://github.com/dimag0g/massduino_boards	https://raw.githubusercontent.com/dimag0g/massduino_boards/master/package_massduino_index.json	/	master	
 MattairTech AVR Boards	MattairTech_Arduino	avr	https://github.com/mattairtech/ArduinoCore-avr	https://www.mattairtech.com/software/arduino/package_MattairTech_index.json	/	master	
 MattairTech SAM D|L|C core for Arduino	MattairTech_Arduino	samd	https://github.com/mattairtech/ArduinoCore-samd	https://www.mattairtech.com/software/arduino/package_MattairTech_index.json	/	master	
