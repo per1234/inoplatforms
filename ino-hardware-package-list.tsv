@@ -216,6 +216,7 @@ panStamp NRG w/ CC430F5137	panstamp_nrg	msp430	https://github.com/panStamp/ardui
 Philduino AVR Boards	philduino	avr	https://github.com/Jackjan4/PhilduinoArduino	https://raw.githubusercontent.com/Jackjan4/PhilduinoArduino/master/package_philduino_index.json	/hardware/avr/1.0.1/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 picoCore	picoCore	avr	https://github.com/nerdralph/picoCore		/avr/	master	
 Pololu A-Star Boards	pololu-a-star	avr	https://github.com/pololu/a-star	https://files.pololu.com/arduino/package_pololu_index.json	/	master	
+PulseRain GRV3000D	PulseRain_RISCV	GRV3000D	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/GRV3000D/	master	
 PulseRain Rattlesnake	PulseRain_RISCV	Rattlesnake	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
 PulseRain Reindeer	PulseRain_RISCV	Reindeer	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master	
 Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHardware	https://raw.githubusercontent.com/Quirkbot/QuirkbotArduinoHardware/master/package_quirkbot.com_index.json	/avr/	master	
