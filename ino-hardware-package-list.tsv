@@ -130,6 +130,7 @@ Heltec ESP32 Series Dev-boards	Heltec-esp32	esp32	https://github.com/Heltec-Aaro
 Heltec ESP8266 Series Dev-boards	heltec-esp8266	esp8266	https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series	http://resource.heltec.cn/download/package_heltec_esp8266_index.json	/esp8266/	master	https://heltec-automation-docs.readthedocs.io/en/latest/esp8266+arduino/quick_start.html#via-arduino-board-manager
 HidnSeek	HidnSeek	avr	https://github.com/hidnseek/hidnseek	http://hidnseek.github.io/hidnseek/package_hidnseek_boot_index.json	/arduino/	master	
 HoodLoader2	HoodLoader2	avr	https://github.com/NicoHood/HoodLoader2	https://raw.githubusercontent.com/NicoHood/HoodLoader2/master/package_NicoHood_HoodLoader2_index.json	/avr/	dev206	
+In System MCU	In System MCU	avr	https://github.com/jb-23/in-system-mcu	http://www.bamfordresearch.com/files/package_jb23_insystemmcu_index.json	/avr/	master	
 radino	In-Circuit	avr		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
 radino32	In-Circuit	STM32L1		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
 radinoL4 (beta)	In-Circuit	STM32L4		http://library.radino.cc/Arduino_1_8/package_radino_radino32_index.json			
