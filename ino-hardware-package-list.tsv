@@ -222,6 +222,7 @@ Optiboot 8.0	Optiboot	avr	https://github.com/Optiboot/optiboot	https://github.co
 P1AM-100	P1AM-100	samd	https://github.com/facts-engineering/P1AMCore	https://raw.githubusercontent.com/facts-engineering/facts-engineering.github.io/master/package_productivity-P1AM-boardmanagermodule_index.json	/	master	
 panStamp AVR w/ Atmega328p	panstamp_avr	avr	https://github.com/panStamp/arduino_avr	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
 panStamp NRG w/ CC430F5137	panstamp_nrg	msp430	https://github.com/panStamp/arduino_nrg	http://panstamp.org/arduino/package_panstamp_index.json	/	master	
+Arduino SAM Boards (32-bits ARM Cortex-M3) with ARM64 support	per1234	sam	https://github.com/per1234/ArduinoCore-sam	https://per1234.github.io/ArduinoCore-sam/package_per1234_samarm64_index.json	/	master	https://forum.arduino.cc/t/installing-arduino-sam-boards-on-arduino-ide-for-arm64/550398/2
 Philduino AVR Boards	philduino	avr	https://github.com/Jackjan4/PhilduinoArduino	https://raw.githubusercontent.com/Jackjan4/PhilduinoArduino/master/package_philduino_index.json	/hardware/avr/1.0.1/	master	The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 picoCore	picoCore	avr	https://github.com/nerdralph/picoCore		/avr/	master	
 Pololu A-Star Boards	pololu-a-star	avr	https://github.com/pololu/a-star	https://files.pololu.com/arduino/package_pololu_index.json	/	master	
