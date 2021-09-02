@@ -155,6 +155,7 @@ Laika	laika_arduino	avr	https://github.com/eightdog/laika_arduino	https://raw.gi
 Lattuino 1	Lattuino	avr	https://github.com/INTI-CMNB/Lattuino_IP_Core	http://fpgalibre.sf.net/Lattuino/package_lattuino_index.json	/ide/	master	
 Larduino_HSP	LGT	avr	https://github.com/LGTMCU/Larduino_HSP		/hardware/LGT/avr/	master	
 LGT8fx Boards	LGT8fx Boards	avr	https://github.com/dbuezas/lgt8fx	https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json	/lgt8f/	master	
+librelab::Big Dot	librelab	samd	https://github.com/UVA-DSI/bigdot	https://raw.githubusercontent.com/UVA-DSI/bigdot/main/arduino-core/package_librelab_index.json	/bigdot/tree/main/arduino-core/core/	main	
 LinkIt ONE	LinkIt	arm		http://download.labs.mediatek.com/package_mtk_linkit_index.json			
 MediaTek LinkIt Smart Boards	LinkIt	avr		http://download.labs.mediatek.com/package_mtk_linkit_smart_7688_index.json			
 LinkIt 7697	LinkIt	linkit_rtos	https://github.com/MediaTek-Labs/Arduino-Add-On-for-LinkIt-SDK	http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json	/middleware/third_party/arduino/hardware/arduino/mt7697/	master	
