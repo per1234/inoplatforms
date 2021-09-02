@@ -1,4 +1,7 @@
 Name	Vendor	Architecture	Repository	Boards Manager URL	Repository Data Folder	Branch Name	Notes
+3B_STM32F1_Board	3B_STM32F1_Board	STM32	https://github.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD	https://raw.githubusercontent.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD/main/package_3B_STM32F1_Board_index.json		main	Platform files only available in .zip files in the repo
+Arduino 3B SAMD21G17A Board	3bs_samd21g17a	samd	https://github.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD	https://raw.githubusercontent.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD/main/package_3bsamd21g17a_index.json		main	Platform files only available in .zip files in the repo
+3B Sduino STM8 plain C core (non-C++)	3bsduino	stm8	https://github.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD	https://raw.githubusercontent.com/sush1412/3B-SEMICONDUCTORS-PVT-LTD/main/package_3bsduino_3bstm8_index.json		main	Platform files only available in .zip files in the repo
 Adafruit AVR Boards	adafruit	avr	https://github.com/adafruit/Adafruit_Arduino_Boards	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master	
 Adafruit nRF52	adafruit	nrf52	https://github.com/adafruit/Adafruit_nRF52_Arduino	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master	
 Adafruit SAMD Boards	adafruit	samd	https://github.com/adafruit/ArduinoCore-samd	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master	
