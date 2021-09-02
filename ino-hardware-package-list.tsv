@@ -78,6 +78,7 @@ chipKIT	chipKIT	pic32	https://github.com/chipKIT32/chipKIT-core	https://github.c
 ClearCore	ClearCore	sam	https://github.com/Teknic-Inc/ClearCore-Arduino-wrapper	https://www.teknic.com/files/downloads/package_clearcore_index.json	/	master	
 clkdiv8 Sparrow Boards	clkdiv8	avr		http://clkdiv8.com/download/package_clkdiv8_index.json			
 Community Add on to Adafruit nRF52	community_nrf52	nrf52	https://github.com/jpconstantineau/Community_nRF52_Arduino	https://github.com/jpconstantineau/Community_nRF52_Arduino/releases/latest/download/package_jpconstantineau_boards_index.json	/	main	
+CONTROLLINO Boards	CONTROLLINO_Boards	avr	https://github.com/CONTROLLINO-PLC/CONTROLLINO_Library	https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json		master	Platform files only available in .zip files in the repo
 Cosa	Cosa	avr	https://github.com/mikaelpatel/Cosa	https://raw.githubusercontent.com/mikaelpatel/Cosa/master/package_cosa_index.json	/	master	
 Chip45 Crumbuino Boards	crumbuino	avr	https://github.com/beegee-tokyo/Crumbuino-Chip45	https://raw.githubusercontent.com/beegee-tokyo/Crumbuino-Chip45/main/package_crumbuino_index.json	/	main	
 CubeCell Development Framework	CubeCell	CubeCell	https://github.com/HelTecAutomation/ASR650x-Arduino	https://resource.heltec.cn/download/package_CubeCell_index.json	/	master	
