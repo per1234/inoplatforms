@@ -287,6 +287,7 @@ TinyCore Boards	TinyCore	avr	https://github.com/xukangmin/TinyCore	https://raw.g
 TL7788 Boards	TL7788	arm	https://github.com/hunianhang/tl7788_arduino	https://rawgit.com/hunianhang/nufront_arduino_json/master/package_tl7788_index.json	/	master	
 Tlera Corp STM32L0 Boards	TleraCorp	stm32l0	https://github.com/GrumpyOldPizza/ArduinoCore-stm32l0	https://grumpyoldpizza.github.io/ArduinoCore-stm32l0/package_stm32l0_boards_index.json	/	master	
 Tomu EFM32 (32-bits ARM Cortex-M0+) Boards	todbot	ArduinoCore-EFM32	https://github.com/todbot/ArduinoCore-EFM32		/	master	
+Tuino SAMD Boards (32-bits ARM Cortex-M0+)	tuino0	samd	https://github.com/gimasi/TUINO_ZERO_96	https://raw.githubusercontent.com/gimasi/TUINO_ZERO_96/master/arduino_ide/package_tuino0_index.json	/arduino_ide/1.0.6/	master	Version dependent path means data folder field will become outdated on every release
 UDOO QUAD/DUAL (Arduino Due)	UDOO	sam	https://github.com/UDOOboard/arduino-board-package	https://udooboard.github.io/arduino-board-package/package_udoo_index.json	/udoo/sam/	boardmanager	
 UDOO NEO (iMX6 SoloX)	UDOO	solox	https://github.com/UDOOboard/arduino-board-package	https://udooboard.github.io/arduino-board-package/package_udoo_index.json	/udoo/solox/	boardmanager	
 Custom STM32duino Boards	vendor	stm32	https://github.com/RickKimball/vendor		/stm32/	master	Custom stm32 bluepill board based on the official STM Arduino core
