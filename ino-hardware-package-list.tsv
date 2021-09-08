@@ -201,7 +201,11 @@ Blinks	move38	avr	https://github.com/Move38/Blinks-SDK	https://raw.githubusercon
 Blinks by Move38.com	move38	avr	https://github.com/bigjosh/Move38-Arduino-Platform	https://boardsmanager.com/package_move38.com-blinks_index.json	/	main	There's also https://github.com/Move38/Blinks-SDK
 ArduinoCore-freertos(AVR)	MRNIU	avr	https://github.com/MRNIU/ArduinoCore-freertos		/	avr	
 ArduinoCore-freertos(PortentaH7)	MRNIU	STM32	https://github.com/MRNIU/ArduinoCore-freertos		/	PortentaH7	
+my_boards - AVR architecture	my_boards	avr	https://github.com/jandrassy/my_boards		/avr/	master	
+my_boards - nRF5 architecture	my_boards	nRF5	https://github.com/jandrassy/my_boards		/nRF5/	master	
+my_boards - SAMD architecture	my_boards	samd	https://github.com/jandrassy/my_boards		/samd/	master	
 samd21_QFP_reference_PCB	my_boards	samd	https://github.com/hydronics2/samd21_QFP_reference_PCB		/arduino/hardware/my_boards/samd/	master	
+my_boards - STM32 architecture	my_boards	stm32	https://github.com/jandrassy/my_boards		/STM32/	master	
 qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			Looks to be just a personal project board with no hardware source files available.
 MySensors AVR based boards	mysensors	avr	https://github.com/mysensors/ArduinoHwAVR		/	master	
 Arduino NavSpark Boards	navspark	navspark		http://navspark.mybigcommerce.com/content/package_navspark_index.json			
