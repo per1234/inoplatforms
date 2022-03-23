@@ -12,7 +12,7 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 - **Vendor**: The package index `packages[].name` value or the name of the platform's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Architecture**: The package index `packages[].platforms[].architecture` value or the name of the platform's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Repository**: The website where the platform files are stored.
-- **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://www.arduino.cc/en/guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.
+- **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://docs.arduino.cc/learn/starting-guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.
 - **Repository Data Folder**: The folder in the repository that contains [boards.txt](https://arduino.github.io/arduino-cli/latest/platform-specification/#boardstxt).
 - **Branch Name**: The branch of the repository that contains the platform files.
 - **Notes**: Additional information.
