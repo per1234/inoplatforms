@@ -224,6 +224,7 @@ MightyCore	MightyCore	avr	https://github.com/MCUdude/MightyCore	https://mcudude.
 Mini SAM (32-bit ARM Cortex-M0+) Boards	mini_sam	samd	https://github.com/bwshockley/Minifigure-SAMD21E		/arduino/mini_sam/hardware/samd/2.0.0/	master		The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 Sense/Stage MiniBee Arduino files	minibee	avr	https://github.com/sensestage/ssdn_minibee		/	master		
 MiniCore	MiniCore	avr	https://github.com/MCUdude/MiniCore	https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json	/avr/	master		
+minimus-arduino	minimus-arduino	avr	https://github.com/kimio-kosaka/minimus-arduino	https://kimio-kosaka.github.io/minimus-arduino/package_minimus-arduino_index.json	/	master	https://github.com/kimio-kosaka/minimus-arduino#readme	
 Mobillyo	Mobillyo	avr	https://github.com/Seenov/mobillyo	https://raw.githubusercontent.com/Seenov/mobillyo/master/arduino-board-index/package_seenov_index.json	/mobillyo-board-files/seenov/hardware/avr/1.0.0/	master		The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 Moteino	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https://raw.githubusercontent.com/LowPowerLab/LowPowerLab.github.io/master/MoteinoCore/package_LowPowerLab_index.json				Package is only in archive file.
 Moteino AVR Boards	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json				Package is only in archive file
