@@ -284,6 +284,7 @@ Robo HAT Boards	robohat	samd	https://github.com/robotics-masters/mm1-hat-arduino
 RobotCing	RobotCing	avr	https://github.com/RobotCing/Cing	https://raw.githubusercontent.com/RobotCing/Cing/master/Software/Packages/package_RobotCing_index.json				Package is only in archive file.
 Rokit Arduino Box Libraries	Rokit	avr	https://github.com/cheon7886/ArduinoBox		/	master		1.0 hardware package format
 Raspberry Pi Pico/RP2040	rp2040	rp2040	https://github.com/earlephilhower/arduino-pico	https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json	/	master		
+Arduino SAM Boards (32-bits ARM Cortex-M3) Enhanced	SAM-Enhanced	sam	https://github.com/vChavezB/ArduinoCore-sam	https://raw.githubusercontent.com/vChavezB/ArduinoBoards/master/SAM3X/package_vchavezb_sam-enhanced.json	/	master	https://github.com/arduino/ArduinoCore-sam/pull/131#issuecomment-1000287607	Fork of https://github.com/arduino/ArduinoCore-sam that updates the toolchain
 SAM15x15	SAM15x15	samd	https://github.com/avandalen/SAM15x15	https://raw.githubusercontent.com/avandalen/SAM15x15/master/package_avdweb_nl_index.json	/avdweb_nl_samd/			Package is only in archive file.
 Nordic Semiconductor nRF5 Boards	sandeepmistry	nRF5	https://github.com/sandeepmistry/arduino-nRF5	https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json	/	master		
 Sanguino	Sanguino	avr	https://github.com/Lauszus/Sanguino	https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json	/	master		
