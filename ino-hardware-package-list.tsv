@@ -74,6 +74,7 @@ BirdBrain Technologies	BirdBrain Technologies	avr	https://github.com/BirdBrainTe
 bitDuino	bitDuino	avr	https://github.com/maris-HY/bitDuino		/	master		
 bitDuino10	bitDuino10	avr	https://github.com/kimio-kosaka/bitDuino10		/	master		
 bitDuino10-aTPI	bitDuino10-aTPI	avr	https://github.com/kimio-kosaka/bitDuino10-arduinoTPI	https://kimio-kosaka.github.io/bitDuino10-arduinoTPI/package_bitDuino10-arduinoTPI_index.json	/	master		ATtiny10
+bitDuino13	bitDuino13	avr	https://github.com/kimio-kosaka/bitDuino13	https://kimio-kosaka.github.io/_RasPiduino/package_RasPiduino_index.json	/	master		
 Bluno M3 MainBoard	BlunoM3	BlunoM3	https://github.com/DFRobot/BlunoM3	https://raw.githubusercontent.com/DFRobot/DFRobotDuinoBoard/master/package_dfrobot_m3_index.json	/	master		
 Arduino for Bouffalo Labs RISC-V MCUs	bouffalo	riscv	https://github.com/pine64/ArduinoCore-bouffalo	https://nutcracker.pine64.org/arduino/package_bouffalo_index.json	/	main		
 Breadboard Arduino	Breadboard Arduino	avr	https://github.com/oshlab/Breadboard-Arduino	https://raw.githubusercontent.com/oshlab/Breadboard-Arduino/master/avr/boardsmanager/package_oshlab_breadboard_index.json	/avr/	master		
