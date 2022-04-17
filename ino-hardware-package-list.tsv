@@ -361,6 +361,7 @@ Quectel M66	WizIO	m66	https://github.com/Wiz-IO/Arduino-Quectel-M66	https://raw.
 WizIO Pico	WizIO	pico	https://github.com/Wiz-IO/wizio-arduino-pico	https://raw.githubusercontent.com/Wiz-IO/wizio-arduino-pico/main/package_wizio.pico_index.json	/	main		
 Xander Electronics mbed Boards	Xander-Electronics	mbed	https://github.com/Xander-Electronics/ArduinoCore-mbed		/	master		Fork of https://github.com/arduino/arduinocore-mbed
 XInput AVR Boards	xinput	avr	https://github.com/dmadison/ArduinoXInput_AVR		/	master		
+SparkFun AVR Boards w/ XInput	xinput_sparkfun	avr	https://github.com/dmadison/ArduinoXInput_Sparkfun		/xinput_sparkfun/avr/	master		
 XMegaForArduino XMEGA Boards	XMegaForArduino	avr	https://github.com/XMegaForArduino/arduino	https://github.com/XMegaForArduino/IDE/raw/master/package_XMegaForArduino_index.json	/	master		The libraries are in a separate repo: https://github.com/XMegaForArduino/libraries
 zuno_toolchain	Z-Uno	zw8051	https://github.com/Z-Wave-Me/Z-Uno-Core	http://z-uno.z-wave.me/files/z-uno/package_z-wave.me_index.json	/hardware/arduino/zuno/	master		
 zoubworld SAM M0+ Boards - Beta build	zoubworld_Arduino	samd	https://github.com/zoubata/ArduinoCore-samd	https://raw.githubusercontent.com/zoubata/Arduino15/master/package_Zoubworld_index.json	/	master		The package index references zoubworld.com, which is dead.
