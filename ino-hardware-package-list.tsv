@@ -326,6 +326,7 @@ STM32 MCU based boards	STMicroelectronics	stm32	https://github.com/koendv/BoardM
 Talk2 AVR Boards	Talk2	avr	https://bitbucket.org/talk2/arduino-ide-boards	http://talk2arduino.wisen.com.au/master/package_talk2.wisen.com_index.json	/talk2-avr/	master		
 Teensy XInput USB Mode	teensy	avr	https://github.com/dmadison/ArduinoXInput_Teensy		/teensy/avr/	master		
 Adafruit TeeOnArdu	TeeOnArdu	avr	https://github.com/adafruit/TeeOnArdu	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master		
+Telit-Board	Telit-Board	samd	https://github.com/telit/arduino-charlie	https://raw.githubusercontent.com/telit/arduino-charlie/main/Arduino/package_Telit-board_index.json	/Arduino/Telit-Charlie/	main	https://github.com/telit/arduino-charlie#readme	
 Thinary AVR Boards	thinary	avr	https://github.com/Thinary/ThinaryArduino	https://raw.githubusercontent.com/Thinary/ThinaryArduino/master/Thinary-boards-index/package_thinary_index.json	/Thinary-megaavr/	master		
 tinkerkit_core	tinkerkit	avr	https://github.com/TinkerKit/tinkerkit_core		/tinkerkit/avr/	master		
 ATtiny extra Boards	tiny	avr	https://github.com/leomil72/tiny	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master		
