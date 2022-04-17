@@ -267,6 +267,7 @@ PulseRain GRV3000D	PulseRain_RISCV	GRV3000D	https://github.com/PulseRain/Arduino
 PulseRain Rattlesnake	PulseRain_RISCV	Rattlesnake	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master		
 PulseRain Reindeer	PulseRain_RISCV	Reindeer	https://github.com/PulseRain/Arduino_RISCV_IDE	https://raw.githubusercontent.com/PulseRain/Arduino_RISCV_IDE/master/package_pulserain.com_index.json	/PulseRain_RISCV/Rattlesnake/	master		
 Quirkbot AVR Boards	quirkbot	avr	https://github.com/Quirkbot/QuirkbotArduinoHardware	https://raw.githubusercontent.com/Quirkbot/QuirkbotArduinoHardware/master/package_quirkbot.com_index.json	/avr/	master		
+Rabid Prototypes SAMD Boards	rabid prototypes	samd		http://rabidprototypes.com/arduino/package_rabidprototypes_index.json				
 Rainboard-cores	Rainboard	avr	https://github.com/mluthfialhadi/mluthfialhadi.github.io	https://raw.githubusercontent.com/mluthfialhadi/mluthfialhadi.github.io/Rainboard-Board-Manager/Rainboard/rainboard_list.json	/Rainboard/Rainboard-Board-Manager/	Rainboard-Board-Manager		
 RaspberryPi	RaspberryPi	piduino	https://github.com/me-no-dev/RasPiArduino		/	master		
 Realtek Ameba Boards (32-bits ARM Cortex-M3)	realtek	ameba	https://github.com/Ameba8195/Arduino	https://github.com/Ameba8195/Arduino/raw/master/release/package_realtek.com_ameba_index.json	/hardware_v2/	master		
