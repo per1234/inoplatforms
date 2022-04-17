@@ -99,7 +99,7 @@ Inkplate Boards	Croduino_Boards	Inkplate		https://github.com/e-radionicacom/Crod
 Croduino megaTiny Boards	Croduino_Boards	megaavr		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
 Croduino STM32 Boards	Croduino_Boards	stm32		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
 Chip45 Crumbuino Boards	crumbuino	avr	https://github.com/beegee-tokyo/Crumbuino-Chip45	https://raw.githubusercontent.com/beegee-tokyo/Crumbuino-Chip45/main/package_crumbuino_index.json	/	main		
-CubeCell Development Framework	CubeCell	CubeCell	https://github.com/HelTecAutomation/ASR650x-Arduino	https://resource.heltec.cn/download/package_CubeCell_index.json	/	master		
+CubeCell Development Framework	CubeCell	CubeCell	https://github.com/HelTecAutomation/CubeCell-Arduino	https://resource.heltec.cn/download/package_CubeCell_index.json	/	master		
 Cytron ARM Boards	cytron	arm	https://github.com/CytronTechnologies/CT-ARM	https://cytrontechnologies.github.io/package_cytron_index.json	/	master		
 Cytron AVR Boards	cytron	avr	https://github.com/CytronTechnologies/CytronTechnologies.github.io	https://cytrontechnologies.github.io/package_cytron_index.json				Package is only in archive file.
 dadamachines - M0 Boards (dependency: Arduino SAMD Boards 1.6.9)	dadamachines - M0	samd	https://github.com/dadamachines/automat	https://dadamachines.github.io/arduino-board-index/package_dadamachines-m0_index.json	/software/arduino/hardware/dadmachines-automat/samd/	master		
