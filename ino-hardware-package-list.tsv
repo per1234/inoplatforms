@@ -71,6 +71,7 @@ Balanduino	Balanduino	avr	https://github.com/TKJElectronics/Balanduino	https://r
 Bare Conductive Boards	bare-conductive-arduino	avr	https://github.com/BareConductive/bare-conductive-arduino		/public/avr/	public		
 BayEOS AVR Boards	BayEOS	avr	https://github.com/BayCEER/BayEOS-Arduino	https://raw.githubusercontent.com/BayCEER/BayEOS-Arduino/master/package_BayEOS_index.json	/	master		
 BirdBrain Technologies	BirdBrain Technologies	avr	https://github.com/BirdBrainTechnologies/BirdBrain-Arduino-Libraries	https://raw.githubusercontent.com/BirdBrainTechnologies/BirdBrain-Arduino-Libraries/master/package_bbtech_index.json	/bbtech-avr-1.1.0/	master		The use of a version number in the folder name will make Repository Data Folder outdated on every release.
+bitDuino	bitDuino	avr	https://github.com/maris-HY/bitDuino		/	master		
 bitDuino10-aTPI	bitDuino10-aTPI	avr	https://github.com/kimio-kosaka/bitDuino10-arduinoTPI	https://kimio-kosaka.github.io/bitDuino10-arduinoTPI/package_bitDuino10-arduinoTPI_index.json	/	master		ATtiny10
 Bluno M3 MainBoard	BlunoM3	BlunoM3	https://github.com/DFRobot/BlunoM3	https://raw.githubusercontent.com/DFRobot/DFRobotDuinoBoard/master/package_dfrobot_m3_index.json	/	master		
 Arduino for Bouffalo Labs RISC-V MCUs	bouffalo	riscv	https://github.com/pine64/ArduinoCore-bouffalo	https://nutcracker.pine64.org/arduino/package_bouffalo_index.json	/	main		
