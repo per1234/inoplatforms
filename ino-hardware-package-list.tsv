@@ -146,6 +146,7 @@ FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	http://www.nxlab.fer.
 Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklabs-boards	https://raw.githubusercontent.com/freaklabs/freaklabs-boards/master/package_freaklabs_index.json	/boards/1.0.3/	master		
 ftDuino	ftduino	avr	https://github.com/harbaum/ftduino	https://raw.githubusercontent.com/harbaum/ftduino/master/package_ftduino_index.json	/ftduino/	master		
 GD32 Arduino Core	GD32	gd32	https://github.com/CommunityGD32Cores/GD32Core/	https://raw.githubusercontent.com/CommunityGD32Cores/GD32Core/main/package_gd32_index.json	/hardware/gd32/1.0.0/	main		
+GigaDevice GD32	GD32Community	gd32	https://github.com/CommunityGD32Cores/ArduinoCore-GD32	https://raw.githubusercontent.com/CommunityGD32Cores/GD32Core-New/main/package_gd32_index.json	/	main	https://github.com/CommunityGD32Cores/ArduinoCore-GD32#using-this-core-with-the-arduino-ide	
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo1		/	master		
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master		
 Generation_7_Electronics	Gen7-dist	avr	https://github.com/Traumflug/Generation_7_Electronics		/arduino%20support/Gen7-dist/	master		
