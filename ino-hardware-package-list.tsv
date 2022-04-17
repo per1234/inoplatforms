@@ -137,6 +137,7 @@ esp8266	esp8266	esp8266		https://raw.githubusercontent.com/DFRobot/DFRobotDuinoB
 ESP31B Modules	espressif	ESP31B	https://github.com/me-no-dev/ESP31B		/	master		
 Etherkit SAMD Boards	etherkit	samd	https://github.com/etherkit/ArduinoBoards	https://github.com/etherkit/ArduinoBoards/raw/master/package_etherkit_index.json	/etherkit-samd-1.0.0/	master		For the 'Empyrean' boards. The use of a version number in the folder name will make Repository Data Folder outdated on every release.
 FemtoCow ATTiny	FemtoCow-attiny	avr	https://github.com/FemtoCow/ATTinyCore	https://raw.githubusercontent.com/FemtoCow/ATTinyCore/master/Downloads/package_femtocow_attiny_index.json	/tiny/	master		
+Atmel SAM D21/R21 core (ATSAMD21E18A/ATSAMR21E18A)	femtoduino	samd	https://github.com/femtoduino/ArduinoCore-atsamd21e18a	https://downloads.femtoduino.com/ArduinoCore-atsamd21e18a/package_atsamd21e18a-release-build_index.json	/	atsamd21e18a_variant	https://github.com/femtoduino/ArduinoCore-atsamd21e18a/tree/atsamd21e18a_variant#installation-on-arduino-ide	
 FireBeetle-ESP8266	firebeetle8266	firebeetle8266	https://github.com/DFRobot/FireBeetle-ESP8266	https://github.com/DFRobot/FireBeetle-ESP8266/raw/master/package_firebeetle8266_index.json				Package is only in archive file.
 fishino_avr	fishino	avr		http://www.fishino.it/arduinoide/package_fishino_index.json				
 fishino_pic32	fishino	pic32		http://www.fishino.it/arduinoide/package_fishino_index.json				
