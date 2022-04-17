@@ -64,6 +64,7 @@ attiny	attiny	avr	https://github.com/damellis/attiny	https://raw.githubuserconte
 ATtiny10Core	ATtiny10Core	avr	https://github.com/technoblogy/attiny10core	http://www.technoblogy.com/package_technoblogy_index.json	/	master		
 ATTinyCore	ATTinyCore	avr	https://github.com/SpenceKonde/ATTinyCore	http://drazzy.com/package_drazzy.com_index.json	/avr/	master		
 ATTinyCore-R	ATTinyCore-R	avr	https://github.com/kimio-kosaka/ATTinyCore-R	https://kimio-kosaka.github.io/_RasPiduino/package_RasPiduino_index.json	/	master		Fork of https://github.com/SpenceKonde/ATTinyCore
+Aurduino	aurduino_Dx	aurix					https://www.infineon.com/cms/en/product/evaluation-boards/kit_aurix_tc275_ard_sb/ (In the PDF available from the Shieldbuddy TC275 Getting Started Guide download link)	
 avr_boot	avr_boot	avr	https://github.com/zevero/avr_boot	https://zevero.github.io/avr_boot/package_zevero_avr_boot_index.json	/avr/	gh-pages		SD bootloader.
 MXChip - Microsoft Azure IoT Developer Kit	AZ3166	stm32f4	https://github.com/microsoft/devkit-sdk	https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json	/AZ3166/src/	master		
 Balanduino	Balanduino	avr	https://github.com/TKJElectronics/Balanduino	https://raw.githubusercontent.com/TKJElectronics/Balanduino/master/package_tkj_balanduino_index.json	/Firmware/hardware/Balanduino/avr/	master		
