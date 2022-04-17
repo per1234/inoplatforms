@@ -142,7 +142,8 @@ FireBeetle-ESP8266	firebeetle8266	firebeetle8266	https://github.com/DFRobot/Fire
 fishino_avr	fishino	avr		http://www.fishino.it/arduinoide/package_fishino_index.json				
 fishino_pic32	fishino	pic32		http://www.fishino.it/arduinoide/package_fishino_index.json				
 FirePick Delta Bootloaders for Arduino IDE	fpd-arduino-bootloaders	avr	https://github.com/firepick-delta/fpd-arduino-bootloaders		/	master		
-FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	http://www.nxlab.fer.hr/fpgarduino/package_f32c_core_index.json	/hardware/fpga/f32c/	master		
+FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	http://www.nxlab.fer.hr/fpgarduino/package_f32c_core_index.json	/hardware/fpga/f32c/	master	http://www.nxlab.fer.hr/fpgarduino/#tools	
+FPGArduino	FPGArduino	f32c	https://github.com/f32c/arduino	https://raw.githubusercontent.com/f32c/fpgarduino/master/package_f32c_core_index.json	/hardware/fpga/f32c/	master	https://github.com/f32c/arduino#readme	
 Freaklabs ATMega1284P Boards	Freaklabs	avr	https://github.com/freaklabs/freaklabs-boards	https://raw.githubusercontent.com/freaklabs/freaklabs-boards/master/package_freaklabs_index.json	/boards/1.0.3/	master		
 ftDuino	ftduino	avr	https://github.com/harbaum/ftduino	https://raw.githubusercontent.com/harbaum/ftduino/master/package_ftduino_index.json	/ftduino/	master		
 GD32 Arduino Core	GD32	gd32	https://github.com/CommunityGD32Cores/GD32Core/	https://raw.githubusercontent.com/CommunityGD32Cores/GD32Core/main/package_gd32_index.json	/hardware/gd32/1.0.0/	main		
