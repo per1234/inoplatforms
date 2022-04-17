@@ -91,6 +91,13 @@ Community Add on to Adafruit nRF52	community_nrf52	nrf52	https://github.com/jpco
 CONTROLLINO Boards	CONTROLLINO_Boards	avr	https://github.com/CONTROLLINO-PLC/CONTROLLINO_Library	https://raw.githubusercontent.com/CONTROLLINO-PLC/CONTROLLINO_Library/master/Boards/package_ControllinoHardware_index.json		master		Platform files only available in .zip files in the repo
 Arm Corstone Boards	corstone	arm	https://github.com/ArmDeveloperEcosystem/Corstone-for-Arduino		/	main	https://github.com/ArmDeveloperEcosystem/Corstone-for-Arduino/wiki/00.-Getting-Started-with-Corstone-for-Arduino#setting-up-corstone-for-arduino-on-the-avh-instance	
 Cosa	Cosa	avr	https://github.com/mikaelpatel/Cosa	https://raw.githubusercontent.com/mikaelpatel/Cosa/master/package_cosa_index.json	/	master		
+Croduino AVR Boards	Croduino_Boards	avr		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Croduino ATtiny Boards	Croduino_Boards	avr_tiny		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Croduino ESP32 Boards	Croduino_Boards	esp32		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Croduino ESP8266 Boards	Croduino_Boards	esp8266		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Inkplate Boards	Croduino_Boards	Inkplate		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Croduino megaTiny Boards	Croduino_Boards	megaavr		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
+Croduino STM32 Boards	Croduino_Boards	stm32		https://github.com/e-radionicacom/Croduino-Board-Definitions-for-Arduino-IDE/raw/master/package_Croduino_Boards_index.json				
 Chip45 Crumbuino Boards	crumbuino	avr	https://github.com/beegee-tokyo/Crumbuino-Chip45	https://raw.githubusercontent.com/beegee-tokyo/Crumbuino-Chip45/main/package_crumbuino_index.json	/	main		
 CubeCell Development Framework	CubeCell	CubeCell	https://github.com/HelTecAutomation/ASR650x-Arduino	https://resource.heltec.cn/download/package_CubeCell_index.json	/	master		
 Cytron ARM Boards	cytron	arm	https://github.com/CytronTechnologies/CT-ARM	https://cytrontechnologies.github.io/package_cytron_index.json	/	master		
