@@ -211,6 +211,7 @@ MegaCoreX	MegaCoreX	megaavr	https://github.com/MCUdude/MegaCoreX		/megaavr/	mast
 megaTinyCore	megaTinyCore	megaavr	https://github.com/SpenceKonde/megaTinyCore	http://drazzy.com/package_drazzy.com_index.json	/megaavr/	master		
 ATmega644P/1284P Boards	megax4	avr	https://github.com/leomil72/megax4	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master		
 ATmega168P/328P Boards	megax8	avr	https://github.com/leomil72/megax8	https://www.leonardomiliani.com/repository/package_leonardomiliani.com_index.json	/avr/	master		
+Metaboard	Metaboard	avr	https://github.com/kimio-kosaka/Metaboard		/	master		
 MicroBridge-Arduino-ATMega2560	microbridge	avr	https://github.com/FleetProbe/MicroBridge-Arduino-ATMega2560		/hardware/microbridge/avr/	master		Modified BootLoader to load firmware from sd or flash on ATmega2560
 MicroCore	MicroCore	avr	https://github.com/MCUdude/MicroCore	https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json	/avr/	master		
 Microduino-IDE-Support	Microduino	avr	https://github.com/wasdpkj/Microduino-IDE-Support		/hardware/Microduino/avr/	master		
