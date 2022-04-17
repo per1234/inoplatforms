@@ -151,6 +151,7 @@ Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo
 Arduino-compatible AVR Boards	GEKOnavsat	avr	https://github.com/GEKONavsat/Kyneo2		/	master		
 Generation_7_Electronics	Gen7-dist	avr	https://github.com/Traumflug/Generation_7_Electronics		/arduino%20support/Gen7-dist/	master		
 Goldilocks	Goldilocks	avr	https://github.com/feilipu/Arduino_Goldilocks_Variant	https://raw.githubusercontent.com/feilipu/feilipu.github.io/master/package_goldilocks_index.json	/	master		
+GPIO-AVRDUDE_installer	GPIO-AVRDUDE_installer	avr	https://github.com/kimio-kosaka/GPIO-AVRDUDE	https://kimio-kosaka.github.io/_RasPiduino/package_RasPiduino_index.json	/	master		
 grayduino	grayduino	avr	https://github.com/colinta/grayduino	https://raw.githubusercontent.com/colinta/grayduino/json/package_colinta_grayduino_index.json	/	master		ATmega32U4
 GyverCore	GyverCore	avr	https://github.com/AlexGyver/GyverCore	https://alexgyver.github.io/package_GyverCore_index.json	/GyverCore/	master		Fast and light Arduino core for Atmega328
 ODROID	hardkernel	odroid	https://github.com/hhk7734/oduino		/	master		ODROID SBCs
