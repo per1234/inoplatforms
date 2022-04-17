@@ -10,6 +10,7 @@ Adafruit WICED	adafruit	wiced	https://github.com/adafruit/Adafruit_WICED_Arduino
 Adelino AVR Boards	adelino	avr	https://github.com/neoautus/Adelino	http://cdn.adelino.cc/downloads/package_adelino_index.json	/Platforms/Arduino/AVR/	master		
 Adelino ESP Boards	adelino	esp8266	https://github.com/neoautus/Adelino	http://cdn.adelino.cc/downloads/package_adelino_index.json	/Platforms/Arduino/ESP/	master		
 Akafugu Boards	akafugu	avr	https://github.com/akafugu/akafugu_core	https://raw.githubusercontent.com/akafugu/akafugu_core/master/package_akafugu_index.json	/src/	master		
+Akibaduino	Akibaduino	avr	https://github.com/kimio-kosaka/Akibaduino		/hardware/Akibaduino/avr/	master		The repository contains additional platforms, but these appear to be copies of the dedicated kimio-kosaka repositories already on this list.
 Alorium XLR8 Boards	alorium	avr	https://github.com/AloriumTechnology/Arduino_Boards	https://raw.githubusercontent.com/AloriumTechnology/Arduino_Boards/master/package_aloriumtech_index.json				Package is only in archive file.
 AmbaSat-1 Satellite Board	AmbaSat-1	avr		https://ambasat.com/boards/package_ambasat-1.com_index.json				
 Marlin AVR Boards	anet	avr	https://github.com/SkyNet3D/anet-board		/hardware/anet/avr/	master		For Anet 3D printer boards.
