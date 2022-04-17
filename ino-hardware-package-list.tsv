@@ -340,6 +340,7 @@ UDOO NEO (iMX6 SoloX)	UDOO	solox	https://github.com/UDOOboard/arduino-board-pack
 Custom STM32duino Boards	vendor	stm32	https://github.com/RickKimball/vendor		/stm32/	master		Custom stm32 bluepill board based on the official STM Arduino core
 VUSB-AVR	VUSB-AVR	avr	https://github.com/wagiminator/VUSB-AVR	https://raw.githubusercontent.com/wagiminator/VUSB-AVR/main/archive/package_wagiminator_vusb_avr_index.json	/vusb_avr/	main		
 w600	w600	w600	https://github.com/w600/arduino	http://arduino.w600.fun/package_w600_index.json	/	master		Winner Micro W60x
+w80x_arduino csky plain C/C++ core	w80x_duino	XT804	https://github.com/Hi-LinkDuino/w80x_arduino	https://cdn.jsdelivr.net/gh/Hi-LinkDuino/w80x_arduino/package_w80x_index.json	/	main	https://github.com/Hi-LinkDuino/w80x_arduino#w80x_duino%E5%BC%80%E5%8F%91%E6%9D%BFarduino-ide%E6%94%AF%E6%8C%81%E5%8C%85%E5%AE%89%E8%A3%85	
 Watterott AVR Boards (dependency: Arduino AVR Boards)	watterott	avr	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/avr/	master		
 Watterott SAMD Boards (dependency: Arduino SAMD Boards)	watterott	samd	https://github.com/watterott/Arduino-Boards	https://github.com/watterott/Arduino-Boards/raw/master/package_watterott_index.json	/watterott/samd/	master		
 WAVGAT AVR Boards	WAV	avr	https://github.com/ericvb/Arduino-WavGat-Drivers		/update/hardware/WAV/avr/	master		
