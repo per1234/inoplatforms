@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-go@v3
         with:
           # `actions/setup-go` only adds the `go install` target path to PATH when you specify a `go-version` input.
-          go-version: "*"
+          go-version: ">=1.x"
 
       - name: Install checkcsv
         run: go install github.com/Clever/csvlint/cmd/csvlint@latest
