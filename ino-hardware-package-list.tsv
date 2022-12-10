@@ -86,6 +86,7 @@ Cadxcore	Cadxcore	avr		https://novation.ai/robotics-diy/Cadxcore.json
 Calunium	calunium	avr	https://github.com/stevemarple/Calunium		/software/arduino-1.6/calunium/avr/	master						
 CANBus Triple	CANBus-Triple	avr	https://github.com/synman/CANBus-Triple_Genesis-Connect		/avr/	master						
 Canique MKx	canique	avr		https://resources.canique.com/ide/package_canique_index.json								
+CH32 MCU based boards	CH32Support	CH32	https://github.com/WangXuhaoInSuda/Arduino_Core_CH32	https://raw.githubusercontent.com/WangXuhaoInSuda/CH32duino_BoardManagerFiles/main/package_CH32Support_index.json	/	main	https://github.com/WangXuhaoInSuda/CH32duino_BoardManagerFiles	/	main	https://github.com/WangXuhaoInSuda/CH32duino_BoardManagerFiles#readme		
 CH55xDuino MCS51 plain C core (non-C++)	CH55xDuino	mcs51	https://github.com/DeqingSun/ch55xduino	https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json	/ch55xduino/ch55x/	ch55xduino				https://github.com/DeqingSun/ch55xduino#installation		
 chipKIT	chipKIT	pic32	https://github.com/chipKIT32/chipKIT-core	https://github.com/chipKIT32/chipKIT-core/raw/master/package_chipkit_index.json	/pic32/	master						
 ClearCore	ClearCore	sam	https://github.com/Teknic-Inc/ClearCore-Arduino-wrapper	https://www.teknic.com/files/downloads/package_clearcore_index.json	/	master				https://teknic-inc.github.io/ClearCore-library/InstallationInstructions.html		
