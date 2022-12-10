@@ -243,6 +243,7 @@ Mobillyo	Mobillyo	avr	https://github.com/Seenov/mobillyo	https://raw.githubuserc
 Moteino	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https://raw.githubusercontent.com/LowPowerLab/LowPowerLab.github.io/master/MoteinoCore/package_LowPowerLab_index.json							Package is only in archive file.	
 Moteino AVR Boards	Moteino	avr	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json							Package is only in archive file	
 Moteino SAMD Boards	Moteino	samd	https://github.com/LowPowerLab/LowPowerLab.github.io	https://lowpowerlab.github.io/MoteinoCore/package_LowPowerLab_index.json							Package is only in archive file	
+MAMWLE based boards	Move-X	stm32					https://github.com/Move-X/Move-Xduino	/	main	https://github.com/Move-X/Move-Xduino#getting-started	The platform archives come from the release assets in https://github.com/Move-X/Move-Xduino, but I didn't find a repo for the platform.	
 Blinks	move38	avr	https://github.com/Move38/Blinks-SDK	https://raw.githubusercontent.com/Move38/Blinks-SDK/master/package_move38.com-blinks_index.json	/	dev					There's also https://github.com/bigjosh/Move38-Arduino-Platform, and it's not clear which one should be checked	
 Blinks by Move38.com	move38	avr	https://github.com/bigjosh/Move38-Arduino-Platform	https://boardsmanager.com/package_move38.com-blinks_index.json	/	main					There's also https://github.com/Move38/Blinks-SDK	
 ArduinoCore-freertos(AVR)	MRNIU	avr	https://github.com/MRNIU/ArduinoCore-freertos		/	avr						
