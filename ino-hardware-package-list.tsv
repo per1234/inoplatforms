@@ -38,7 +38,7 @@ Arduino Mbed OS Nano Boards	arduino	mbed_nano	https://github.com/arduino/arduino
 Arduino Mbed OS Portenta Boards	arduino	mbed_portenta	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master						
 Arduino Mbed OS RP2040 Boards	arduino	mbed_rp2040	https://github.com/arduino/arduinocore-mbed	https://downloads.arduino.cc/packages/package_index.json	/	master						
 Arduino megaAVR Boards	arduino	megaavr	https://github.com/arduino/ArduinoCore-megaavr	https://downloads.arduino.cc/packages/package_index.json	/	master						
-Arduino NRF52 Boards	arduino	nrf52	https://github.com/arduino/ArduinoCore-primo		/	master						
+Arduino NRF52 Boards	arduino	nrf52	https://github.com/arduino/ArduinoCore-primo	https://downloads.arduino.cc/packages/package_index.json	/	master						
 Arduino SAM Boards (32-bits ARM Cortex-M3)	arduino	sam	https://github.com/arduino/ArduinoCore-sam	https://downloads.arduino.cc/packages/package_index.json	/	master						
 Arduino SAMD Boards (32-bits ARM Cortex-M0+)	arduino	samd	https://github.com/arduino/ArduinoCore-samd	https://downloads.arduino.cc/packages/package_index.json	/	master						
 Arduino STM32F4 Boards	arduino	stm32f4	https://github.com/bcmi-labs/arduino-core-stm32f4		/	master						
