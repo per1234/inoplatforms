@@ -15,6 +15,7 @@ Akibaduino	Akibaduino	avr	https://github.com/kimio-kosaka/Akibaduino		/hardware/
 Alorium XLR8 Boards	alorium	avr	https://github.com/AloriumTechnology/Arduino_Boards	https://raw.githubusercontent.com/AloriumTechnology/Arduino_Boards/master/package_aloriumtech_index.json							Package is only in archive file.	
 AmbaSat-1 Satellite Board	AmbaSat-1	avr		https://ambasat.com/boards/package_ambasat-1.com_index.json								
 Marlin AVR Boards	anet	avr	https://github.com/SkyNet3D/anet-board		/hardware/anet/avr/	master					For Anet 3D printer boards.	
+Aquis	Aquis	samd	https://github.com/marius-ne/aquis_boards	https://raw.githubusercontent.com/marius-ne/aquis_boards/master/package_aquis_index.json	/Aquis_1.1/	master	https://github.com/marius-ne/aquis_boards	/	master	https://github.com/marius-ne/aquis_boards#installing	Version specific folder name will cause platform data folder path to break at each release.	
 Arachnid Labs AVR boards	arachnidlabs	avr	https://github.com/arachnidlabs/arachnidlabs-boards	https://raw.githubusercontent.com/arachnidlabs/arachnidlabs-boards/master/package_arachnidlabs.com_boards_index.json	/	master						
 Arbotix AVR Boards	arbotix	avr	https://github.com/tician/arbotix	https://tician.github.io/arbotix/package_trossen_arbotix_index.json	/hardware/arbotix/avr/	arduino-1.8					Fork of https://github.com/vanadiumlabs/arbotix, which is even less actively maintained	
 Arduino AVR Boards	archiduino	avr	https://github.com/Bisotronic/archiduino1284BT		/	master						
