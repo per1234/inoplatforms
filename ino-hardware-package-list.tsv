@@ -6,8 +6,8 @@ Arduino 3B SAMD21G17A Board	3bs_samd21g17a	samd	https://github.com/sush1412/3B-S
 Adafruit AVR Boards	adafruit	avr	https://github.com/adafruit/Adafruit_Arduino_Boards	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master						
 Adafruit nRF52	adafruit	nrf52	https://github.com/adafruit/Adafruit_nRF52_Arduino	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master						
 Adafruit SAMD Boards	adafruit	samd	https://github.com/adafruit/ArduinoCore-samd	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master						
-Adafruit WICED	adafruit	wiced	https://github.com/adafruit/Adafruit_WICED_Arduino	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master						
 USBNova	adafruit	samd	https://github.com/SpacehuhnTech/USBNova		/	main					It is only a board definition which is intended to be appended to the boards.txt of the adafruit:samd platform.	
+Adafruit WICED	adafruit	wiced	https://github.com/adafruit/Adafruit_WICED_Arduino	https://adafruit.github.io/arduino-board-index/package_adafruit_index.json	/	master						
 Adelino AVR Boards	adelino	avr	https://github.com/neoautus/Adelino	http://cdn.adelino.cc/downloads/package_adelino_index.json	/Platforms/Arduino/AVR/	master						
 Adelino ESP Boards	adelino	esp8266	https://github.com/neoautus/Adelino	http://cdn.adelino.cc/downloads/package_adelino_index.json	/Platforms/Arduino/ESP/	master						
 Akafugu Boards	akafugu	avr	https://github.com/akafugu/akafugu_core	https://raw.githubusercontent.com/akafugu/akafugu_core/master/package_akafugu_index.json	/src/	master						
