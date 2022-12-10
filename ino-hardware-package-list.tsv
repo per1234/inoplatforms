@@ -231,7 +231,7 @@ MicroCore	MicroCore	avr	https://github.com/MCUdude/MicroCore	https://mcudude.git
 Microduino-IDE-Support	Microduino	avr	https://github.com/wasdpkj/Microduino-IDE-Support		/hardware/Microduino/avr/	master						
 Microduino-IDE-Support	Microduino	esp32	https://github.com/wasdpkj/Microduino-IDE-Support		/hardware/Microduino/esp32/	master						
 Windows 10 Iot Core	Microsoft	win10	https://github.com/ms-iot/iot-utilities	https://github.com/ms-iot/iot-utilities/raw/master/IotCoreAppDeployment/ArduinoIde/package_iotcore_ide-1.6.6_index.json	/IotCoreAppDeployment/ArduinoIde/1.1.2/	master					The use of a version number in the folder name will make Repository Data Folder outdated on every release. The package is also listed in https://downloads.arduino.cc/packages/package_index.json	
-microUPDIcore	microUPDIcore	avr	https://github.com/MCUdude/microUPDIcore		/avr/	master	https://github.com/MCUdude/microUPDIcore	/	gh-pages		Dummy package used to flash the mEDBG firmware.	
+microUPDIcore	microUPDIcore	avr	https://github.com/MCUdude/microUPDIcore	https://mcudude.github.io/microUPDIcore/package_MCUdude_microUPDIcore_index.json	/avr/	master	https://github.com/MCUdude/microUPDIcore	/	gh-pages		Dummy package used to flash the mEDBG firmware.	
 Mighty-1284p Boards	mighty-1284p	avr	https://github.com/JChristensen/mighty-1284p		/avr/	v1.6.3						
 mighty-1284p-freaklabs	mighty-1284p-freaklabs	avr	https://github.com/DgFutureLab/satoyama-libs		/mighty-1284p-freaklabs/	master						
 MightyCore	MightyCore	avr	https://github.com/MCUdude/MightyCore	https://mcudude.github.io/MightyCore/package_MCUdude_MightyCore_index.json	/avr/	master						
