@@ -193,6 +193,7 @@ KITT Engineering STM32L0 Boards	kittengineering	stm32l0	https://github.com/kitte
 Konekt Dash/Dash Pro Boards	konekt	sam		http://downloads.hologram.io/arduino/package_konekt_index.json							Konekt is now hologram.io	
 Laika	laika_arduino	avr	https://github.com/eightdog/laika_arduino	https://raw.githubusercontent.com/eightdog/laika_arduino/master/IDE_Board_Manager/package_project_laika.com_index.json							Package is only in archive file (on the release page).	
 Lattuino 1	Lattuino	avr	https://github.com/INTI-CMNB/Lattuino_IP_Core	http://fpgalibre.sf.net/Lattuino/package_lattuino_index.json	/ide/	master						
+Arduino AVR Boards	LGT	avr	https://github.com/Edragon/Arduino-LGT		/Larduino_HSP_v3.6c/hardware/LGT/avr/	master					Appears to be an incompetently implemented hard fork of https://github.com/LGTMCU/Larduino_HSP. Version specific folder name will cause platform data folder path to break at each release.	
 Larduino_HSP	LGT	avr	https://github.com/LGTMCU/Larduino_HSP		/hardware/LGT/avr/	master						
 LGT8fx Boards	LGT8fx Boards	avr	https://github.com/dbuezas/lgt8fx	https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json	/lgt8f/	master						
 librelab::Big Dot	librelab	samd	https://github.com/UVA-DSI/bigdot	https://raw.githubusercontent.com/UVA-DSI/bigdot/main/arduino-core/package_librelab_index.json	/bigdot/tree/main/arduino-core/core/	main						
