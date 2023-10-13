@@ -1,0 +1,353 @@
+- id: 0
+  package-index:
+    url: https://downloads.arduino.cc/packages/package_index.json
+    notes: |
+      This is the official primary package index. Unlike all other package indexes, the Arduino development software is
+      pre-configured with this URL.
+  packages:
+    - name: arduino
+      platforms:
+        - architecture: avr
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-avr
+              branch: master
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: megaavr
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-megaavr
+              branch: master
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: sam
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-sam
+              branch: master
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: samd
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-samd
+              branch: master
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_edge
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_nano
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_portenta
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_rp2040
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_nicla
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_opta
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: mbed_giga
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-mbed
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: renesas_portenta
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-renesas
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: renesas_uno
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-renesas
+              branch: main
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: esp32
+          source:
+            repository:
+              url: https://github.com/arduino/arduino-esp32
+              branch: arduino_nano_esp32
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+        - architecture: nrf52
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-primo
+              branch: master
+              path: /
+          installation-references:
+            - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
+            - https://docs.arduino.cc/learn/starting-guide/cores
+            - https://arduino.github.io/arduino-cli/latest/getting-started/#install-the-core-for-your-board
+      tools:
+        - name: arduinoOTA
+          source:
+            repository:
+              url: https://github.com/arduino/arduinoOTA
+        - name: avr-gcc
+          source:
+            repository:
+              url: https://github.com/arduino/toolchain-avr
+        - name: avrdude
+          source:
+            repository:
+              url: https://github.com/arduino/avrdude-packing
+        - name: bossac
+          source:
+            repository:
+              url: https://github.com/arduino/BOSSA
+        - name: openocd
+          source:
+            repository:
+              url: https://github.com/arduino/OpenOCD
+        - name: CMSIS
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoModule-CMSIS
+        - name: CMSIS-Atmel
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoModule-CMSIS-Atmel
+        - name: dfu-util
+          source:
+            repository:
+              url: https://github.com/arduino/dfu-utils-cross
+        - name: rp2040tools
+          source:
+            repository:
+              url: https://github.com/arduino/rp2040tools
+        - name: fwupdater
+          source:
+            repository:
+              url: https://github.com/arduino/arduino-fwuploader
+        - name: adb
+        - name: fwupdater
+          source:
+            repository:
+              url: https://github.com/arduino/imgtool-packing
+        - name: arduino-fwuploader
+          source:
+            repository:
+              url: https://github.com/arduino/arduino-fwuploader
+        - name: nrf5x-cl-tools
+        - name: espflash
+          source:
+            repository:
+              url: https://github.com/esp-rs/espflash
+        - name: esptool
+          source:
+            repository:
+              url: https://github.com/espressif/esptool
+        - name: uno-r4-wifi-fwuploader-plugin
+          source:
+            repository:
+              url: https://github.com/arduino/uno-r4-wifi-fwuploader-plugin
+        - name: nina-fwuploader-plugin
+          source:
+            repository:
+              url: https://github.com/arduino/nina-fwuploader-plugin
+        - name: portenta-c33-fwuploader-plugin
+          source:
+            repository:
+              url: https://github.com/arduino/portenta-c33-fwuploader-plugin
+    - name: atmel-avr-xminis
+      platforms:
+        - architecture: avr
+          source:
+            repository:
+              url: https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule
+              branch: master
+              path: /module/
+    - name: littleBits
+      platforms:
+        - architecture: avr
+    - name: Microsoft
+      platforms:
+        - architecture: win10
+          source:
+            repository:
+              url: https://github.com/ms-iot/iot-utilities
+              branch: master
+              path: /IotCoreAppDeployment/ArduinoIde/1.1.2/
+    - name: Arrow
+      platforms:
+        - architecture: samd
+          source:
+            repository:
+              url: 	https://github.com/ioteamit/smarteverything-core
+              branch: master
+              path: /
+    - name: emoro
+      platforms:
+        - architecture: avr
+    - name: industruino
+      platforms:
+        - architecture: samd
+          source:
+            repository:
+              url: 	https://github.com/Industruino/IndustruinoSAMD
+              branch: master
+              path: /
+    - name: builtin
+      notes: |
+        This package contains the tool dependencies that are installed by default by Arduino development tools.
+      tools:
+        - name: ctags
+          source:
+            repository:
+              url: 	https://github.com/arduino/ctags
+        - name: serial-discovery
+          source:
+            repository:
+              url: 	https://github.com/arduino/serial-discovery
+        - name: mdns-discovery
+          source:
+            repository:
+              url: 	https://github.com/arduino/mdns-discovery
+        - name: serial-monitor
+          source:
+            repository:
+              url: 	https://github.com/arduino/serial-monitor
+        - name: dfu-discovery
+          source:
+            repository:
+              url: 	https://github.com/arduino/dfu-discovery
+    - name: renesas
+      platforms:
+        - architecture: rl78g22_fpb
+          source:
+            repository:
+              url: 	https://github.com/renesas/ArduinoCore-rl78g22_fpb
+              branch: main
+              path: /
+        - architecture: rl78g23_fpb_p64
+          source:
+            repository:
+              url: 	https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p
+              branch: main
+              path: /
+    - name: esp32
+      platforms:
+        - architecture: esp32
+          source:
+            repository:
+              url: 	https://github.com/espressif/arduino-esp32
+              branch: master
+              path: /
+- id: 1
+  package-index:
+    url: https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+    source:
+      repository:
+        url: https://github.com/damellis/attiny
+        branch: ide-1.6.x-boards-manager
+        path: /package_damellis_attiny_index.json
+  packages:
+    - name: attiny
+      platforms:
+        - architecture: avr
+          source:
+            repository:
+              url: https://github.com/damellis/attiny
+          installation-references:
+            - http://highlowtech.org/?p=1695
+            - https://github.com/damellis/attiny#installation-and-usage
+          tools-dependencies:
+            - packager: arduino
+              source-id: 0
+- id: 2
+  packages:
+    - name: arduino
+      platforms:
+        - architecture: mbed
+          source:
+            repository:
+              url: https://github.com/arduino/ArduinoCore-nRF528x-mbedos
