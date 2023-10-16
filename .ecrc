@@ -1,0 +1,14 @@
+{
+  "Exclude": [
+    "^\\.git[/\\\\]",
+    "^\\.licenses[/\\\\]",
+    "__pycache__[/\\\\]",
+    "^go\\.sum$",
+    "^ino-hardware-package-list\\.tsv$",
+    "node_modules[/\\\\]",
+    "^LICENSE$",
+    "^LICENSE\\.txt$",
+    "^package-lock\\.json$",
+    "^poetry\\.lock$"
+  ]
+}

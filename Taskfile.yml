@@ -9,12 +9,23 @@ tasks:
   check:
     desc: Check for problems with the project
     deps:
+      - task: general:check-formatting
       - task: npm:validate
 
   fix:
     desc: Make automated corrections to the project's files
     deps:
       - task: general:format-prettier
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-general-formatting-task/Taskfile.yml
+  general:check-formatting:
+    desc: Check basic formatting style of all files
+    cmds:
+      - |
+        go \
+          install \
+            github.com/editorconfig-checker/editorconfig-checker/cmd/editorconfig-checker
+      - editorconfig-checker
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-prettier-formatting-task/Taskfile.yml
   general:format-prettier:
