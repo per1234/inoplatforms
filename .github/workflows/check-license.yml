@@ -1,3 +1,4 @@
+# Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/check-license.md
 name: Check License
 
 env:
@@ -5,30 +6,66 @@ env:
   # SPDX identifier: https://spdx.org/licenses/
   EXPECTED_LICENSE_TYPE: CC0-1.0
 
-# See: https://docs.github.com/en/free-pro-team@latest/actions/reference/events-that-trigger-workflows
+# See: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
 on:
+  create:
   push:
     paths:
-      - ".github/workflows/check-license.yml"
+      - ".github/workflows/check-license.ya?ml"
       # See: https://github.com/licensee/licensee/blob/master/docs/what-we-look-at.md#detecting-the-license-file
-      - "COPYING*"
-      - "LICENCE*"
-      - "LICENSE*"
+      - "[cC][oO][pP][yY][iI][nN][gG]*"
+      - "[cC][oO][pP][yY][rR][iI][gG][hH][tH]*"
+      - "[lL][iI][cC][eE][nN][cCsS][eE]*"
+      - "[oO][fF][lL]*"
+      - "[pP][aA][tT][eE][nN][tT][sS]*"
   pull_request:
     paths:
-      - ".github/workflows/check-license.yml"
-      - "COPYING*"
-      - "LICENCE*"
-      - "LICENSE*"
+      - ".github/workflows/check-license.ya?ml"
+      - "[cC][oO][pP][yY][iI][nN][gG]*"
+      - "[cC][oO][pP][yY][rR][iI][gG][hH][tH]*"
+      - "[lL][iI][cC][eE][nN][cCsS][eE]*"
+      - "[oO][fF][lL]*"
+      - "[pP][aA][tT][eE][nN][tT][sS]*"
+  schedule:
+    # Run periodically to catch breakage caused by external changes.
+    - cron: "0 6 * * WED"
   workflow_dispatch:
   repository_dispatch:
 
 jobs:
-  check-license:
+  run-determination:
     runs-on: ubuntu-latest
+    permissions: {}
+    outputs:
+      result: ${{ steps.determination.outputs.result }}
+    steps:
+      - name: Determine if the rest of the workflow should run
+        id: determination
+        run: |
+          RELEASE_BRANCH_REGEX="refs/heads/[0-9]+.[0-9]+.x"
+          # The `create` event trigger doesn't support `branches` filters, so it's necessary to use Bash instead.
+          if [[
+            "${{ github.event_name }}" != "create" ||
+            "${{ github.ref }}" =~ $RELEASE_BRANCH_REGEX
+          ]]; then
+            # Run the other jobs.
+            RESULT="true"
+          else
+            # There is no need to run the other jobs.
+            RESULT="false"
+          fi
+
+          echo "result=$RESULT" >> $GITHUB_OUTPUT
+
+  check-license:
+    needs: run-determination
+    if: needs.run-determination.outputs.result == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
-      - name: Checkout local repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Install Ruby
@@ -41,19 +78,22 @@ jobs:
 
       - name: Check license file
         run: |
+          EXIT_STATUS=0
           # See: https://github.com/licensee/licensee
           LICENSEE_OUTPUT="$(licensee detect --json --confidence=100)"
 
           DETECTED_LICENSE_FILE="$(echo "$LICENSEE_OUTPUT" | jq .matched_files[0].filename | tr --delete '\r')"
           echo "Detected license file: $DETECTED_LICENSE_FILE"
-          if [ "$DETECTED_LICENSE_FILE" != "\"$EXPECTED_LICENSE_FILENAME\"" ]; then
-            echo "ERROR: detected license file doesn't match expected: $EXPECTED_LICENSE_FILENAME"
-            exit 1
+          if [ "$DETECTED_LICENSE_FILE" != "\"${EXPECTED_LICENSE_FILENAME}\"" ]; then
+            echo "::error file=${DETECTED_LICENSE_FILE}::detected license file $DETECTED_LICENSE_FILE doesn't match expected: $EXPECTED_LICENSE_FILENAME"
+            EXIT_STATUS=1
           fi
 
           DETECTED_LICENSE_TYPE="$(echo "$LICENSEE_OUTPUT" | jq .matched_files[0].matched_license | tr --delete '\r')"
           echo "Detected license type: $DETECTED_LICENSE_TYPE"
-          if [ "$DETECTED_LICENSE_TYPE" != "\"$EXPECTED_LICENSE_TYPE\"" ]; then
-            echo "ERROR: detected license type doesn't match expected $EXPECTED_LICENSE_TYPE"
-            exit 1
+          if [ "$DETECTED_LICENSE_TYPE" != "\"${EXPECTED_LICENSE_TYPE}\"" ]; then
+            echo "::error file=${DETECTED_LICENSE_FILE}::detected license type $DETECTED_LICENSE_TYPE doesn't match expected \"${EXPECTED_LICENSE_TYPE}\""
+            EXIT_STATUS=1
           fi
+
+          exit $EXIT_STATUS
