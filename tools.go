@@ -6,4 +6,5 @@ package tools
 
 import (
 	_ "github.com/editorconfig-checker/editorconfig-checker/cmd/editorconfig-checker"
+	_ "github.com/golangci/golangci-lint/cmd/golangci-lint"
 )
