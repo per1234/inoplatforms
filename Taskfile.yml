@@ -21,6 +21,7 @@ tasks:
       - task: general:check-formatting
       - task: general:check-spelling
       - task: npm:validate
+      - task: poetry:validate
 
   fix:
     desc: Make automated corrections to the project's files
@@ -31,6 +32,7 @@ tasks:
       - task: go:format
       - task: go:lint
       - task: go:tidy
+      - task: poetry:sync
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-general-formatting-task/Taskfile.yml
   general:check-formatting:
@@ -179,6 +181,22 @@ tasks:
     desc: Install dependencies managed by Poetry
     cmds:
       - poetry install --no-root
+
+  poetry:validate:
+    desc: Validate pyproject.toml
+    cmds:
+      - |
+        poetry \
+          check \
+            --lock
+
+  poetry:sync:
+    desc: Sync poetry.lock
+    cmds:
+      - |
+        poetry \
+          lock \
+            --no-update
 
   # Make a temporary file named according to the passed TEMPLATE variable and print the path passed to stdout
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/windows-task/Taskfile.yml
