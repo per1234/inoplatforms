@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "inoplatforms"
+version = "0.0.0"
+description = ""
+authors = ["per1234 <nope@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+codespell = "2.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

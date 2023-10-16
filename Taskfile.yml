@@ -19,11 +19,13 @@ tasks:
     desc: Check for problems with the project
     deps:
       - task: general:check-formatting
+      - task: general:check-spelling
       - task: npm:validate
 
   fix:
     desc: Make automated corrections to the project's files
     deps:
+      - task: general:correct-spelling
       - task: general:format-prettier
       - task: go:fix
       - task: go:format
@@ -39,6 +41,22 @@ tasks:
           install \
             github.com/editorconfig-checker/editorconfig-checker/cmd/editorconfig-checker
       - editorconfig-checker
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/spell-check-task/Taskfile.yml
+  general:check-spelling:
+    desc: Check for commonly misspelled words
+    deps:
+      - task: poetry:install-deps
+    cmds:
+      - poetry run codespell
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/spell-check-task/Taskfile.yml
+  general:correct-spelling:
+    desc: Correct commonly misspelled words where possible
+    deps:
+      - task: poetry:install-deps
+    cmds:
+      - poetry run codespell --write-changes
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-prettier-formatting-task/Taskfile.yml
   general:format-prettier:
@@ -155,6 +173,12 @@ tasks:
           -r "{{.SEMANTIC_RELEASE_SCHEMA_PATH}}" \
           -r "{{.STYLELINTRC_SCHEMA_PATH}}" \
           -d "{{.PROJECT_FOLDER}}/{{.INSTANCE_PATH}}"
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/poetry-task/Taskfile.yml
+  poetry:install-deps:
+    desc: Install dependencies managed by Poetry
+    cmds:
+      - poetry install --no-root
 
   # Make a temporary file named according to the passed TEMPLATE variable and print the path passed to stdout
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/windows-task/Taskfile.yml
