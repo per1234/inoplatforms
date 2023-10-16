@@ -3,6 +3,7 @@
 [![Check General Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-general-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-general-formatting-task.yml)
 [![Check Go status](https://github.com/per1234/inoplatforms/actions/workflows/check-go-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-go-task.yml)
 [![Check License status](https://github.com/per1234/inoplatforms/actions/workflows/check-license.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-license.yml)
+[![Check Markdown status](https://github.com/per1234/inoplatforms/actions/workflows/check-markdown-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-markdown-task.yml)
 [![Check npm status](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml)
 [![Check Poetry status](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml)
 [![Check Prettier Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml)
