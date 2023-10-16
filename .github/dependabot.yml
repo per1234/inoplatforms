@@ -22,3 +22,12 @@ updates:
       interval: daily
     labels:
       - "topic: infrastructure"
+
+  - package-ecosystem: npm
+    assignees:
+      - per1234
+    directory: /
+    schedule:
+      interval: daily
+    labels:
+      - "topic: infrastructure"
