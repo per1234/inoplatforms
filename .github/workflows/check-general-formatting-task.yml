@@ -54,10 +54,10 @@ jobs:
           go-version-file: go.mod
 
       - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Check formatting
         run: task --silent general:check-formatting

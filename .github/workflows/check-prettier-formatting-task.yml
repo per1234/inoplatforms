@@ -243,11 +243,16 @@ jobs:
         with:
           node-version-file: package.json
 
-      - name: Install Task
-        uses: arduino/setup-task@v1
+      - name: Install Go
+        uses: actions/setup-go@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Format with Prettier
         run: task general:format-prettier

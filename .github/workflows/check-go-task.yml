@@ -76,10 +76,10 @@ jobs:
           go-version-file: ${{ matrix.module.path }}/go.mod
 
       - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Modernize usages of outdated APIs
         env:
@@ -114,10 +114,10 @@ jobs:
           go-version-file: ${{ matrix.module.path }}/go.mod
 
       - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Check style
         env:
@@ -149,10 +149,10 @@ jobs:
           go-version-file: ${{ matrix.module.path }}/go.mod
 
       - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Format code
         env:
@@ -187,10 +187,10 @@ jobs:
           go-version-file: ${{ matrix.module.path }}/go.mod
 
       - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Run go mod tidy
         env:

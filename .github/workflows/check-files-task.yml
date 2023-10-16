@@ -48,11 +48,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Task
-        uses: arduino/setup-task@v1
+      - name: Install Go
+        uses: actions/setup-go@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Check filenames
         run: task --silent general:check-filenames
@@ -68,11 +73,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Task
-        uses: arduino/setup-task@v1
+      - name: Install Go
+        uses: actions/setup-go@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Check symlinks
         run: task --silent general:check-symlinks

@@ -67,11 +67,16 @@ jobs:
             --python "$(which python)" \
             poetry
 
-      - name: Install Task
-        uses: arduino/setup-task@v1
+      - name: Install Go
+        uses: actions/setup-go@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Validate pyproject.toml
         run: task poetry:validate
@@ -98,11 +103,16 @@ jobs:
             --python "$(which python)" \
             poetry
 
-      - name: Install Task
-        uses: arduino/setup-task@v1
+      - name: Install Go
+        uses: actions/setup-go@v4
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
 
       - name: Sync lockfile
         run: task poetry:sync
