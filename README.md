@@ -10,6 +10,7 @@
 [![Check Workflows status](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml)
 [![Check YAML status](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml)
 [![Spell Check status](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml)
+[![Sync Labels status](https://github.com/per1234/inoplatforms/actions/workflows/sync-labels-npm.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/sync-labels-npm.yml)
 
 A list of all known [Arduino](http://arduino.cc) hardware packages.
 
