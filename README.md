@@ -1,5 +1,7 @@
 # ino-hardware-package-list
 
+[![Check Prettier Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml)
+
 A list of all known [Arduino](http://arduino.cc) hardware packages.
 
 Hardware packages provide the [boards platform](https://arduino.github.io/arduino-cli/latest/platform-specification) (AKA "core") and toolchain needed to add support for a board to the Arduino development software (e.g., Arduino IDE).
