@@ -7,6 +7,7 @@
 [![Check npm status](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml)
 [![Check Poetry status](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml)
 [![Check Prettier Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml)
+[![Check Workflows status](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml)
 [![Spell Check status](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml)
 
 A list of all known [Arduino](http://arduino.cc) hardware packages.
