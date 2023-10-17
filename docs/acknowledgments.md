@@ -15,11 +15,13 @@ This project is based on many amazing open source software projects:
 ### GitHub Actions
 
 - [**actions/checkout**](https://github.com/actions/checkout)
+- [**actions/deploy-pages**](https://github.com/actions/deploy-pages)
 - [**actions/download-artifact**](https://github.com/actions/download-artifact)
 - [**actions/setup-go**](https://github.com/actions/setup-go)
 - [**actions/setup-node**](https://github.com/actions/setup-node)
 - [**actions/setup-python**](https://github.com/actions/setup-python)
 - [**actions/upload-artifact**](https://github.com/actions/upload-artifact)
+- [**actions/upload-pages-artifact**](https://github.com/actions/upload-pages-artifact)
 - [**carlosperate/download-file-action**](https://github.com/carlosperate/download-file-action)
 - [**geekyeggo/delete-artifact**](https://github.com/geekyeggo/delete-artifact)
 - [**ruby/setup-ruby**](https://github.com/ruby/setup-ruby)
@@ -40,6 +42,8 @@ This project is based on many amazing open source software projects:
 - [**GitHub Label Sync**](https://github.com/Financial-Times/github-label-sync) - GitHub repository label manager
 - [**golangci-lint**](https://golangci-lint.run/) - Go code linter
 - [**gvm**](https://github.com/moovweb/gvm) - Go version manager
+- [**Hugo**](https://gohugo.io/) - Static site generator
+- [**Hugo PaperMod**](https://adityatelange.github.io/hugo-PaperMod/) - Website theme
 - [**Licensee**](https://github.com/licensee/licensee) - License file parser
 - [**markdown-link-check**](https://github.com/tcort/markdown-link-check) - Link checker for Markdown
 - [**markdownlint-cli**](https://github.com/igorshubovych/markdownlint-cli) - Markdown linter
@@ -48,6 +52,7 @@ This project is based on many amazing open source software projects:
 - [**pipx**](https://pypa.github.io/pipx/) - Python application manager
 - [**Poetry**](https://python-poetry.org/) - Python package manager
 - [**Prettier**](https://prettier.io/) - Code formatter
+- [**prettier-plugin-go-template**](https://github.com/NiklasPor/prettier-plugin-go-template) - Prettier plugin for Go template files
 - [**Task**](https://taskfile.dev/) - Task runner
 - [**Wget**](https://www.gnu.org/software/wget/) - File downloader
 - [**yamllint**](https://yamllint.readthedocs.io/) - YAML linter

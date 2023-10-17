@@ -1,0 +1,70 @@
+name: Deploy Website
+
+# See: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/deploy-hugo-task.ya?ml"
+      - "site/**"
+      - "go.mod"
+      - "go.sum"
+      - "Taskfile.ya?ml"
+      - "tools.go"
+  repository_dispatch:
+  schedule:
+    # Run periodically to catch breakage caused by external changes.
+    - cron: "0 11 * * FRI"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    permissions: {}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Go
+        uses: actions/setup-go@v4
+        with:
+          go-version-file: go.mod
+
+      - name: Install Task
+        run: |
+          go \
+            install \
+              github.com/go-task/task/v3/cmd/task
+
+      - name: Install website dependencies
+        run: task website:install-deps
+
+      - name: Build website
+        working-directory: ./site
+        run: hugo --minify
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./site/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v2

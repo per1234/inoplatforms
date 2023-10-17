@@ -1,0 +1,30 @@
+# See: https://gohugo.io/getting-started/configuration/
+
+title: Arduino Platforms
+baseURL: http://inoplatforms.info
+languageCode: en-us
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: false
+      footnote: false
+      taskList: false
+      typographer: false
+    parser:
+      attribute:
+        block: false
+        title: false
+    renderer:
+      hardWraps: true
+      unsafe: true
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+params:
+  disableSpecial1stPost: true
+  disableThemeToggle: true
+  hideFooter: true
+  showBreadCrumbs: true

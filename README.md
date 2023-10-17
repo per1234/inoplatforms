@@ -8,8 +8,10 @@
 [![Check npm status](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml)
 [![Check Poetry status](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml)
 [![Check Prettier Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml)
+[![Check Website status](https://github.com/per1234/inoplatforms/actions/workflows/check-hugo-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-hugo-task.yml)
 [![Check Workflows status](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml)
 [![Check YAML status](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml)
+[![Deploy Website status](https://github.com/per1234/inoplatforms/actions/workflows/deploy-hugo-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/deploy-hugo-task.yml)
 [![Spell Check status](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/spell-check-task.yml)
 [![Sync Labels status](https://github.com/per1234/inoplatforms/actions/workflows/sync-labels-npm.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/sync-labels-npm.yml)
 

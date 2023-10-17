@@ -1,0 +1,10 @@
+# See: https://prettier.io/docs/configuration
+
+overrides:
+  - files:
+      - "*.html"
+    options:
+      parser: go-template
+plugins:
+  - prettier-plugin-go-template
+printWidth: 120
