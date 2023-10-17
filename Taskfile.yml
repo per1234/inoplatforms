@@ -23,6 +23,7 @@ tasks:
       - task: general:check-formatting
       - task: general:check-spelling
       - task: general:check-symlinks
+      - task: go:lint
       - task: markdown:check-links
       - task: markdown:lint
       - task: npm:validate
@@ -35,7 +36,6 @@ tasks:
       - task: general:format-prettier
       - task: go:fix
       - task: go:format
-      - task: go:lint
       - task: go:tidy
       - task: markdown:fix
       - task: poetry:sync
