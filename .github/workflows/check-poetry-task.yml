@@ -123,4 +123,4 @@ jobs:
             diff \
               --color \
               --exit-code \
-              package-lock.json
+              poetry.lock
