@@ -380,17 +380,19 @@ tasks:
       - wget --quiet --output-document="{{.STYLELINTRC_SCHEMA_PATH}}" {{.STYLELINTRC_SCHEMA_URL}}
       - |
         cd "{{.WORKING_FOLDER}}"  # Workaround for https://github.com/npm/cli/issues/3210
-        npx ajv-cli@{{.SCHEMA_DRAFT_4_AJV_CLI_VERSION}} validate \
-          --all-errors \
-          -s "{{.SCHEMA_PATH}}" \
-          -r "{{.AVA_SCHEMA_PATH}}" \
-          -r "{{.ESLINTRC_SCHEMA_PATH}}" \
-          -r "{{.JSCPD_SCHEMA_PATH}}" \
-          -r "{{.NPM_BADGES_SCHEMA_PATH}}" \
-          -r "{{.PRETTIERRC_SCHEMA_PATH}}" \
-          -r "{{.SEMANTIC_RELEASE_SCHEMA_PATH}}" \
-          -r "{{.STYLELINTRC_SCHEMA_PATH}}" \
-          -d "{{.PROJECT_FOLDER}}/{{.INSTANCE_PATH}}"
+        npx \
+          --yes \
+          ajv-cli@{{.SCHEMA_DRAFT_4_AJV_CLI_VERSION}} validate \
+            --all-errors \
+            -s "{{.SCHEMA_PATH}}" \
+            -r "{{.AVA_SCHEMA_PATH}}" \
+            -r "{{.ESLINTRC_SCHEMA_PATH}}" \
+            -r "{{.JSCPD_SCHEMA_PATH}}" \
+            -r "{{.NPM_BADGES_SCHEMA_PATH}}" \
+            -r "{{.PRETTIERRC_SCHEMA_PATH}}" \
+            -r "{{.SEMANTIC_RELEASE_SCHEMA_PATH}}" \
+            -r "{{.STYLELINTRC_SCHEMA_PATH}}" \
+            -d "{{.PROJECT_FOLDER}}/{{.INSTANCE_PATH}}"
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/poetry-task/Taskfile.yml
   poetry:install-deps:
