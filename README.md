@@ -40,3 +40,9 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 ### Contributing
 
 Additions/corrections/updates to the list are welcome! Please submit a pull request or issue.
+
+### Acknowledgments
+
+Thanks to the open source community who contribute to this project and the software and resources it uses!
+
+See the [**Acknowledgments page**](docs/acknowledgments.md) for details.
