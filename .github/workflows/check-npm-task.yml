@@ -50,11 +50,18 @@ jobs:
           echo "result=$RESULT" >> $GITHUB_OUTPUT
 
   validate:
+    name: validate (${{ matrix.package.path }})
     needs: run-determination
     if: needs.run-determination.outputs.result == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        package:
+          - path: .
 
     steps:
       - name: Checkout repository
@@ -77,14 +84,23 @@ jobs:
               github.com/go-task/task/v3/cmd/task
 
       - name: Validate package.json
+        env:
+          NPM_PACKAGE_PATH: ${{ matrix.package.path }}
         run: task --silent npm:validate
 
   check-sync:
+    name: check-sync (${{ matrix.package.path }})
     needs: run-determination
     if: needs.run-determination.outputs.result == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        package:
+          - path: .
 
     steps:
       - name: Checkout repository
@@ -107,6 +123,8 @@ jobs:
               github.com/go-task/task/v3/cmd/task
 
       - name: Install npm dependencies
+        env:
+          NPM_PACKAGE_PATH: ${{ matrix.package.path }}
         run: task npm:install-deps
 
       - name: Check package-lock.json

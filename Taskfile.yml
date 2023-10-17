@@ -325,6 +325,7 @@ tasks:
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/npm-task/Taskfile.yml
   npm:install-deps:
     desc: Install dependencies managed by npm
+    dir: "{{default .DEFAULT_NPM_PACKAGE_PATH .NPM_PACKAGE_PATH}}"
     cmds:
       - npm install
 
