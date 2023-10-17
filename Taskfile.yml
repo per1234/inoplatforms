@@ -407,6 +407,7 @@ tasks:
       - |
         poetry \
           lock \
+            --no-cache \
             --no-update
 
   # Make a temporary file named according to the passed TEMPLATE variable and print the path passed to stdout
