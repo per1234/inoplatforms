@@ -23,6 +23,15 @@ updates:
     labels:
       - "topic: infrastructure"
 
+  - package-ecosystem: gomod
+    assignees:
+      - per1234
+    directory: /site/
+    schedule:
+      interval: daily
+    labels:
+      - "topic: infrastructure"
+
   - package-ecosystem: npm
     assignees:
       - per1234
