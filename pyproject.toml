@@ -5,7 +5,7 @@ description = ""
 authors = ["per1234 <nope@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.*"
 
 [tool.poetry.group.dev.dependencies]
 codespell = "2.2.5"
