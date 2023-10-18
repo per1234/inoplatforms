@@ -2,8 +2,7 @@
   package-index:
     url: https://downloads.arduino.cc/packages/package_index.json
     notes: |
-      This is the official primary package index. Unlike all other package indexes, the Arduino development software is
-      pre-configured with this URL.
+      This is the official primary package index. The Arduino development software is pre-configured with this URL.
   packages:
     - name: arduino
       platforms:
@@ -11,7 +10,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-avr
-              branch: master
+              ref: master
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -21,7 +20,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-megaavr
-              branch: master
+              ref: master
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -31,7 +30,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-sam
-              branch: master
+              ref: master
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -41,7 +40,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-samd
-              branch: master
+              ref: master
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -51,7 +50,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -61,7 +60,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -71,7 +70,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -81,7 +80,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -91,7 +90,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -101,7 +100,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -111,7 +110,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -121,7 +120,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-mbed
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -131,7 +130,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-renesas
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -141,7 +140,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-renesas
-              branch: main
+              ref: main
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -151,7 +150,7 @@
           source:
             repository:
               url: https://github.com/arduino/arduino-esp32
-              branch: arduino_nano_esp32
+              ref: arduino_nano_esp32
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -161,7 +160,7 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-primo
-              branch: master
+              ref: master
               path: /
           installation-references:
             - https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager
@@ -244,7 +243,7 @@
           source:
             repository:
               url: https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule
-              branch: master
+              ref: master
               path: /module/
     - name: littleBits
       platforms:
@@ -255,7 +254,7 @@
           source:
             repository:
               url: https://github.com/ms-iot/iot-utilities
-              branch: master
+              ref: master
               path: /IotCoreAppDeployment/ArduinoIde/1.1.2/
     - name: Arrow
       platforms:
@@ -263,7 +262,7 @@
           source:
             repository:
               url: 	https://github.com/ioteamit/smarteverything-core
-              branch: master
+              ref: master
               path: /
     - name: emoro
       platforms:
@@ -274,7 +273,7 @@
           source:
             repository:
               url: 	https://github.com/Industruino/IndustruinoSAMD
-              branch: master
+              ref: master
               path: /
     - name: builtin
       notes: |
@@ -306,13 +305,13 @@
           source:
             repository:
               url: 	https://github.com/renesas/ArduinoCore-rl78g22_fpb
-              branch: main
+              ref: main
               path: /
         - architecture: rl78g23_fpb_p64
           source:
             repository:
               url: 	https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p
-              branch: main
+              ref: main
               path: /
     - name: esp32
       platforms:
@@ -320,7 +319,7 @@
           source:
             repository:
               url: 	https://github.com/espressif/arduino-esp32
-              branch: master
+              ref: master
               path: /
 - id: 1
   package-index:
@@ -328,7 +327,7 @@
     source:
       repository:
         url: https://github.com/damellis/attiny
-        branch: ide-1.6.x-boards-manager
+        ref: ide-1.6.x-boards-manager
         path: /package_damellis_attiny_index.json
   packages:
     - name: attiny

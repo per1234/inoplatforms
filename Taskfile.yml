@@ -3,7 +3,7 @@ version: "3"
 
 vars:
   # Path of the project's primary Go module:
-  DEFAULT_GO_MODULE_PATH: ./
+  DEFAULT_GO_MODULE_PATH: ./data-generator
   DEFAULT_GO_PACKAGES:
     sh: |
       echo $(
@@ -28,6 +28,8 @@ tasks:
       - task: general:check-spelling
       - task: general:check-symlinks
       - task: go:lint
+        vars:
+          GO_MODULE_PATH: ./data-generator
       - task: markdown:check-links
       - task: markdown:lint
       - task: npm:validate
@@ -41,8 +43,15 @@ tasks:
       - task: general:correct-spelling
       - task: general:format-prettier
       - task: go:fix
+        vars:
+          GO_MODULE_PATH: ./data-generator
       - task: go:format
+        vars:
+          GO_MODULE_PATH: ./data-generator
       - task: go:tidy
+      - task: go:tidy
+        vars:
+          GO_MODULE_PATH: ./data-generator
       - task: markdown:fix
       - task: poetry:sync
       - task: website:tidy

@@ -7,9 +7,11 @@ on:
       - main
     paths:
       - ".github/workflows/deploy-hugo-task.ya?ml"
+      - "data-generator/**.go"
+      - "registry/registry.yml"
       - "site/**"
-      - "go.mod"
-      - "go.sum"
+      - "**/go.mod"
+      - "**/go.sum"
       - "Taskfile.ya?ml"
       - "tools.go"
   repository_dispatch:

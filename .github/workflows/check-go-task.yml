@@ -64,7 +64,7 @@ jobs:
 
       matrix:
         module:
-          - path: .
+          - path: data-generator
 
     steps:
       - name: Checkout repository
@@ -102,7 +102,7 @@ jobs:
 
       matrix:
         module:
-          - path: .
+          - path: data-generator
 
     steps:
       - name: Checkout repository
@@ -137,7 +137,7 @@ jobs:
 
       matrix:
         module:
-          - path: .
+          - path: data-generator
 
     steps:
       - name: Checkout repository
@@ -176,6 +176,7 @@ jobs:
       matrix:
         module:
           - path: .
+          - path: data-generator
 
     steps:
       - name: Checkout repository

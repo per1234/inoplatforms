@@ -1,4 +1,4 @@
-module github.com/per1234/inoplatforms/generator
+module github.com/per1234/inoplatforms/data-generator
 
 go 1.21
 
