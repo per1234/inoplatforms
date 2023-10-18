@@ -5,6 +5,11 @@ overrides:
       - "*.html"
     options:
       parser: go-template
+  - files:
+      - "*.toml"
+    options:
+      parser: toml
 plugins:
   - prettier-plugin-go-template
+  - prettier-plugin-toml
 printWidth: 120

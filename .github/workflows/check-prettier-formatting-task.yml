@@ -89,6 +89,8 @@ on:
       - "**.mkdn?"
       - "**.ronn"
       - "**.workbook"
+      # TOML
+      - "**.toml"
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"
@@ -185,6 +187,8 @@ on:
       - "**.mkdn?"
       - "**.ronn"
       - "**.workbook"
+      # TOML
+      - "**.toml"
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"
