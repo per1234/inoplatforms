@@ -404,7 +404,11 @@ tasks:
   poetry:install-deps:
     desc: Install dependencies managed by Poetry
     cmds:
-      - poetry install --no-root
+      - |
+        poetry \
+          install \
+          --no-root \
+          --without pipx
 
   poetry:validate:
     desc: Validate pyproject.toml

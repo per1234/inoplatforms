@@ -11,6 +11,11 @@ python = "^3.11"
 codespell = "2.2.5"
 yamllint = "1.32.0"
 
+# The dependencies in this group are installed using pipx instead of Poetry. It is necessary to use a poetry section in
+# order to get Dependabot updates of the dependencies.
+[tool.poetry.group.pipx.dependencies]
+poetry = "1.6.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
