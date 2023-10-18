@@ -204,7 +204,12 @@ tasks:
     deps:
       - task: npm:install-deps
     cmds:
-      - npx prettier --write .
+      - |
+        npx \
+          prettier \
+            --write \
+            . \
+            "**/*.toml"
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-go-task/Taskfile.yml
   go:fix:
