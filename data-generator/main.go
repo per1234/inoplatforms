@@ -2,15 +2,19 @@ package main
 
 import (
 	"fmt"
+	"io"
+	"log/slog"
+	"net/http"
+	"os"
 
 	"github.com/arduino/go-paths-helper"
 	"gopkg.in/yaml.v3"
 )
 
 type RepositoryType struct {
-	Url    string
-	Branch string
-	Path   string
+	Url  string
+	Ref  string
+	Path string
 }
 type SourceType struct {
 	Repository RepositoryType
@@ -101,6 +105,50 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	for _, packageProvider := range registryData {
+		if packageProvider.PackageIndex.Url != "" {
+			packageIndexFolderPath, err := paths.TempDir().MkTempDir("inoplatforms-data-generator-package-index-folder")
+			defer packageIndexFolderPath.RemoveAll()
+			if err != nil {
+				panic(err)
+			}
+			packageIndexPath := packageIndexFolderPath.Join("package_index.json")
+
+			// Download the index data
+			httpResponse, err := http.Get(packageProvider.PackageIndex.Url)
+			if err != nil {
+				slog.Warn("Unable to download package index from %s: %s", err, packageProvider.PackageIndex.Url)
+				os.Exit(1)
+			}
+			defer httpResponse.Body.Close()
+
+			// Write the index data to file
+			packageIndexFile, err := packageIndexPath.Create()
+			defer packageIndexFile.Close()
+			if err != nil {
+				panic(err)
+			}
+			if _, err := io.Copy(packageIndexFile, httpResponse.Body); err != nil {
+				panic(err)
+			}
+		}
+	}
+
+	// TODO: Unmarshal package index
+	// TODO: I need the data type structs, should I use Arduino CLI (either just for the structs, or for loading the index entirely?
+
+	// TODO: Iterate packages and populate the data set
+
+	// TODO: Iterate platforms and populate the data set
+
+	// TODO: Iterate tools and populate the data set
+
+	// TODO: write the site content source files
+
+	// TODO: write the generator data file
+
+	// TODO: marshal the machine readable data file (JSON)
 
 	marshalled, err := yaml.Marshal(registryData)
 	if err != nil {
