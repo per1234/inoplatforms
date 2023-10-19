@@ -38,7 +38,14 @@ type PlatformType struct {
 	DiscoveryDependencies  []ToolType
 	MonitorDependencies    []ToolType
 	Releases               []PlatformReleaseType
+	// TODO: SearchData SearchDataType
 }
+
+// TODO:
+// type SearchDataType struct{
+// Ref string
+// SearchContent string
+// }
 
 type BoardType struct {
 	Name string
@@ -66,6 +73,7 @@ type ToolType struct {
 	Name     string
 	Source   SourceType
 	Releases []ToolReleaseType
+	// TODO: SearchData SearchDataType
 }
 
 type ToolReleaseType struct {
@@ -92,7 +100,21 @@ type PackageProviderType struct {
 	Id           string
 	PackageIndex PackageIndexType `yaml:"package-index"`
 	Packages     []PackageType
+	Status       StatusType
 }
+
+// StatusType is the type for metadata about the status of the data.
+type StatusType struct {
+	Result  ResultType
+	Message string
+}
+
+type ResultType int
+
+const (
+	Success ResultType = iota
+	Failure
+)
 
 type Type struct {
 	PackageProviders []PackageProviderType
@@ -115,10 +137,15 @@ func (data *Type) Populate() {
 
 			// TODO: Iterate packages and populate the data set
 
-			// TODO: Iterate platforms and populate the data set
+			// TODO: Iterate platforms and:
+			// - populate the data set
+			// - populate platform search index data
+
 			// TODO: update platform count and architecture count in data.Stats
 
-			// TODO: Iterate tools and populate the data set
+			// TODO: Iterate tools and:
+			// - populate the data set
+			// - populate tool search index data
 		}
 	}
 

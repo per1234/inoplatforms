@@ -10,8 +10,22 @@ import (
 	"github.com/arduino/go-paths-helper"
 )
 
+// TODO: Add frontmatter fields to page types:
+type PackagesType struct{}
+type PlatformType struct{}
+type PlatformReleaseType struct{}
+type ToolType struct{}
+type ToolReleaseType struct{}
+
 func WritePages(data data.Type, siteContentPath paths.Path) {
 	for _, packageProvider := range data.PackageProviders {
+		// Extract page front matter data into page structs.
+		// TODO
+
+		// Marshal front matter.
+		// TODO
+
+		// Write page source file.
 		// TODO
 	}
 }
