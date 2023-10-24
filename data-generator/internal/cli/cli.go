@@ -2,6 +2,7 @@
 package cli
 
 import (
+	"github.com/per1234/inoplatforms/data-generator/internal/command"
 	"github.com/spf13/cobra"
 )
 
@@ -16,9 +17,13 @@ func Root() *cobra.Command {
 	}
 
 	rootCommand.PersistentFlags().String("registry", "", "Path to the registry file.")
+	rootCommand.MarkFlagRequired("registry")
 	rootCommand.PersistentFlags().String("site-content", "", "Path to the website source content folder.")
+	rootCommand.MarkFlagRequired("site-content")
 	rootCommand.PersistentFlags().String("generator-data", "", "Path where the generator data file should be created.")
+	rootCommand.MarkFlagRequired("generator-data")
 	rootCommand.PersistentFlags().String("data-file", "", "Path where the data file should be created.")
+	rootCommand.MarkFlagRequired("data-file")
 
 	return rootCommand
 }

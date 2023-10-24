@@ -11,6 +11,8 @@ vars:
         go list ./... | tr '\n' ' ' ||
         echo '"ERROR: Unable to discover Go packages"'
       )
+  # `-ldflags` flag to use for `go build` command
+  LDFLAGS:
   # Path of the project's primary NPM package (the location of package.json):
   DEFAULT_NPM_PACKAGE_PATH: ./
   # The Go version used for project development.
@@ -19,6 +21,11 @@ vars:
   SCHEMA_DRAFT_4_AJV_CLI_VERSION: 3.3.0
 
 tasks:
+  build:
+    desc: Build the project
+    deps:
+      - task: go:build
+
   check:
     desc: Check for problems with the project
     deps:
@@ -219,6 +226,13 @@ tasks:
             --write \
             . \
             "**/*.toml"
+
+  # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/go-task/Taskfile.yml
+  go:build:
+    desc: Build the Go code
+    dir: "{{.DEFAULT_GO_MODULE_PATH}}"
+    cmds:
+      - go build -v {{.LDFLAGS}}
 
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/check-go-task/Taskfile.yml
   go:fix:

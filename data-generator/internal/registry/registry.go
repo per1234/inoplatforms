@@ -3,6 +3,7 @@ package registry
 
 import (
 	"github.com/arduino/go-paths-helper"
+	"github.com/per1234/inoplatforms/data-generator/internal/data"
 	"gopkg.in/yaml.v2"
 )
 
@@ -15,7 +16,7 @@ func Load(registryPath paths.Path) data.Type {
 	}
 
 	// Unmarshal
-	var registryData []data.Type
+	var registryData data.Type
 	err = yaml.Unmarshal(rawRegistry, &registryData)
 	if err != nil {
 		panic(err)

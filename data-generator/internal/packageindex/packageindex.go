@@ -144,14 +144,14 @@ func Get(url string) (Type, error) {
 	}
 
 	// Unmarshal
-	rawIndex, err := indexFile.ReadFile()
+	rawIndex, err := downloadPath.ReadFile()
 	if err != nil {
-		return nil, err
+		return Type{}, err
 	}
 	var indexData Type
 	err = json.Unmarshal(rawIndex, &indexData)
 	if err != nil {
-		return nil, err
+		return Type{}, err
 	}
 
 	return indexData, nil

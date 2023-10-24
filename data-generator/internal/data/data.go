@@ -33,8 +33,8 @@ type PlatformType struct {
 	Help                   string
 	Boards                 []BoardType
 	Source                 SourceType
-	InstallationReferences []string             `yaml:"installation-references"`
-	ToolsDependencies      []ToolDependencyType `yaml:"tools-dependencies"`
+	InstallationReferences []string
+	ToolsDependencies      []ToolDependencyType
 	DiscoveryDependencies  []ToolType
 	MonitorDependencies    []ToolType
 	Releases               []PlatformReleaseType
@@ -58,7 +58,7 @@ type PlatformReleaseType struct {
 	ArchiveURL            string
 	Checksum              string
 	Boards                []BoardType
-	ToolsDependencies     []ToolDependencyType `yaml:"tools-dependencies"`
+	ToolsDependencies     []ToolDependencyType
 	DiscoveryDependencies []ToolType
 	MonitorDependencies   []ToolType
 }
@@ -98,7 +98,7 @@ type PackageIndexType struct {
 
 type PackageProviderType struct {
 	Id           string
-	PackageIndex PackageIndexType `yaml:"package-index"`
+	PackageIndex PackageIndexType
 	Packages     []PackageType
 	Status       StatusType
 }
