@@ -12,111 +12,87 @@ import (
 	"golang.org/x/exp/slog"
 )
 
+// Type is the type for package index data.
 type Type struct {
-	Packages []*Package `json:"packages"`
+	Packages []*PackageType // Packages is the packages of the package index.
 }
 
-// indexPackage represents a single entry from package_index.json file.
-//
-//easyjson:json
-type Package struct {
-	Name       string             `json:"name"`
-	Maintainer string             `json:"maintainer"`
-	WebsiteURL string             `json:"websiteUrl"`
-	URL        string             `json:"Url"`
-	Email      string             `json:"email"`
-	Platforms  []*PlatformRelease `json:"platforms"`
-	Tools      []*ToolRelease     `json:"tools"`
-	Help       Help               `json:"help,omitempty"`
+// PackageType is the type for package data.
+type PackageType struct {
+	Name       string                 // Name is the machine identifier of the package.
+	Maintainer string                 // Maintainer is the human identifier for the maintainer of the package.
+	WebsiteURL string                 // WebsiteURL is the URL for information about the package.
+	URL        string                 // URL is the URL for information about the package.
+	Email      string                 // Email is the email address to contact the package maintainer.
+	Platforms  []*PlatformReleaseType // Platforms is the platform releases provided by the package.
+	Tools      []*ToolReleaseType     // Tools is the tool releases provided by the package.
+	Help       HelpType               // Help contains data about user support for the package.
 }
 
-// PlatformRelease represents a single Core Platform from package_index.json file.
-//
-//easyjson:json
-type PlatformRelease struct {
-	Name                  string                `json:"name"`
-	Architecture          string                `json:"architecture"`
-	Version               *semver.Version       `json:"version"`
-	Deprecated            bool                  `json:"deprecated"`
-	Category              string                `json:"category"`
-	URL                   string                `json:"url"`
-	ArchiveFileName       string                `json:"archiveFileName"`
-	Checksum              string                `json:"checksum"`
-	Size                  json.Number           `json:"size"`
-	Boards                []Board               `json:"boards"`
-	Help                  Help                  `json:"help,omitempty"`
-	ToolDependencies      []ToolDependency      `json:"toolsDependencies"`
-	DiscoveryDependencies []DiscoveryDependency `json:"discoveryDependencies"`
-	MonitorDependencies   []MonitorDependency   `json:"monitorDependencies"`
+// PlatformReleaseType is the type for platform release data.
+type PlatformReleaseType struct {
+	Name                  string                           // Name is the human identifier for the platform.
+	Architecture          string                           // Architecture is the machine identifier for the platform.
+	Version               *semver.Version                  // Version is the platform release version number.
+	Deprecated            bool                             // Deprecated indicates whether the platform is deprecated.
+	Category              string                           // Category is the platform's category.
+	URL                   string                           // URL is the platform release archive download URL.
+	ArchiveFileName       string                           // ArchiveFileName is the platform release archive filename.
+	Checksum              string                           // Checksum is the platform release archive checksum.
+	Size                  json.Number                      // Size is the platform release archive file size.
+	Boards                []BoardType                      // Boards contains data about the boards supported by the platform release.
+	Help                  HelpType                         // Help contains data about user support for the platform release.
+	ToolsDependencies     []VersionedToolDependencyType    // ToolsDependencies is the standard tool dependencies of the platform release.
+	DiscoveryDependencies []NonVersionedToolDependencyType // DiscoveryDependencies is the pluggable discovery tool dependencies of the platform release.
+	MonitorDependencies   []NonVersionedToolDependencyType // MonitorDependencies is the pluggable monitor tool dependencies of the platform release.
 }
 
-// indexToolDependency represents a single dependency of a core from a tool.
-//
-//easyjson:json
-type ToolDependency struct {
-	Packager string                 `json:"packager"`
-	Name     string                 `json:"name"`
-	Version  *semver.RelaxedVersion `json:"version"`
+// NonVersionedToolDependencyType is the type for versioned tool dependency data.
+type VersionedToolDependencyType struct {
+	Packager string
+	Name     string
+	Version  *semver.RelaxedVersion
 }
 
-// indexDiscoveryDependency represents a single dependency of a core from a pluggable discovery tool.
-//
-//easyjson:json
-type DiscoveryDependency struct {
-	Packager string `json:"packager"`
-	Name     string `json:"name"`
+// NonVersionedToolDependencyType is the type for non-versioned tool dependency data.
+type NonVersionedToolDependencyType struct {
+	Packager string // Packager is the vendor name of the tool.
+	Name     string // Name is the name of the tool.
 }
 
-// indexMonitorDependency represents a single dependency of a core from a pluggable monitor tool.
-//
-//easyjson:json
-type MonitorDependency struct {
-	Packager string `json:"packager"`
-	Name     string `json:"name"`
+// ToolReleaseType is the type for tool release data.
+type ToolReleaseType struct {
+	Name    string                   // Name is the machine identifier for the tool.
+	Version *semver.RelaxedVersion   // Version is the tool release version.
+	Systems []ToolReleaseFlavourType // Systems contains target host-specific data.
 }
 
-// indexToolRelease represents a single Tool from package_index.json file.
-//
-//easyjson:json
-type ToolRelease struct {
-	Name    string                 `json:"name"`
-	Version *semver.RelaxedVersion `json:"version"`
-	Systems []ToolReleaseFlavour   `json:"systems"`
+// ToolReleaseFlavourType is the type for host-specific tool release data.
+type ToolReleaseFlavourType struct {
+	OS              string      // OS is the host architecture machine identifier.
+	URL             string      // URL is the tool release archive download URL.
+	ArchiveFileName string      // ArchiveFileName is the tool release archive filename.
+	Size            json.Number // Size is the tool release archive file size.
+	Checksum        string      // Checksum is the tool release archive checksum.
 }
 
-// indexToolReleaseFlavour represents a single tool flavor in the package_index.json file.
-//
-//easyjson:json
-type ToolReleaseFlavour struct {
-	OS              string      `json:"host"`
-	URL             string      `json:"url"`
-	ArchiveFileName string      `json:"archiveFileName"`
-	Size            json.Number `json:"size"`
-	Checksum        string      `json:"checksum"`
+// BoardType is the type for data about a board supported by the platform.
+type BoardType struct {
+	Name string        // Name is the human identifier for the board.
+	ID   []BoardIDType // ID contains identification data for the board.
 }
 
-// indexBoard represents a single Board as written in package_index.json file.
-//
-//easyjson:json
-type Board struct {
-	Name string    `json:"name"`
-	ID   []BoardID `json:"id,omitempty"`
+// BoardIDType is the type for board identification data.
+type BoardIDType struct {
+	USB string // USB is the USB identification for the board.
 }
 
-// indexBoardID represents the ID of a single board. i.e. uno, yun, diecimila, micro and the likes
-//
-//easyjson:json
-type BoardID struct {
-	USB string `json:"usb"`
+// HelpType is the type for user support request data.
+type HelpType struct {
+	Online string // Online is the online support request URL.
 }
 
-// indexHelp represents the help URL
-//
-//easyjson:json
-type Help struct {
-	Online string `json:"online,omitempty"`
-}
-
+// Get downloads and parses a package index.
 func Get(url string) (Type, error) {
 	// Download the index.
 	httpResponse, err := http.Get(url)

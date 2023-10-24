@@ -1,3 +1,4 @@
+// Package command implements the data-generator commands.
 package command
 
 import (
@@ -7,6 +8,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// DataGenerator is the `data-generator` root command.
 func DataGenerator(rootCommand *cobra.Command, cliArguments []string) {
 	registryPath, err := rootCommand.Flags().GetString("registry")
 	if err != nil {
