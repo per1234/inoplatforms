@@ -1,15 +1,13 @@
-module github.com/per1234/inoplatforms/data-generator
+module github.com/per1234/inoplatforms/registry/assets/tool
 
-go 1.21
+go 1.21.3
 
-replace github.com/per1234/inoplatforms/registry/assets/go-registry => ../registry/assets/go-registry/
+replace github.com/per1234/inoplatforms/registry/assets/go-registry => ../go-registry/
 
 require (
 	github.com/arduino/go-paths-helper v1.9.2
 	github.com/per1234/inoplatforms/registry/assets/go-registry v0.0.0-00010101000000-000000000000
 	github.com/spf13/cobra v1.7.0
-	go.bug.st/relaxed-semver v0.11.0
-	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 )
 
 require (

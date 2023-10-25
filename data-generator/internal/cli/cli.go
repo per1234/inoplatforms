@@ -2,7 +2,7 @@
 package cli
 
 import (
-	"github.com/per1234/inoplatforms/data-generator/internal/command"
+	"github.com/per1234/inoplatforms/data-generator/internal/commands/root"
 	"github.com/spf13/cobra"
 )
 
@@ -13,7 +13,7 @@ func Root() *cobra.Command {
 		Long:                  "data-generator generates data on Arduino Boards Platforms.",
 		DisableFlagsInUseLine: false,
 		Use:                   "data-generator",
-		Run:                   command.DataGenerator,
+		Run:                   root.DataGenerator,
 	}
 
 	rootCommand.PersistentFlags().String("registry", "", "Path to the registry file.")

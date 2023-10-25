@@ -261,7 +261,7 @@
         - architecture: samd
           source:
             repository:
-              url: 	https://github.com/ioteamit/smarteverything-core
+              url: https://github.com/ioteamit/smarteverything-core
               ref: master
               path: /
     - name: emoro
@@ -272,7 +272,7 @@
         - architecture: samd
           source:
             repository:
-              url: 	https://github.com/Industruino/IndustruinoSAMD
+              url: https://github.com/Industruino/IndustruinoSAMD
               ref: master
               path: /
     - name: builtin
@@ -282,35 +282,35 @@
         - name: ctags
           source:
             repository:
-              url: 	https://github.com/arduino/ctags
+              url: https://github.com/arduino/ctags
         - name: serial-discovery
           source:
             repository:
-              url: 	https://github.com/arduino/serial-discovery
+              url: https://github.com/arduino/serial-discovery
         - name: mdns-discovery
           source:
             repository:
-              url: 	https://github.com/arduino/mdns-discovery
+              url: https://github.com/arduino/mdns-discovery
         - name: serial-monitor
           source:
             repository:
-              url: 	https://github.com/arduino/serial-monitor
+              url: https://github.com/arduino/serial-monitor
         - name: dfu-discovery
           source:
             repository:
-              url: 	https://github.com/arduino/dfu-discovery
+              url: https://github.com/arduino/dfu-discovery
     - name: renesas
       platforms:
         - architecture: rl78g22_fpb
           source:
             repository:
-              url: 	https://github.com/renesas/ArduinoCore-rl78g22_fpb
+              url: https://github.com/renesas/ArduinoCore-rl78g22_fpb
               ref: main
               path: /
         - architecture: rl78g23_fpb_p64
           source:
             repository:
-              url: 	https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p
+              url: https://github.com/renesas/ArduinoCore-rl78g23_fpb_64p
               ref: main
               path: /
     - name: esp32
@@ -318,7 +318,7 @@
         - architecture: esp32
           source:
             repository:
-              url: 	https://github.com/espressif/arduino-esp32
+              url: https://github.com/espressif/arduino-esp32
               ref: master
               path: /
 - id: 1
@@ -337,8 +337,8 @@
             repository:
               url: https://github.com/damellis/attiny
           installation-references:
-            - http://highlowtech.org/?p=1695
-            - https://github.com/damellis/attiny#installation-and-usage
+            - url: http://highlowtech.org/?p=1695
+            - url: https://github.com/damellis/attiny#installation-and-usage
           tools-dependencies:
             - packager: arduino
               source-id: 0

@@ -1,13 +1,10 @@
 # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/check-prettier-formatting-task.md
 name: Check Prettier Formatting
 
-<<<<<<< HEAD
-=======
 env:
   # See: https://github.com/actions/setup-node/#readme
   NODE_VERSION: 16.x
 
->>>>>>> 71b60d8 (WIP)
 # See: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
 on:
   create:
@@ -96,11 +93,8 @@ on:
       - "**.mkdn?"
       - "**.ronn"
       - "**.workbook"
-<<<<<<< HEAD
       # TOML
       - "**.toml"
-=======
->>>>>>> 71b60d8 (WIP)
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"
@@ -197,11 +191,8 @@ on:
       - "**.mkdn?"
       - "**.ronn"
       - "**.workbook"
-<<<<<<< HEAD
       # TOML
       - "**.toml"
-=======
->>>>>>> 71b60d8 (WIP)
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"
@@ -258,7 +249,6 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-<<<<<<< HEAD
           node-version-file: package.json
 
       - name: Install Go
@@ -271,15 +261,6 @@ jobs:
           go \
             install \
               github.com/go-task/task/v3/cmd/task
-=======
-          node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install Task
-        uses: arduino/setup-task@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          version: 3.x
->>>>>>> 71b60d8 (WIP)
 
       - name: Format with Prettier
         run: task general:format-prettier

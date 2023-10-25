@@ -1,10 +1,11 @@
-// Package command implements the data-generator commands.
-package command
+// Package root implements the data-generator root command.
+package root
 
 import (
 	"github.com/arduino/go-paths-helper"
-	"github.com/per1234/inoplatforms/data-generator/internal/registry"
+	"github.com/per1234/inoplatforms/data-generator/internal/data"
 	"github.com/per1234/inoplatforms/data-generator/internal/site"
+	"github.com/per1234/inoplatforms/registry/assets/go-registry/registry"
 	"github.com/spf13/cobra"
 )
 
@@ -27,15 +28,15 @@ func DataGenerator(rootCommand *cobra.Command, cliArguments []string) {
 		panic(err)
 	}
 
-	dataObject := registry.Load(*paths.New(registryPath))
+	registryData := registry.Load(*paths.New(registryPath))
 
-	dataObject.Populate()
+	dataData := data.Get(registryData)
 
-	site.WritePages(dataObject, *paths.New(siteContentFolderPath))
+	site.WritePages(dataData, *paths.New(siteContentFolderPath))
 
 	// TODO: Write search index data.
 
-	site.WriteGeneratorData(dataObject, *paths.New(generatorDataPath))
+	site.WriteGeneratorData(dataData, *paths.New(generatorDataPath))
 
-	dataObject.Write(*paths.New(dataFilePath))
+	dataData.Write(*paths.New(dataFilePath))
 }

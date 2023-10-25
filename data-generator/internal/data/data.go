@@ -10,18 +10,27 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 	"github.com/per1234/inoplatforms/data-generator/internal/packageindex"
+	"github.com/per1234/inoplatforms/registry/assets/go-registry/registry"
 )
+
+// Type is the type for data.
+type Type struct {
+	PackageProviders []PackageProviderType // PackageProviders is the list of providers of packages.
+	Stats            StatsType             // Stats is statistics about the data overall.
+}
 
 // RepositoryType is the type for source repository data.
 type RepositoryType struct {
-	Url  string // Url is the repository URL.
-	Ref  string // Ref is the Git ref (e.g., branch name) in the repository.
-	Path string // Path is the path of the source under the repository.
+	Url   string // Url is the repository URL.
+	Ref   string // Ref is the Git ref (e.g., branch name) in the repository.
+	Path  string // Path is the path of the source under the repository.
+	Notes string // Notes is supplemental information about the source repository.
 }
 
 // SourceType is the type for source data.
 type SourceType struct {
 	Repository RepositoryType // Repository is data about the source repository.
+	Notes      string         // Notes is supplemental information about the source.
 }
 
 // ToolDependencyType is the type for tool dependency data.
@@ -45,6 +54,7 @@ type PlatformType struct {
 	DiscoveryDependencies  []ToolType            // DiscoveryDependencies is the pluggable discovery tool dependencies of latest release of the platform.
 	MonitorDependencies    []ToolType            // MonitorDependencies is the pluggable monitor tool dependencies of the latest release of the platform.
 	Releases               []PlatformReleaseType // Releases contains data about each of the releases of the platform.
+	Notes                  string                // Notes is supplemental information about the platform.
 	// TODO: SearchData SearchDataType
 }
 
@@ -85,6 +95,7 @@ type ToolType struct {
 	Name     string            // Name is the machine identifier for the tool.
 	Source   SourceType        // Source contains data about the tool source code.
 	Releases []ToolReleaseType // Releases contains data about each of the releases of the tool.
+	Notes    string            // Notes is supplemental information about the tool.
 	// TODO: SearchData SearchDataType	// SearchData contains site search index data for the tool.
 }
 
@@ -99,13 +110,14 @@ type PackageType struct {
 	WebsiteUrl string         // WebsiteURL is the URL for information about the package.
 	Platforms  []PlatformType // Platforms is the platforms provided by the package.
 	Tools      []ToolType     // Tools is the tools provided by the package.
+	Notes      string         // Notes is supplemental information about the package.
 }
 
 // PackageIndexType is the type for package index data.
 type PackageIndexType struct {
 	Url    string     // Url is the publication URL for the package index.
-	Notes  string     // Notes is notes about the package index.
 	Source SourceType // Source is data about the package index source.
+	Notes  string     // Notes is supplemental information about the package index.
 }
 
 // PackageProviderType is the type for package provider data.
@@ -113,6 +125,7 @@ type PackageProviderType struct {
 	Id           string           // Id is an arbitrary unique ID number for the package provider.
 	PackageIndex PackageIndexType // PackageIndex is data about the package index that provides the packages.
 	Packages     []PackageType    // Packages is the list of provided packages.
+	Notes        string           // Notes is supplemental information about the package provider.
 	Status       StatusType       // Status contains data about the status of the collected data for the package provider.
 }
 
@@ -130,12 +143,6 @@ const (
 	Failure                   // Failure indicates data collection failed.
 )
 
-// Type is the type for data.
-type Type struct {
-	PackageProviders []PackageProviderType // PackageProviders is the list of providers of packages.
-	Stats            StatsType             // Stats is statistics about the data overall.
-}
-
 // StatsType is the type for data statistics.
 type StatsType struct {
 	PlatformCount     int    // PlatformCount is the number of platforms.
@@ -143,9 +150,10 @@ type StatsType struct {
 	Timestamp         string // Timestamp is the timestamp of when the data was generated.
 }
 
-// Populate gathers all additional data.
-func (data *Type) Populate() {
-	for _, packageProvider := range data.PackageProviders {
+// Get collects data.
+func Get(registry registry.Type) Type {
+	var data Type
+	for _, packageProvider := range registry.PackageProviders {
 		if packageProvider.PackageIndex.Url != "" {
 			packageindex.Get(packageProvider.PackageIndex.Url)
 			// TODO: Unmarshal package index
@@ -167,6 +175,8 @@ func (data *Type) Populate() {
 
 	timestamp := time.Now().UTC()
 	data.Stats.Timestamp = timestamp.Format("2006-01-02 15:04:05 UTC")
+
+	return data
 }
 
 // marshal returns the data marshaled into JSON format in byte encoding.

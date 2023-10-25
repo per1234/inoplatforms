@@ -8,15 +8,26 @@ import (
 	"io"
 
 	"github.com/arduino/go-paths-helper"
+	"github.com/per1234/inoplatforms/data-generator/internal/data"
 )
 
 // TODO: Add frontmatter fields to page types:
+// PackagesType is the type for packages page data.
 type PackagesType struct{}
+
+// PlatformType is the type for platform page data.
 type PlatformType struct{}
+
+// PlatformReleaseType is the type for platform release page data.
 type PlatformReleaseType struct{}
+
+// ToolType is the type for tool page data.
 type ToolType struct{}
+
+// ToolReleaseType is the type for tool release page data.
 type ToolReleaseType struct{}
 
+// WritePages writes the page content source files.
 func WritePages(data data.Type, siteContentPath paths.Path) {
 	for _, packageProvider := range data.PackageProviders {
 		// Extract page front matter data into page structs.
@@ -31,7 +42,7 @@ func WritePages(data data.Type, siteContentPath paths.Path) {
 }
 
 // marshal returns the data marshaled into JSON format in byte encoding.
-func marshalGeneratorData(data data.Stats) []byte {
+func marshalGeneratorData(data data.StatsType) []byte {
 	var marshaledDataBuffer bytes.Buffer
 
 	jsonEncoder := json.NewEncoder(io.Writer(&marshaledDataBuffer))
