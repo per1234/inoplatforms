@@ -27,10 +27,17 @@ type SourceType struct {
 
 // PlatformType is the type for platform data.
 type PlatformType struct {
-	Architecture           string     // Architecture is the machine identifier for the platform.
-	Source                 SourceType // Source contains data about the platform source code.
-	InstallationReferences []string   // InstallationReferences contains links to platform installation documentation.
-	Notes                  string     // Notes is supplemental information about the platform.
+	Architecture           string               // Architecture is the machine identifier for the platform.
+	Source                 SourceType           // Source contains data about the platform source code.
+	InstallationReferences []string             // InstallationReferences contains links to platform installation documentation.
+	ToolsDependencies      []ToolDependencyType // ToolsDependencies contains data about the platform's tool dependencies.
+	Notes                  string               // Notes is supplemental information about the platform.
+}
+
+// ToolDependencyType is the type for tool dependency data.
+type ToolDependencyType struct {
+	Packager          string // Packager is the machine identifier of the tool dependency's package.
+	PackageProviderID string // PackageProviderID is the ID number of the tool dependency's package provider.
 }
 
 // ToolType is the type for tool data.
