@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
 	github.com/go-task/task/v3 v3.31.0
-	github.com/gohugoio/hugo v0.120.2
+	github.com/gohugoio/hugo v0.120.3
 	github.com/golangci/golangci-lint v1.55.1
 )
 
@@ -268,8 +268,8 @@ require (
 	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/t-yuki/gocover-cobertura v0.0.0-20180217150009-aaee18c8195c // indirect
 	github.com/tdakkota/asciicheck v0.2.0 // indirect
-	github.com/tdewolff/minify/v2 v2.20.1 // indirect
-	github.com/tdewolff/parse/v2 v2.7.1 // indirect
+	github.com/tdewolff/minify/v2 v2.20.5 // indirect
+	github.com/tdewolff/parse/v2 v2.7.3 // indirect
 	github.com/tetafro/godot v1.4.15 // indirect
 	github.com/timakin/bodyclose v0.0.0-20230421092635-574207250966 // indirect
 	github.com/timonwong/loggercheck v0.9.4 // indirect
