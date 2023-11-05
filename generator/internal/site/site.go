@@ -8,7 +8,7 @@ import (
 	"io"
 
 	"github.com/arduino/go-paths-helper"
-	"github.com/per1234/inoplatforms/data-generator/internal/data"
+	"github.com/per1234/inoplatforms/generator/data"
 )
 
 // TODO: Add frontmatter fields to page types:

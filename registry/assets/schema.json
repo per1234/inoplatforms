@@ -15,6 +15,11 @@
         "repository": {
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "url",
+            "ref",
+            "path"
+          ],
           "properties": {
             "url": {
               "type": "string",

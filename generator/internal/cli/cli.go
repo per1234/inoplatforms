@@ -1,18 +1,18 @@
-// Package cli defines the data-generator command line interface.
+// Package cli defines the generator command line interface.
 package cli
 
 import (
-	"github.com/per1234/inoplatforms/data-generator/internal/commands/root"
+	"github.com/per1234/inoplatforms/generator/internal/commands/root"
 	"github.com/spf13/cobra"
 )
 
-// Root creates a new data-generator command root.
+// Root creates a new generator command root.
 func Root() *cobra.Command {
 	rootCommand := &cobra.Command{
 		Short:                 "Platforms data generator",
-		Long:                  "data-generator generates data on Arduino Boards Platforms.",
+		Long:                  "generator generates data on Arduino Boards Platforms.",
 		DisableFlagsInUseLine: false,
-		Use:                   "data-generator",
+		Use:                   "generator",
 		Run:                   root.DataGenerator,
 	}
 

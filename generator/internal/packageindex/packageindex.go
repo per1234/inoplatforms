@@ -56,24 +56,24 @@ type VersionedToolDependencyType struct {
 
 // NonVersionedToolDependencyType is the type for non-versioned tool dependency data.
 type NonVersionedToolDependencyType struct {
-	Packager string // Packager is the vendor name of the tool.
-	Name     string // Name is the name of the tool.
+	Packager string // Packager is the machine identifier for the tool's package.
+	Name     string // Name is the machine identifier for the tool.
 }
 
 // ToolReleaseType is the type for tool release data.
 type ToolReleaseType struct {
-	Name    string                   // Name is the machine identifier for the tool.
-	Version *semver.RelaxedVersion   // Version is the tool release version.
-	Systems []ToolReleaseFlavourType // Systems contains target host-specific data.
+	Name    string                 // Name is the machine identifier for the tool.
+	Version *semver.RelaxedVersion // Version is the tool release version.
+	Systems []ToolReleaseBuildType // Systems contains data about the builds of the tool release.
 }
 
-// ToolReleaseFlavourType is the type for host-specific tool release data.
-type ToolReleaseFlavourType struct {
-	OS              string      // OS is the host architecture machine identifier.
-	URL             string      // URL is the tool release archive download URL.
-	ArchiveFileName string      // ArchiveFileName is the tool release archive filename.
-	Size            json.Number // Size is the tool release archive file size.
-	Checksum        string      // Checksum is the tool release archive checksum.
+// ToolReleaseBuildType is the type for data about the builds of the tool release.
+type ToolReleaseBuildType struct {
+	Host            string      // Host is the host architecture machine identifier.
+	URL             string      // URL is the build archive download URL.
+	ArchiveFileName string      // ArchiveFileName is the build archive filename.
+	Size            json.Number // Size is the build archive file size.
+	Checksum        string      // Checksum is the build archive checksum.
 }
 
 // BoardType is the type for data about a board supported by the platform.
@@ -103,7 +103,7 @@ func Get(url string) (Type, error) {
 	defer httpResponse.Body.Close()
 
 	// Write the index data to file
-	downloadFolderPath, err := paths.TempDir().MkTempDir("inoplatforms-data-generator-package-index-folder")
+	downloadFolderPath, err := paths.TempDir().MkTempDir("inoplatforms-generator-package-index-folder")
 	defer downloadFolderPath.RemoveAll()
 	if err != nil {
 		panic(err)

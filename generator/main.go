@@ -6,7 +6,7 @@ import (
 
 	"log/slog"
 
-	"github.com/per1234/inoplatforms/data-generator/internal/cli"
+	"github.com/per1234/inoplatforms/generator/internal/cli"
 )
 
 func main() {

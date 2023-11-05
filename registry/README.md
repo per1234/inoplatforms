@@ -11,6 +11,8 @@ The **inoplatforms** catalog is built around this data file. It provides the fol
 
 The registry is a list of registration entries of "package providers". A "package provider" will typically be an [Arduino package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/). However, the registration of packages for which no package index has been created is also supported.
 
+Instructions for adding platforms to the **inoplatforms** catalog are available in the [**Contributor Guide**](https://www.inoplatforms.info/contributor-guide/).
+
 ## Fields
 
 Each registry entry is a mapping (AKA "object") that contains a set of standardized fields.
@@ -317,3 +319,9 @@ Any supplemental notes about the package provider for inclusion in the catalog.
 **ⓘ** For internal notes about the registry data which are not of interest to the catalog users, use [YAML comments](https://yaml.org/refcard.html) instead of the `notes` field.
 
 ---
+
+## `github.com/per1234/inoplatforms/registry/assets/go-registry` Module
+
+A [**Go**](https://go.dev/) module is provided to make it easy for community members to work with the registry data in their own projects.
+
+See [**the module's documentation**](assets/go-registry/README.md) for more information.

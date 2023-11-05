@@ -1,15 +1,15 @@
-// Package root implements the data-generator root command.
+// Package root implements the generator root command.
 package root
 
 import (
 	"github.com/arduino/go-paths-helper"
-	"github.com/per1234/inoplatforms/data-generator/internal/data"
-	"github.com/per1234/inoplatforms/data-generator/internal/site"
+	"github.com/per1234/inoplatforms/generator/internal/data"
+	"github.com/per1234/inoplatforms/generator/internal/site"
 	"github.com/per1234/inoplatforms/registry/assets/go-registry/registry"
 	"github.com/spf13/cobra"
 )
 
-// DataGenerator is the `data-generator` root command.
+// DataGenerator is the `generator` root command.
 func DataGenerator(rootCommand *cobra.Command, cliArguments []string) {
 	registryPath, err := rootCommand.Flags().GetString("registry")
 	if err != nil {
@@ -38,5 +38,5 @@ func DataGenerator(rootCommand *cobra.Command, cliArguments []string) {
 
 	site.WriteGeneratorData(dataData, *paths.New(generatorDataPath))
 
-	dataData.Write(*paths.New(dataFilePath))
+	data.Write(dataData, *paths.New(dataFilePath))
 }

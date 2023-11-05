@@ -341,7 +341,7 @@
             - url: https://github.com/damellis/attiny#installation-and-usage
           tools-dependencies:
             - packager: arduino
-              source-id: 0
+              package-provider-id: 0
 - id: 2
   packages:
     - name: arduino
@@ -350,3 +350,6 @@
           source:
             repository:
               url: https://github.com/arduino/ArduinoCore-nRF528x-mbedos
+          tools-dependencies:
+            - packager: arduino
+              package-provider-id: 0
