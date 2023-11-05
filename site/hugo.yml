@@ -19,6 +19,13 @@ markup:
       hardWraps: true
       unsafe: true
 
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
