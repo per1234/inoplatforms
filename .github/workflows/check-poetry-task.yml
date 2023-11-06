@@ -7,13 +7,19 @@ on:
       - ".github/workflows/check-poetry-task.ya?ml"
       - "**/poetry.lock"
       - "**/pyproject.toml"
+      - "go.mod"
+      - "go.sum"
       - "Taskfile.ya?ml"
+      - "tools.go"
   pull_request:
     paths:
       - ".github/workflows/check-poetry-task.ya?ml"
       - "**/poetry.lock"
       - "**/pyproject.toml"
+      - "go.mod"
+      - "go.sum"
       - "Taskfile.ya?ml"
+      - "tools.go"
   schedule:
     # Run periodically to catch breakage caused by external changes.
     - cron: "0 11 * * THU"

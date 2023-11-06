@@ -6,12 +6,18 @@ on:
   push:
     paths:
       - ".github/workflows/check-hugo-task.ya?ml"
+      - "go.mod"
+      - "go.sum"
       - "Taskfile.ya?ml"
+      - "tools.go"
       - "site/**"
   pull_request:
     paths:
       - ".github/workflows/check-hugo-task.ya?ml"
+      - "go.mod"
+      - "go.sum"
       - "Taskfile.ya?ml"
+      - "tools.go"
       - "site/**"
   schedule:
     # Run periodically to catch breakage caused by external changes.

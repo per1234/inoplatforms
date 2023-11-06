@@ -7,8 +7,11 @@ on:
   push:
     paths:
       - ".yamllint*"
+      - "go.mod"
+      - "go.sum"
       - "poetry.lock"
       - "pyproject.toml"
+      - "tools.go"
       # Source: https://github.com/ikatyang/linguist-languages/blob/master/data/YAML.json (used by Prettier)
       - "**/.clang-format"
       - "**/.clang-tidy"
@@ -23,8 +26,11 @@ on:
   pull_request:
     paths:
       - ".yamllint*"
+      - "go.mod"
+      - "go.sum"
       - "poetry.lock"
       - "pyproject.toml"
+      - "tools.go"
       # Source: https://github.com/ikatyang/linguist-languages/blob/master/data/YAML.json (used by Prettier)
       - "**/.clang-format"
       - "**/.clang-tidy"
