@@ -2,7 +2,6 @@
 title: About
 breadcrumb: about
 layout: basic
-page-type: static
 ---
 
 **inoplatforms** is a catalog of all known Arduino boards platforms.
