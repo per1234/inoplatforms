@@ -1,28 +1,27 @@
-name: Check Poetry
+name: Check SVG
 
+# See: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
 on:
   create:
   push:
     paths:
-      - ".github/workflows/check-poetry-task.ya?ml"
-      - "**/poetry.lock"
-      - "**/pyproject.toml"
       - "go.mod"
       - "go.sum"
-      - "Taskfile.ya?ml"
+      - "package.json"
+      - "package-lock.json"
       - "tools.go"
+      - "**.svg"
   pull_request:
     paths:
-      - ".github/workflows/check-poetry-task.ya?ml"
-      - "**/poetry.lock"
-      - "**/pyproject.toml"
       - "go.mod"
       - "go.sum"
-      - "Taskfile.ya?ml"
+      - "package.json"
+      - "package-lock.json"
       - "tools.go"
+      - "**.svg"
   schedule:
     # Run periodically to catch breakage caused by external changes.
-    - cron: "0 11 * * THU"
+    - cron: "0 12 * * FRI"
   workflow_dispatch:
   repository_dispatch:
 
@@ -51,7 +50,7 @@ jobs:
 
           echo "result=$RESULT" >> $GITHUB_OUTPUT
 
-  validate:
+  check:
     needs: run-determination
     if: needs.run-determination.outputs.result == 'true'
     runs-on: ubuntu-latest
@@ -62,10 +61,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Python
-        uses: actions/setup-python@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version-file: pyproject.toml
+          node-version-file: package.json
 
       - name: Install Poetry
         run: |
@@ -90,55 +89,8 @@ jobs:
             install \
               github.com/go-task/task/v3/cmd/task
 
-      - name: Validate pyproject.toml
-        run: task poetry:validate
-
-  check-sync:
-    needs: run-determination
-    if: needs.run-determination.outputs.result == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Python
-        uses: actions/setup-python@v4
-        with:
-          python-version-file: pyproject.toml
-
-      - name: Install Poetry
+      - name: Check SVG
         run: |
-          pipx install \
-            --python "$(which python)" \
-            "poetry==$( \
-              yq \
-                --input-format toml \
-                --output-format yaml \
-                '.tool.poetry.group.pipx.dependencies.poetry' \
-                < pyproject.toml
-            )"
-
-      - name: Install Go
-        uses: actions/setup-go@v4
-        with:
-          go-version-file: go.mod
-
-      - name: Install Task
-        run: |
-          go \
-            install \
-              github.com/go-task/task/v3/cmd/task
-
-      - name: Sync lockfile
-        run: task poetry:sync
-
-      - name: Check if lockfile was out of sync
-        run: |
-          git \
-            diff \
-              --color \
-              --exit-code \
-              poetry.lock
+          task \
+            --silent \
+            svg:check

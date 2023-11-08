@@ -6,15 +6,21 @@ on:
   push:
     paths:
       - ".github/workflows/*.ya?ml"
+      - "go.mod"
+      - "go.sum"
       - "package.json"
       - "package-lock.json"
       - "Taskfile.ya?ml"
+      - "tools.go"
   pull_request:
     paths:
       - ".github/workflows/*.ya?ml"
+      - "go.mod"
+      - "go.sum"
       - "package.json"
       - "package-lock.json"
       - "Taskfile.ya?ml"
+      - "tools.go"
   schedule:
     # Run every Tuesday at 8 AM UTC to catch breakage resulting from changes to the JSON schema.
     - cron: "0 8 * * TUE"

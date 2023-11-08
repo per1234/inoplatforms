@@ -1,3 +1,13 @@
+<!-- Deprecated `align` attribute must be used instead of `style` in the `img` tag because CSS is blocked by GitHub -->
+
+<img
+  align=right
+  alt=""
+  height="110px"
+  src="site/static/logo.svg"
+  width="71.1356px"
+/>
+
 # ino-hardware-package-list
 
 [![Check Files status](https://github.com/per1234/inoplatforms/actions/workflows/check-files-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-files-task.yml)
@@ -8,6 +18,7 @@
 [![Check npm status](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-npm-task.yml)
 [![Check Poetry status](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-poetry-task.yml)
 [![Check Prettier Formatting status](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-prettier-formatting-task.yml)
+[![Check SVG status](https://github.com/per1234/inoplatforms/actions/workflows/check-svg-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-svg-task.yml)
 [![Check Website status](https://github.com/per1234/inoplatforms/actions/workflows/check-hugo-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-hugo-task.yml)
 [![Check Workflows status](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-workflows-task.yml)
 [![Check YAML status](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-yaml-task.yml)

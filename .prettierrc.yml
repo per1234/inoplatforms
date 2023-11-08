@@ -5,11 +5,18 @@ overrides:
       - "*.html"
     options:
       parser: go-template
+  - files: "*.svg"
+    options:
+      parser: xml
   - files:
       - "*.toml"
     options:
       parser: toml
 plugins:
+  - "@prettier/plugin-xml"
   - prettier-plugin-go-template
   - prettier-plugin-toml
 printWidth: 120
+singleAttributePerLine: true
+xmlQuoteAttributes: double
+xmlSortAttributesByKey: true

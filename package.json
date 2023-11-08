@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@prettier/plugin-xml": "3.2.2",
     "ajv-cli": "5.0.0",
     "ajv-formats": "2.1.1",
     "github-label-sync": "2.3.1",
@@ -7,7 +8,8 @@
     "markdownlint-cli": "0.37.0",
     "prettier": "3.0.3",
     "prettier-plugin-go-template": "0.0.15",
-    "prettier-plugin-toml": "1.0.0"
+    "prettier-plugin-toml": "1.0.0",
+    "svglint": "2.6.0"
   },
   "engines": {
     "node": "18.x"

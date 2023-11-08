@@ -1,0 +1,21 @@
+{{- define "main" }}
+  <header style="margin-bottom: 15px;">
+    <img
+      src="/logo.svg"
+      alt=""
+      height="110px"
+      width="71.1356px"
+      style="
+        box-sizing: content-box;
+        float: left;
+        padding-right: 10px
+      "
+    />
+    <h1 class="post-title">
+      {{- .Title }}
+    </h1>
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+{{- end }}{{/* "main" */}}
