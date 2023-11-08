@@ -1,7 +1,7 @@
 ---
 title: Arduino Platforms
 breadcrumb: home
-layout: basic
+layout: home
 page-type: home
 showBreadCrumbs: false
 ---

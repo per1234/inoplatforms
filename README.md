@@ -1,3 +1,13 @@
+<!-- Deprecated `align` attribute must be used instead of `style` in the `img` tag because CSS is blocked by GitHub -->
+
+<img
+  align=right
+  alt=""
+  height="110px"
+  src="site/static/logo.svg"
+  width="71.1356px"
+/>
+
 # ino-hardware-package-list
 
 [![Check Files status](https://github.com/per1234/inoplatforms/actions/workflows/check-files-task.yml/badge.svg)](https://github.com/per1234/inoplatforms/actions/workflows/check-files-task.yml)
