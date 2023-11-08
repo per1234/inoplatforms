@@ -94,6 +94,9 @@ on:
       - "**.workbook"
       # TOML
       - "**.toml"
+      # XML
+      - "**.svg"
+      - "**.xml"
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"
@@ -195,6 +198,9 @@ on:
       - "**.workbook"
       # TOML
       - "**.toml"
+      # XML
+      - "**.svg"
+      - "**.xml"
       # YAML
       - "**/.clang-format"
       - "**/.clang-tidy"

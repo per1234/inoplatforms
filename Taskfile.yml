@@ -32,6 +32,7 @@ tasks:
       - task: markdown:lint
       - task: npm:validate
       - task: poetry:validate
+      - task: svg:check
       - task: website:check
       - task: website:validate
 
@@ -547,3 +548,21 @@ tasks:
       - task: poetry:install-deps
     cmds:
       - poetry run yamllint --format {{default "colored" .YAMLLINT_FORMAT}} .
+
+  svg:check:
+    desc: Check for problems with SVG files
+    deps:
+      - task: npm:install-deps
+    cmds:
+      - |
+        find . \
+          -type d -name '.git' -prune -o \
+          -type d -name '.licenses' -prune -o \
+          -type d -name '__pycache__' -prune -o \
+          -type d -name 'node_modules' -prune -o \
+          \( -type f -regex '.*[.]svg' \) \
+          -exec \
+            npx \
+              svglint \
+                '{}' \
+            + \
