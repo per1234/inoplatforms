@@ -1,7 +1,7 @@
 ---
 title: Glossary
 breadcrumb: glossary
-layout: page
+layout: basic
 page-type: static
 ---
 
