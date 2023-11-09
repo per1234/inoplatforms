@@ -565,4 +565,4 @@ tasks:
             npx \
               svglint \
                 '{}' \
-            + \
+            +

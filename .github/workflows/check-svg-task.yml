@@ -5,6 +5,7 @@ on:
   create:
   push:
     paths:
+      - ".svglintrc.js"
       - "go.mod"
       - "go.sum"
       - "package.json"
@@ -13,6 +14,7 @@ on:
       - "**.svg"
   pull_request:
     paths:
+      - ".svglintrc.js"
       - "go.mod"
       - "go.sum"
       - "package.json"
