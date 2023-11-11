@@ -1,0 +1,9 @@
+<!--
+  Display a link to a GitHub URL, prefixed with the GitHub logo.
+
+  Parameters:
+  - `href`: The URL of the link.
+-->
+{{ .Scratch.Set "href" (.Get "href") }}
+
+{{- partial "github-logo-link.html" . }}

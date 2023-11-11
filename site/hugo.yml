@@ -25,6 +25,10 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: contribute
+      name: Contribute
+      url: /contributor-guide/
+      weight: 20
 
 module:
   imports:

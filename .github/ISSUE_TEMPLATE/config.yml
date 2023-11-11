@@ -1,0 +1,21 @@
+# Source:
+# https://github.com/arduino/tooling-project-assets/blob/main/issue-templates/template-choosers/general/config.yml
+# See:
+# https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+
+contact_links:
+  - name: Learn about this project
+    url: https://github.com/per1234/inoplatforms#readme
+    about: Detailed documentation is available here.
+  - name: Learn about the **inoplatforms** catalog
+    url: https://www.inoplatforms.info/about/
+    about: Detailed documentation is available here.
+  - name: Support request
+    url: https://forum.arduino.cc/
+    about: We can help you out on the Arduino Forum!
+  - name: Issue report guide
+    url: https://www.inoplatforms.info/contributor-guide/issues/
+    about: Learn about submitting issue reports to this repository.
+  - name: Contributor guide
+    url: https://www.inoplatforms.info/contributor-guide/
+    about: Learn about contributing to this project.

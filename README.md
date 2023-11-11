@@ -52,7 +52,9 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 
 ### Contributing
 
-Additions/corrections/updates to the list are welcome! Please submit a pull request or issue.
+Additions/corrections/updates to the list are welcome!
+
+See [the **Contributor Guide**](https://www.inoplatforms.info/contributor-guide/).
 
 ### Acknowledgments
 
