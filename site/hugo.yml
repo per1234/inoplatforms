@@ -1,7 +1,7 @@
 # See: https://gohugo.io/getting-started/configuration/
 
 title: Arduino Platforms
-baseURL: http://inoplatforms.info
+baseURL: https://www.inoplatforms.info
 languageCode: en-us
 
 markup:
