@@ -41,5 +41,6 @@
       {{- end }}
 
     {{- end -}}
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a>{{ .Param "breadcrumb" }}</a>
   </div>
 {{- end -}}
