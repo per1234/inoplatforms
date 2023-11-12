@@ -560,6 +560,8 @@ tasks:
           -type d -name '.licenses' -prune -o \
           -type d -name '__pycache__' -prune -o \
           -type d -name 'node_modules' -prune -o \
+          -type f -ipath './site/static/github-mark-white.svg' -prune -o \
+          -type f -ipath './site/static/github-mark.svg' -prune -o \
           \( -type f -regex '.*[.]svg' \) \
           -exec \
             npx \
