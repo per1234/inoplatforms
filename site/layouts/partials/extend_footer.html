@@ -1,24 +1,46 @@
 <footer
   style="
     margin: auto;
-    text-align: center;
     width: 95%
   "
 >
-  <small>
-    <hr />
-    Site last updated:
-    {{ index .Site.Data "generator-data" "timestamp" }}
-    <b>|</b>
-    Content license:
-    <a
-      href="http://creativecommons.org/publicdomain/zero/1.0"
-      style="
-        border-bottom-style: solid;
-        border-width: 1px
-      "
-      target="_blank"
-      >CC0 1.0</a
-    >
-  </small>
+  <div
+    style="
+      border-width: thin;
+      border-top-style: solid;
+      display: inline-flex;
+      justify-content: center;
+      padding-top: 3px;
+      width: 100%
+    "
+  >
+    <small>
+      <style>
+        span {
+          padding-inline: 5px;
+        }
+        /* Add separator between footer items. */
+        span:not(:last-of-type) {
+          border-right: solid;
+          border-width: thin
+        }
+      </style>
+      <span>
+        Site last updated:
+        {{ index .Site.Data "generator-data" "timestamp" }}
+      </span>
+      <span>
+        Content license:
+        <a
+          href="http://creativecommons.org/publicdomain/zero/1.0"
+          style="
+            border-bottom-style: solid;
+            border-width: 1px
+          "
+          target="_blank"
+          >CC0 1.0</a
+        >
+      </span>
+    </small>
+  </div>
 </footer>
