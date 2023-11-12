@@ -1,7 +1,7 @@
 ---
 title: About
 breadcrumb: about
-layout: page
+layout: basic
 page-type: static
 ---
 
