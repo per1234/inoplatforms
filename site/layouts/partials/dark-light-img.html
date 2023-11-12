@@ -1,0 +1,21 @@
+<!--
+  Display either of two images depending on the visitor's browser theme.
+
+  Parameters:
+  - `dark-theme-image`: The path of the image to display with dark theme.
+  - `light-theme-image`: The path of the image to display with light theme.
+  - `style`: Style for the image.
+-->
+
+<picture>
+  <!-- See: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme -->
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="{{ .Scratch.Get "dark-theme-image" }}"
+  />
+  <img
+    alt=""
+    src="{{ .Scratch.Get "light-theme-image" }}"
+    style="{{ (.Scratch.Get "style") | safeCSS }}"
+  />
+</picture>

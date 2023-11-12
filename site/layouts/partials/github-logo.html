@@ -1,0 +1,11 @@
+<!-- Display the GitHub
+  Display the GitHub logo.
+
+  Parameters:
+  - `style`: Style for the image.
+-->
+
+{{ .Scratch.Set "dark-theme-image" "/github-mark-white.svg" }}
+{{ .Scratch.Set "light-theme-image" "/github-mark.svg" }}
+
+{{- partial "dark-light-img.html" . }}

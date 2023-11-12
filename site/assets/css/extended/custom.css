@@ -1,0 +1,8 @@
+/*
+  This file contains the CSS code for modifications made to the default style provided by the hugo-PaperMod theme.
+  See: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets
+*/
+
+:root {
+  --footer-height: 33px;
+}
