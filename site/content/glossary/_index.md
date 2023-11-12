@@ -2,7 +2,6 @@
 title: Glossary
 breadcrumb: glossary
 layout: basic
-page-type: static
 ---
 
 ## Arduino development software
