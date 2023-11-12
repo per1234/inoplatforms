@@ -10,7 +10,7 @@
   "replacementPatterns": [
     {
       "pattern": "^/",
-      "replacement": "https://inoplatforms.info/"
+      "replacement": "https://www.inoplatforms.info/"
     }
   ],
   "retryOn429": true,
