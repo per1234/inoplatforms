@@ -1,6 +1,6 @@
 ---
 title: Issue Report Guide
-breadcrumb: issues
+breadcrumb: issue
 layout: basic
 ---
 

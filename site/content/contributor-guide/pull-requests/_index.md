@@ -1,6 +1,6 @@
 ---
 title: Pull Request Guide
-breadcrumb: PRs
+breadcrumb: PR
 layout: basic
 ---
 
