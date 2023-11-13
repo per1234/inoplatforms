@@ -6,7 +6,7 @@
     "github-label-sync": "2.3.1",
     "markdown-link-check": "3.11.2",
     "markdownlint-cli": "0.37.0",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-toml": "1.0.0",
     "svglint": "2.6.0"
