@@ -25,4 +25,4 @@ There are several ways you can get involved:
 
 ## Resources
 
-- [**Development Guide**](/development-guide/)
+- [**Development Guide**](/contributor-guide/pull-requests/development-guide/)
