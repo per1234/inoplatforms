@@ -85,7 +85,7 @@ jobs:
         uses: xt0rted/markdownlint-problem-matcher@v2
 
       - name: Install Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
 
@@ -115,7 +115,7 @@ jobs:
           node-version-file: package.json
 
       - name: Install Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
 
