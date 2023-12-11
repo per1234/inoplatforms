@@ -8,7 +8,7 @@
     "markdownlint-cli": "0.38.0",
     "prettier": "3.0.3",
     "prettier-plugin-go-template": "0.0.15",
-    "prettier-plugin-toml": "1.0.0",
+    "prettier-plugin-toml": "2.0.1",
     "svglint": "2.6.0"
   },
   "engines": {
