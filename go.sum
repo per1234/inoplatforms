@@ -319,8 +319,8 @@ github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 h1:tfuBGBXKqDEe
 github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572/go.mod h1:9Pwr4B2jHnOSGXyyzV8ROjYa2ojvAY6HCGYYfMoC3Ls=
 github.com/go-task/slim-sprig/v3 v3.0.0 h1:sUs3vkvUymDpBKi3qH1YSqBQk9+9D/8M2mN1vB6EwHI=
 github.com/go-task/slim-sprig/v3 v3.0.0/go.mod h1:W848ghGpv3Qj3dhTPRyJypKRiqCdHZiAzKg9hl15HA8=
-github.com/go-task/task/v3 v3.32.0 h1:K3NsqVLjkWGO5rbCw8AF2ImDc7/M/SVoFF1fFTvCDEA=
-github.com/go-task/task/v3 v3.32.0/go.mod h1:0Ca8oGZs7bWjOV0zj/m/SdLDb0tyvTCrAgc7TYgk188=
+github.com/go-task/task/v3 v3.33.0 h1:WO85HQWuCLLTCwCndTGU8dz/xZV/6fxsc541L5WCXQI=
+github.com/go-task/task/v3 v3.33.0/go.mod h1:tZwd2ru9/vNVUW0O2fY1gKSDUdIsdwXtEoA+3Ull0Yw=
 github.com/go-test/deep v1.0.8 h1:TDsG77qcSprGbC6vTN8OuXp5g+J+b5Pcguhf7Zt61VM=
 github.com/go-test/deep v1.0.8/go.mod h1:5C2ZWiW0ErCdrYzpqxLbTX7MG14M9iiw8DgHncVwcsE=
 github.com/go-toolsmith/astcast v1.1.0 h1:+JN9xZV1A+Re+95pgnMgDboWNVnIMMQXwfBwLRPgSC8=
