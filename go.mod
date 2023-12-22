@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
-	github.com/go-task/task/v3 v3.32.0
+	github.com/go-task/task/v3 v3.33.1
 	github.com/gohugoio/hugo v0.121.1
 	github.com/golangci/golangci-lint v1.55.2
 )
