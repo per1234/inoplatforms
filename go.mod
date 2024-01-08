@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
 	github.com/go-task/task/v3 v3.32.0
-	github.com/gohugoio/hugo v0.121.1
+	github.com/gohugoio/hugo v0.121.2
 	github.com/golangci/golangci-lint v1.55.2
 )
 
@@ -294,7 +294,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	gocloud.dev v0.34.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/exp v0.0.0-20230510235704-dd950f8aeaea // indirect
 	golang.org/x/exp/typeparams v0.0.0-20230307190834-24139beb5833 // indirect
 	golang.org/x/image v0.14.0 // indirect
