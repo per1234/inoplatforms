@@ -15,7 +15,7 @@ yamllint = "1.33.0"
 # The dependencies in this group are installed using pipx instead of Poetry. It is necessary to use a poetry section in
 # order to get Dependabot updates of the dependencies.
 [tool.poetry.group.pipx.dependencies]
-poetry = "1.7.1"
+poetry = "1.8.1"
 
 [build-system]
 requires = ["poetry-core"]
