@@ -1,3 +1,4 @@
 .licenses/
 __pycache__/
+go.mod
 node_modules/
