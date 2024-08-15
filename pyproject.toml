@@ -8,7 +8,7 @@ authors = ["per1234 <nope@example.com>"]
 python = "3.11.*"
 
 [tool.poetry.group.dev.dependencies]
-codespell = "2.2.6"
+codespell = "2.3.0"
 svgcheck = "0.7.1"
 yamllint = "1.35.1"
 
