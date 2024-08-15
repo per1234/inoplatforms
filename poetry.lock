@@ -1297,12 +1297,12 @@ files = [
 
 [[package]]
 name = "svgcheck"
-version = "0.7.1"
+version = "0.8.0"
 description = "Verify that an svg file is compliant with the RFC standards."
 optional = false
-python-versions = "<3.12,>=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "svgcheck-0.7.1.tar.gz", hash = "sha256:1e43431c8754a47eb60d81b871fc67fc17ab248c54deae1ce14cc3107f6dd152"},
+    {file = "svgcheck-0.8.0.tar.gz", hash = "sha256:84e9e3ca00bb14f04fcc5eda7418a52d45a55e5ed4a75d49b39124c279460573"},
 ]
 
 [package.dependencies]
@@ -1515,4 +1515,4 @@ test = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-it
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.*"
-content-hash = "2f4eb438fd35814952928f01104b6ff4647216d0c019efd5e0fef371c4a266d6"
+content-hash = "d5fc30bf6850fea9d9412a5fbd8d815fe9b268db720890ba58083f849ffe0c4b"
