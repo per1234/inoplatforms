@@ -14,7 +14,7 @@ vars:
   # Path of the project's primary NPM package (the location of package.json):
   DEFAULT_NPM_PACKAGE_PATH: ./
   # The Go version used for project development.
-  GO_VERSION: 1.21
+  GO_VERSION: 1.22
   # Last version of ajv-cli with support for the JSON schema "Draft 4" specification
   SCHEMA_DRAFT_4_AJV_CLI_VERSION: 3.3.0
 
