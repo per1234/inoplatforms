@@ -5,7 +5,7 @@ go 1.22.6
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
 	github.com/go-task/task/v3 v3.38.0
-	github.com/gohugoio/hugo v0.133.0
+	github.com/gohugoio/hugo v0.133.1
 	github.com/golangci/golangci-lint v1.60.3
 )
 
@@ -77,7 +77,7 @@ require (
 	github.com/bep/godartsass/v2 v2.1.0 // indirect
 	github.com/bep/golibsass v1.1.1 // indirect
 	github.com/bep/gowebp v0.3.0 // indirect
-	github.com/bep/imagemeta v0.8.0 // indirect
+	github.com/bep/imagemeta v0.8.1 // indirect
 	github.com/bep/lazycache v0.4.0 // indirect
 	github.com/bep/logg v0.4.0 // indirect
 	github.com/bep/mclib v1.20400.20402 // indirect
