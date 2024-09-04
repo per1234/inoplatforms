@@ -5,7 +5,7 @@ go 1.22.6
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
 	github.com/go-task/task/v3 v3.38.0
-	github.com/gohugoio/hugo v0.133.1
+	github.com/gohugoio/hugo v0.134.0
 	github.com/golangci/golangci-lint v1.60.3
 )
 
@@ -75,7 +75,7 @@ require (
 	github.com/bep/goat v0.5.0 // indirect
 	github.com/bep/godartsass v1.2.0 // indirect
 	github.com/bep/godartsass/v2 v2.1.0 // indirect
-	github.com/bep/golibsass v1.1.1 // indirect
+	github.com/bep/golibsass v1.2.0 // indirect
 	github.com/bep/gowebp v0.3.0 // indirect
 	github.com/bep/imagemeta v0.8.1 // indirect
 	github.com/bep/lazycache v0.4.0 // indirect
@@ -110,7 +110,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/editorconfig/editorconfig-core-go/v2 v2.6.0 // indirect
 	github.com/ettle/strcase v0.2.0 // indirect
-	github.com/evanw/esbuild v0.23.0 // indirect
+	github.com/evanw/esbuild v0.23.1 // indirect
 	github.com/fatih/color v1.17.0 // indirect
 	github.com/fatih/structtag v1.2.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
@@ -231,7 +231,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/pkg/errors v0.9.1 // indirect
