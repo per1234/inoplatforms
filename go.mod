@@ -4,7 +4,7 @@ go 1.22.6
 
 require (
 	github.com/editorconfig-checker/editorconfig-checker v0.0.0-20231010092335-16848f20ad57
-	github.com/go-task/task/v3 v3.40.1
+	github.com/go-task/task/v3 v3.41.0
 	github.com/gohugoio/hugo v0.138.0
 	github.com/golangci/golangci-lint v1.62.2
 )
@@ -40,7 +40,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.3.1 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/OpenPeeDeeP/depguard/v2 v2.2.0 // indirect
-	github.com/ProtonMail/go-crypto v1.0.0 // indirect
+	github.com/ProtonMail/go-crypto v1.1.3 // indirect
 	github.com/alecthomas/chroma/v2 v2.14.0 // indirect
 	github.com/alecthomas/go-check-sumtype v0.2.0 // indirect
 	github.com/alexkohler/nakedret/v2 v2.0.5 // indirect
@@ -106,7 +106,7 @@ require (
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/curioswitch/go-reassign v0.2.0 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.5 // indirect
+	github.com/cyphar/filepath-securejoin v0.3.6 // indirect
 	github.com/daixiang0/gci v0.13.5 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/denis-tingaikin/go-header v0.5.0 // indirect
@@ -115,6 +115,7 @@ require (
 	github.com/dominikbraun/graph v0.23.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/editorconfig/editorconfig-core-go/v2 v2.6.0 // indirect
+	github.com/elliotchance/orderedmap/v2 v2.7.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/ettle/strcase v0.2.0 // indirect
 	github.com/evanw/esbuild v0.24.0 // indirect
@@ -131,8 +132,8 @@ require (
 	github.com/ghostiam/protogetter v0.3.8 // indirect
 	github.com/go-critic/go-critic v0.11.5 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
-	github.com/go-git/go-billy/v5 v5.6.0 // indirect
-	github.com/go-git/go-git/v5 v5.12.0 // indirect
+	github.com/go-git/go-billy/v5 v5.6.1 // indirect
+	github.com/go-git/go-git/v5 v5.13.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.20.2 // indirect
@@ -277,7 +278,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/sivchari/containedctx v1.0.3 // indirect
 	github.com/sivchari/tenv v1.12.1 // indirect
-	github.com/skeema/knownhosts v1.2.2 // indirect
+	github.com/skeema/knownhosts v1.3.0 // indirect
 	github.com/sonatard/noctx v0.1.0 // indirect
 	github.com/sourcegraph/go-diff v0.7.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
@@ -331,7 +332,7 @@ require (
 	golang.org/x/exp/typeparams v0.0.0-20241108190413-2d47ceb2692f // indirect
 	golang.org/x/image v0.21.0 // indirect
 	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/net v0.31.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
