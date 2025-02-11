@@ -1489,12 +1489,13 @@ test = ["pytest"]
 
 [[package]]
 name = "xml2rfc"
-version = "3.24.0"
+version = "3.27.0"
 description = "xml2rfc generates RFCs and IETF drafts from document source in XML according to the IETF xml2rfc v2 and v3 vocabularies."
 optional = false
-python-versions = "*"
+python-versions = ">=3.9"
 files = [
-    {file = "xml2rfc-3.24.0.tar.gz", hash = "sha256:db04c29ab45ef66e3ad780d2c68acfe0364e0de78d06932dfc9938e4286f422f"},
+    {file = "xml2rfc-3.27.0-py3-none-any.whl", hash = "sha256:b892c9b556c9a5a3e320b6911ca514ce2eed58e494ffb918f3739a261bd0678c"},
+    {file = "xml2rfc-3.27.0.tar.gz", hash = "sha256:b537b0eb3ea3492adc6b1eb01acfe849037c2080e1453c3eba9129dcceb1ed7a"},
 ]
 
 [package.dependencies]
