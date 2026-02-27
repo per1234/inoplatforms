@@ -547,4 +547,4 @@ STM32 Boards (selected from submenu)		stm32	https://github.com/MRNIU/Arduino_Cor
 STM32GENERIC for STM32 boards		STM32	https://github.com/ChrisMicro/STM32GENERIC		/STM32/	master					Fork of https://github.com/danieleff/STM32GENERIC	
 STM32GENERIC for STM32 boards		STM32	https://github.com/danieleff/STM32GENERIC		/STM32/	master						
 Arduino ARM (32-bits) Boards			https://github.com/ultimachine/FeynmanCore		/	master						
-Nufront tl7788 (32-bits) Boards			https://github.com/hunianhang/arduino_nufront		/	master					They also have https://github.com/hunianhang/tl7788_arduino	
+Nufront tl7788 (32-bits) Boards	hunianhang	tl7788	https://github.com/hunianhang/arduino_nufront		/	master					They also have https://github.com/hunianhang/tl7788_arduino	
