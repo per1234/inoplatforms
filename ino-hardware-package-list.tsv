@@ -443,7 +443,7 @@ STM8S Boards	sduino	stm8	https://github.com/stefaandesmet2003/sduino		/hardware/
 SeeedJP ReButton	SeeedJP	SeeedJP_ReButton	https://github.com/SeeedJP/ReButtonArduinoPlatform	http://www.seeed.co.jp/package_SeeedJP_index.json	/AZ3166/src/	rebutton-master						
 [DEPRECATED]SeeedJP STM32F4 Boards	SeeedJP	SeeedJP_STM32F4	https://github.com/SeeedJP/stm32f4ArduinoCore	http://www.seeed.co.jp/package_SeeedJP_index.json	/	master						
 SeeedJP STM32 Boards	SeeedJP	STM32	https://github.com/SeeedJP/Arduino_Core_STM32	http://www.seeed.co.jp/package_SeeedJP_index.json	/	dev-seeed						
-Seeeduino AVR	Seeeduino	avr	https://github.com/Seeed-Studio/Seeeduino-Boards	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_legacy_seeeduino_boards_index.json							Package is only in archive file	
+Seeeduino AVR	Seeeduino	avr	https://github.com/Seeed-Studio/Seeed_Platform	https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_legacy_seeeduino_boards_index.json							Package is only in archive file	
 Seeeduino Boards	Seeeduino	avr	https://github.com/Seeed-Studio/CodeCraft		/main/compilers/linux/arduino/contents/hardware/Seeeduino/hardware/avr/	main						
 Grove Series	Seeeduino	Grove_STM32F030	https://github.com/Seeed-Studio/grove_stm32f030	https://raw.githubusercontent.com/Seeed-Studio/grove_stm32f030/refs/heads/master/package_grove_stm32f030_index.json	/1.0.0/	master	https://github.com/Seeed-Studio/grove_stm32f030	/	master			
 Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards	Seeeduino	imxrt	https://github.com/Seeed-Studio/ArduinoCore-imxrt	https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json	/	master						
