@@ -238,7 +238,7 @@ DIY ATtiny	diy_attiny	avr	https://github.com/sleemanj/ATTinyCore	https://raw.git
 Dragino Yún	dragino	avr	https://github.com/dragino/Arduino-Profile-Examples		/	master						
 Dramco UNO	Dramco	avr	https://github.com/DRAMCO/Dramco-UNO		/	master	https://github.com/DRAMCO/Dramco-UNO	/	master			
 Dwengo nRF52 Boards	dwengo	nrf52	https://github.com/dwengovzw/dwengo_nrf52_core	https://dwengovzw.github.io/dwengo_nrf52_core/package_dwengo_index.json	/nrf52/1.0.0	main	https://github.com/dwengovzw/dwengo_nrf52_core	/	main	https://github.com/dwengovzw/dwengo_nrf52_core#user-install-in-arduino-ide	The use of a version number in the folder name will make Repository Data Folder outdated on every release.	
-Dwenguino	dwenguino	avr		http://www.dwengo.org/sites/default/files/package_dwengo.org_dwenguino_index.json								
+Dwenguino	dwenguino	avr	https://github.com/dwengovzw/Dwengo-library	https://raw.githubusercontent.com/dwengovzw/Dwengo-library/refs/heads/master/dwenguino/package_dwengo.org_dwenguino_index.json	/dwenguino/Dwenguino/	master	https://github.com/dwengovzw/Dwengo-library	/dwenguino/	master			
 DxCore	DxCore	megaavr	https://github.com/SpenceKonde/DxCore	http://drazzy.com/package_drazzy.com_index.json	/megaavr/	master						
 Dynamic Perception Boards	DynamicPerception	avr	https://github.com/DynamicPerception/ArduinoAT90USB		/hardware/DynamicPerception/avr/	master						
 Croduino boards PB	e-radionica.com	avr		https://raw.githubusercontent.com/e-radionicacom/Croduino-boards-for-Arduino-IDE-board-manager/master/package_e-radionica.com_index.json								
