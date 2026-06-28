@@ -63,7 +63,7 @@ Arduboy homemade package	arduboy-homemade	avr	https://github.com/MrBlinky/Ardubo
 ArduCAM ESP32S Boards	ArduCAM_ESP32S	esp32	https://github.com/ArduCAM/ArduCAM_ESP32S_UNO_PSRAM	https://www.arducam.com/downloads/esp32_uno_psram/package_ArduCAM_ESP32_PSRAM_index.json	/	master				https://github.com/ArduCAM/ArduCAM_ESP32S_UNO_PSRAM#installation-instructions-using-arduino-ide-boards-manager		
 ArduCAM_ESP32S_UNO	ArduCAM_ESP32S_UNO	esp32	https://github.com/ArduCAM/ArduCAM_ESP32S_UNO	http://www.arducam.com/downloads/ESP32_UNO/package_ArduCAM_ESP32S_UNO_index.json	/	master						
 ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	ArduCAM_ESP8266_UNO	https://github.com/ArduCAM/ArduCAM_ESP8266_UNO	http://www.arducam.com/downloads/ESP8266_UNO/package_ArduCAM_index.json	/	master						
-Ardui89 8051 Family Boards	Ardui89	8051		https://master.dl.sourceforge.net/project/stc89/packages/package_ardui89_index.json?viasf=1						https://sourceforge.net/projects/stc89/		
+Ardui89 8051 Family Boards	Ardui89	8051	https://github.com/Cyrillinux/Ardui89	https://bacciel.com/tools/package_ardui89_index.json	/package-IDE-0.4.2/hardware/ardui89-0.4.2/	main	https://github.com/Cyrillinux/Ardui89	/package-IDE-0.4.2/	main	https://bacciel.com/index.php/ardui89-8051/	The use of a version number in the folder names will make Repository Data Folder and Package Index Folder outdated on every release.	
 Arduino AVR Boards	arduino	avr	https://github.com/arduino/ArduinoCore-avr	https://downloads.arduino.cc/packages/package_index.json	/	master						
 arduino-avr	arduino	avr	https://github.com/EffigyLabs/ControlPedal		/sketch/hardware/arduino/avr/	master						
 Nintendo Switch Controller	arduino	avr	https://github.com/LuiCat/ArduinoTaikoController		/setup/	master						
