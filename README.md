@@ -34,7 +34,7 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 
 ### Columns
 
-- **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or an arbitrary name determined from looking at the repository content.
+- **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or the `{vendor}-{architecture}` name used by Arduino IDE as a fallback.
 - **Vendor**: The package index `packages[].name` value or the name of the platform's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Architecture**: The package index `packages[].platforms[].architecture` value or the name of the platform's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Repository**: URL of the repository where the platform source files are hosted.
