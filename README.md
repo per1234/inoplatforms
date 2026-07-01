@@ -37,11 +37,17 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 - **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or an arbitrary name determined from looking at the repository content.
 - **Vendor**: The package index `packages[].name` value or the name of the platform's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Architecture**: The package index `packages[].platforms[].architecture` value or the name of the platform's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
-- **Repository**: The website where the platform files are stored.
-- **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://docs.arduino.cc/learn/starting-guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.
+- **Repository**: URL of the repository where the platform source files are hosted.
+- **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://docs.arduino.cc/learn/starting-guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.<br />
+  ❗ This should be the canonical URL specified by the platform installation instructions, if available.
 - **Repository Data Folder**: The folder in the repository that contains [boards.txt](https://arduino.github.io/arduino-cli/latest/platform-specification/#boardstxt).
 - **Branch Name**: The branch of the repository that contains the platform files.
+- **Package Index Repository**: The URL of the repository where the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) source file is hosted.
+- **Package Index Folder**: The path of the folder in the repository containing the package index file.
+- **Package Index Branch**: The branch of the package index repository that contains the package index file.
+- **Reference**: URL of the instructions for installing the platform.
 - **Notes**: Additional information.
+- **Suppress**: Set to `TRUE` for platforms whose developer has formally superseded it with an equivalent replacement. These are still cataloged when they may be of historical interest, but should not be selected for general platform usage.
 
 ### Related
 
