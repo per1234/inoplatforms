@@ -37,6 +37,7 @@ The list can be viewed online [here](ino-hardware-package-list.tsv).
 - **Name**: The package index `packages[].platforms[].name` value, the platform.txt `name` property value, or the `{vendor}-{architecture}` name used by Arduino IDE as a fallback.
 - **Vendor**: The package index `packages[].name` value or the name of the platform's vendor folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
 - **Architecture**: The package index `packages[].platforms[].architecture` value or the name of the platform's architecture folder. The machine-friendly name of the package is `{vendor}:{architecture}`.
+  - **ⓘ** This concept was introduced in the 1.5 Arduino platform format. An architecture ID will not be explicitly defined for platforms written for the format used by Arduino >=1.0.x. In this case the appropriate standard architecture ID should be inferred. For example, if the platform targets boards based on AVR microcontrollers, then the ID should be `avr`.
 - **Repository**: URL of the repository where the platform source files are hosted.
 - **Boards Manager URL**: The URL for the [package index](https://arduino.github.io/arduino-cli/latest/package_index_json-specification/) file that provides [Boards Manager](https://docs.arduino.cc/learn/starting-guide/cores) installation support. This URL must be added to the Arduino IDE's **File > Preferences > Additional Boards Manager URLs**.<br />
   ❗ This should be the canonical URL specified by the platform installation instructions, if available.
