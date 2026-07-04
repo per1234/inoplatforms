@@ -461,7 +461,7 @@ my_boards - AVR architecture	my_boards	avr	https://github.com/JAndrassy/my_board
 my_boards - nRF5 architecture	my_boards	nRF5	https://github.com/JAndrassy/my_boards		/nRF5/	master						
 samd21_QFP_reference_PCB	my_boards	samd	https://github.com/hydronics2/samd21_QFP_reference_PCB		/arduino/hardware/my_boards/samd/	master						
 my_boards - SAMD architecture	my_boards	samd	https://github.com/JAndrassy/my_boards		/samd/	master						
-my_boards - STM32 architecture	my_boards	stm32	https://github.com/JAndrassy/my_boards		/STM32/	master						
+my_boards - STM32 architecture	my_boards	stm32	https://github.com/JAndrassy/my_boards		/stm32/	master						
 qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			https://github.com/qqqlab/rfm69-arduino	/docs/	master	https://github.com/qqqlab/rfm69-arduino#installation-in-the-arduino-ide	Looks to be just a personal project board with no hardware source files available.	
 MySensors AVR based boards	mysensors	avr	https://github.com/mysensors/ArduinoHwAVR		/	master						
 ARM (Nim)BLE Boards	n-able-Arduino	arm-ble	https://github.com/h2zero/n-able-Arduino	https://h2zero.github.io/n-able-Arduino/package_n-able_boards_index.json	/	master	https://github.com/h2zero/n-able-Arduino	/	gh-pages	https://github.com/h2zero/n-able-Arduino/tree/master#arduino-board-manager		
