@@ -515,7 +515,7 @@ samd21_QFP_reference_PCB	my_boards	samd	https://github.com/hydronics2/samd21_QFP
 my_boards - SAMD architecture	my_boards	samd	https://github.com/JAndrassy/my_boards		/samd/	master						
 my_boards - STM32 architecture	my_boards	stm32	https://github.com/JAndrassy/my_boards		/stm32/	master						
 qqqlabBoard	myboard	avr		https://qqqlab.github.io/rfm69-arduino/package_qqqlab_index.json			https://github.com/qqqlab/rfm69-arduino	/docs/	master	https://github.com/qqqlab/rfm69-arduino#installation-in-the-arduino-ide	Looks to be just a personal project board with no hardware source files available.	
-MySensors AVR based boards	mysensors	avr	https://github.com/mysensors/ArduinoHwAVR		/	master						
+MySensors AVR Boards	MySensors	avr	https://github.com/mysensors/ArduinoHwAVR	https://raw.githubusercontent.com/mysensors/ArduinoBoards/master/package_mysensors.org_index.json	/	master	https://github.com/mysensors/ArduinoBoards	/	master	https://github.com/mysensors/ArduinoBoards#mysensors-hardware-package-lists-for-the-arduino-v164-board-manager		
 ARM (Nim)BLE Boards	n-able-Arduino	arm-ble	https://github.com/h2zero/n-able-Arduino	https://h2zero.github.io/n-able-Arduino/package_n-able_boards_index.json	/	master	https://github.com/h2zero/n-able-Arduino	/	gh-pages	https://github.com/h2zero/n-able-Arduino/tree/master#arduino-board-manager		
 Arduino NavSpark Boards	navspark	navspark		http://navspark.mybigcommerce.com/content/package_navspark_index.json								
 NekuNeko SAMD Boards	nekuneko	samd	https://github.com/nekuneko/NekuNeko_Arduino_Boards	https://nekuneko.github.io/arduino-board-index/package_nekuneko_index.json	/	master	https://github.com/nekuneko/arduino-board-index	/	master			
