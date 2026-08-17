@@ -19,14 +19,12 @@
 
   <defs>
     <!-- crop bottom of pedestal -->
-    <clipPath
-      id="crop-column"
-    >
+    <clipPath id="crop-column">
       <rect
+        height="1190"
+        width="2250"
         x="-25"
         y="-25"
-        width="2250"
-        height="1190"
       />
     </clipPath>
 
@@ -80,31 +78,25 @@
   </defs>
 
   <!-- logo -->
-  <g
-    transform="translate(650 650)"
-  >
+  <g transform="translate(650 650)">
     <!-- IC with label -->
     <g>
       <!-- IC -->
-      <g
-        transform="rotate(45 1400 1400)"
-      >
+      <g transform="rotate(45 1400 1400)">
         <!-- package outline -->
         <rect
-          x="-35"
-          y="-35"
           height="2870"
           stroke="#e9e9e9"
           stroke-width="20"
           width="2870"
+          x="-35"
+          y="-35"
         />
 
         <!-- leads -->
         <g>
           <!-- top and bottom edge -->
-          <g
-            transform="translate(287.5)"
-          >
+          <g transform="translate(287.5)">
             <use
               href="#vertical-lead"
               x="0"
@@ -147,9 +139,7 @@
             />
           </g>
           <!-- left and right edge -->
-          <g
-            transform="translate(0 412.5)"
-          >
+          <g transform="translate(0 412.5)">
             <use
               href="#horizontal-lead"
               x="-325"
@@ -196,18 +186,18 @@
         <!-- package -->
         <!-- package body -->
         <rect
-          height="2800"
           fill="black"
+          height="2800"
           width="2800"
         />
       </g>
 
       <!-- label -->
       <text
-        id="label"
         font-family="Consolas, monospace"
         font-size="515"
         font-weight="bold"
+        id="label"
         stroke="white"
         stroke-width="5"
         text-anchor="middle"
@@ -217,9 +207,7 @@
     </g>
 
     <!-- pedestal -->
-    <g
-      transform="translate(-50 3520)"
-    >
+    <g transform="translate(-50 3520)">
       <!-- second cap layer -->
       <rect
         height="250"
@@ -276,8 +264,8 @@
 
       <!-- column -->
       <g
-        transform="translate(350 1000)"
         clip-path="url(#crop-column)"
+        transform="translate(350 1000)"
       >
         <!-- outline -->
         <rect
@@ -286,9 +274,7 @@
         />
 
         <!-- flutes -->
-        <g
-          transform="translate(0 250)"
-        >
+        <g transform="translate(0 250)">
           <use
             href="#flute"
             x="335"
