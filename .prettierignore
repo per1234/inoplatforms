@@ -1,5 +1,7 @@
 .licenses/
 __pycache__/
+site/static/github-mark-white.svg
+site/static/github-mark.svg
 go.mod
 node_modules/
 poetry.lock
