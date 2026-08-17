@@ -425,8 +425,7 @@ tasks:
       - |
         poetry \
           lock \
-            --no-cache \
-            --no-update
+            --no-cache
 
   # Make a temporary file named according to the passed TEMPLATE variable and print the path passed to stdout
   # Source: https://github.com/arduino/tooling-project-assets/blob/main/workflow-templates/assets/windows-task/Taskfile.yml
