@@ -1675,18 +1675,22 @@ files = [
 
 [[package]]
 name = "svgcheck"
-version = "0.10.0"
+version = "0.12.0"
 description = "Verify that an svg file is compliant with the RFC standards."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "svgcheck-0.10.0.tar.gz", hash = "sha256:0ebfcad9c58021a4146e02140f8c9e14be6ed57bfeb1cb9cc75d9d946ebe9bcd"},
+    {file = "svgcheck-0.12.0-py3-none-any.whl", hash = "sha256:204f1b2059909d1cddfe85db51cd71c0017ce7995555fe6f8feb173393c8e777"},
+    {file = "svgcheck-0.12.0.tar.gz", hash = "sha256:d819de1fbf005deb0e31eaaafaff13c9f89dd9b86f699bba161135901161552e"},
 ]
 
 [package.dependencies]
 lxml = ">=5.3.0"
 xml2rfc = ">=3.24.0"
+
+[package.extras]
+tests = ["coverage", "pycodestyle", "pyflakes (>=0.8.1)", "tox"]
 
 [[package]]
 name = "tomlkit"
@@ -1916,4 +1920,4 @@ test = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-it
 [metadata]
 lock-version = "2.1"
 python-versions = "3.11.*"
-content-hash = "cf00f25220da22f7b60eb3c3aeb19190d8439e9ce1fbd109575f4e94f6e2e577"
+content-hash = "2c3d18dcc13fd29db39b07836cf6788c068c5a36aa746ea77f0a4b4a69df9097"
