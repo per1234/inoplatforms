@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@prettier/plugin-xml": "3.4.1",
+    "@prettier/plugin-xml": "3.4.2",
     "ajv-cli": "5.0.0",
     "ajv-formats": "3.0.1",
     "github-label-sync": "2.3.1",
