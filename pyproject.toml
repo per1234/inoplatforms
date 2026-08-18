@@ -1,8 +1,5 @@
 [tool.poetry]
-name = "inoplatforms"
-version = "0.0.0"
-description = ""
-authors = ["per1234 <nope@example.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "3.11.*"
