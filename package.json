@@ -9,7 +9,7 @@
     "prettier": "3.9.6",
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-toml": "2.0.6",
-    "svglint": "3.1.0"
+    "svglint": "4.2.1"
   },
   "engines": {
     "node": "24.x"
