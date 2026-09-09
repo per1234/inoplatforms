@@ -173,7 +173,7 @@ require (
 	github.com/gohugoio/hugo-goldmark-extensions/passthrough v0.3.0 // indirect
 	github.com/gohugoio/locales v0.14.0 // indirect
 	github.com/gohugoio/localescompressed v1.0.1 // indirect
-	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
+	github.com/golang-jwt/jwt/v5 v5.2.2 // indirect
 	github.com/golang/groupcache v0.0.0-20241129210726-2c02b8208cf8 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golangci/dupl v0.0.0-20250308024227-f665c8d69b32 // indirect
