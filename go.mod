@@ -87,7 +87,7 @@ require (
 	github.com/bep/godartsass/v2 v2.2.0 // indirect
 	github.com/bep/golibsass v1.2.0 // indirect
 	github.com/bep/gowebp v0.3.0 // indirect
-	github.com/bep/imagemeta v0.8.1 // indirect
+	github.com/bep/imagemeta v0.11.0 // indirect
 	github.com/bep/lazycache v0.7.0 // indirect
 	github.com/bep/logg v0.4.0 // indirect
 	github.com/bep/mclib v1.20400.20402 // indirect
